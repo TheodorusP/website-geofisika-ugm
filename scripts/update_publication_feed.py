@@ -4,6 +4,7 @@ from datetime import date, datetime, timezone, timedelta
 from urllib.parse import urlencode, urlsplit, unquote
 from html import escape
 from format_page_html import format_html
+from update_journal_rankings import refresh_rankings
 import argparse
 import json
 import os
@@ -308,11 +309,20 @@ def main():
             snapshots.append((path, {'meta': {'count': len(works), 'captured_as_of': str(today)}, 'results': works}))
         all_works.extend(works)
     all_works = list({w['id']: w for w in all_works}.values())
+    ranking_report = None
+    if not args.offline:
+        rankings, ranking_report = refresh_rankings(ROOT, all_works, rankings, today)
     publications, review = select_works(all_works, authors, rankings, today)
     feed = {'schema_version': 1, 'as_of': str(today), 'start_year': today.year-2,
             'mode': 'saved_snapshot' if args.offline else 'live_fetch',
             'authors': authors, 'publications': publications}
     # Publish only after every author's request and selection succeeds.
+    if ranking_report is not None:
+        atomic_write(ROOT / 'journal-rankings.json', json.dumps(rankings, ensure_ascii=False, indent=2))
+        atomic_write(ROOT / 'ranking-review.json', json.dumps(ranking_report, ensure_ascii=False, indent=2))
+        unavailable = sum(s['status'] != 'verified' for s in ranking_report['sources'])
+        if unavailable:
+            print(f'::warning::{unavailable} ranking sources could not be verified; previous evidence retained. See ranking-review.json.')
     for path, data in snapshots:
         atomic_write(path, json.dumps(data, ensure_ascii=False, indent=2))
     atomic_write(ROOT / 'review.json', json.dumps(review, ensure_ascii=False, indent=2))

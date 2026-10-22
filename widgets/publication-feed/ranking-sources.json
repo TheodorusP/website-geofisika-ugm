@@ -1,0 +1,11 @@
+{
+  "scimago": true,
+  "publisher_notices": [
+    {
+      "journal": "Riset Geologi dan Pertambangan",
+      "issns": ["0125-9849", "2354-6638"],
+      "url": "https://jrisetgeotam.brin.go.id/index.php/jrisgeotam/index",
+      "pattern": "nationally accredited Rank (?P<rank>[1-6]) \\(Sinta (?P=rank)\\).{0,350}?Decree No\\. (?P<decree>[0-9A-Za-z/.]+).{0,150}?valid from Volume \\d+ Number \\d+ \\((?P<start>20\\d{2})\\) to Volume \\d+ Number \\d+ \\((?P<end>20\\d{2})\\)"
+    }
+  ]
+}
