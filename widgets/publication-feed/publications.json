@@ -1,0 +1,832 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-22",
+  "start_year": 2024,
+  "mode": "saved_snapshot",
+  "authors": [
+    {
+      "name": "Ade Anggraini",
+      "openalex_id": "A5110014250",
+      "profile": "https://acadstaff.ugm.ac.id/anggraini",
+      "verified": true,
+      "verification": "Exact name, UGM affiliation and geophysics works in research/*-authors.json; pilot identity mapping, not a completeness claim.",
+      "status": "Aktif"
+    },
+    {
+      "name": "Afif Rakhman",
+      "profile": "https://acadstaff.ugm.ac.id/afif",
+      "verified": true,
+      "verification": "Teaching staff directory name and exact author identity corroborated by UGM affiliation or geophysics publication subjects/coauthors; saved research author/identity-works files.",
+      "status": "Aktif",
+      "openalex_ids": [
+        "A5087300966"
+      ],
+      "openalex_id": "A5087300966"
+    },
+    {
+      "name": "Budi Eka Nurcahya",
+      "profile": "https://acadstaff.ugm.ac.id/budieka",
+      "verified": true,
+      "verification": "Teaching staff directory name and exact author identity corroborated by UGM affiliation or geophysics publication subjects/coauthors; saved research author/identity-works files.",
+      "status": "Aktif",
+      "openalex_ids": [
+        "A5090634720"
+      ],
+      "openalex_id": "A5090634720"
+    },
+    {
+      "name": "Eddy Hartantyo",
+      "openalex_id": "A5035541994",
+      "profile": "https://acadstaff.ugm.ac.id/hartantyo",
+      "verified": true,
+      "verification": "Exact full name and Universitas Gadjah Mada affiliation; research/Eddy-Hartantyo-authors.json. Primary UGM staff directory confirms staff name.",
+      "status": "Aktif"
+    },
+    {
+      "name": "Herlan Darmawan",
+      "openalex_id": "A5072642154",
+      "profile": "https://acadstaff.ugm.ac.id/Herlan",
+      "verified": true,
+      "verification": "Exact name, UGM affiliation and geophysics works in research/*-authors.json; pilot identity mapping, not a completeness claim.",
+      "status": "Aktif"
+    },
+    {
+      "name": "Imam Suyanto",
+      "profile": "https://acadstaff.ugm.ac.id/imamsuyanto",
+      "verified": true,
+      "verification": "Teaching staff directory name and exact author identity corroborated by UGM affiliation or geophysics publication subjects/coauthors; saved research author/identity-works files.",
+      "status": "Aktif",
+      "openalex_ids": [
+        "A5045525159"
+      ],
+      "openalex_id": "A5045525159"
+    },
+    {
+      "name": "Mochamad Nukman",
+      "openalex_id": "A5110560884",
+      "profile": "https://acadstaff.ugm.ac.id/nukman",
+      "verified": true,
+      "verification": "Exact full name and Universitas Gadjah Mada affiliation; research/Mochamad-Nukman-authors.json. Primary UGM staff directory confirms staff name.",
+      "status": "Aktif"
+    },
+    {
+      "name": "Shidiq Nur Hidayat",
+      "openalex_id": "A5073043046",
+      "profile": "https://acadstaff.ugm.ac.id/snhidayat",
+      "verified": true,
+      "verification": "Exact full name and Universitas Gadjah Mada affiliation; research/Shidiq-Nur-Hidayat-authors.json. Primary UGM staff directory confirms staff name.",
+      "status": "Aktif"
+    },
+    {
+      "name": "Sintia Windhi Niasari",
+      "openalex_id": "A5029715300",
+      "profile": "https://acadstaff.ugm.ac.id/sintiawindhi",
+      "verified": true,
+      "verification": "Exact full name and Universitas Gadjah Mada affiliation; research/Sintia-Windhi-Niasari-authors.json. Primary UGM staff directory confirms staff name.",
+      "status": "Aktif"
+    },
+    {
+      "name": "Sismanto",
+      "profile": "https://acadstaff.ugm.ac.id/sismanto",
+      "verified": true,
+      "verification": "Teaching staff directory name and exact author identity corroborated by UGM affiliation or geophysics publication subjects/coauthors; saved research author/identity-works files.",
+      "status": "Aktif",
+      "openalex_ids": [
+        "A5006250016",
+        "A5101439554",
+        "A5152604764"
+      ],
+      "openalex_id": "A5006250016",
+      "required_institution_id": "I165230279"
+    },
+    {
+      "name": "Sudarmaji",
+      "profile": "https://acadstaff.ugm.ac.id/sudarmaji",
+      "verified": true,
+      "verification": "Teaching staff directory name and exact author identity corroborated by UGM affiliation or geophysics publication subjects/coauthors; saved research author/identity-works files.",
+      "status": "Aktif",
+      "openalex_ids": [
+        "A5107535312",
+        "A5020700447"
+      ],
+      "openalex_id": "A5107535312",
+      "required_institution_id": "I165230279"
+    },
+    {
+      "name": "Theodorus Permana",
+      "profile": "https://acadstaff.ugm.ac.id/theodoruspermana",
+      "verified": true,
+      "verification": "Teaching staff directory name and exact author identity corroborated by UGM affiliation or geophysics publication subjects/coauthors; saved research author/identity-works files.",
+      "status": "Aktif",
+      "openalex_ids": [
+        "A5023347694"
+      ],
+      "openalex_id": "A5023347694"
+    },
+    {
+      "name": "Theodosius Marwan Irnaka",
+      "openalex_id": "A5032253920",
+      "profile": "https://acadstaff.ugm.ac.id/irnaka",
+      "verified": true,
+      "verification": "Exact full name and Universitas Gadjah Mada affiliation; research/Theodosius-Marwan-Irnaka-authors.json. Primary UGM staff directory confirms staff name.",
+      "status": "Aktif"
+    },
+    {
+      "name": "Wiwit Suryanto",
+      "openalex_id": "A5040351015",
+      "profile": "https://acadstaff.ugm.ac.id/wiwit",
+      "verified": true,
+      "verification": "Exact name, UGM affiliation and geophysics works in research/*-authors.json; pilot identity mapping, not a completeness claim.",
+      "status": "Aktif"
+    },
+    {
+      "name": "Wahyudi",
+      "profile": "https://acadstaff.ugm.ac.id/wahyudi",
+      "verified": true,
+      "verification": "Teaching staff directory name and exact author identity corroborated by UGM affiliation or geophysics publication subjects/coauthors; saved research author/identity-works files.",
+      "status": "Purnatugas",
+      "openalex_ids": [
+        "A5114821353",
+        "A5100675514"
+      ],
+      "openalex_id": "A5114821353",
+      "required_institution_id": "I165230279"
+    },
+    {
+      "name": "Adam Sukma Putra",
+      "profile": "",
+      "verified": true,
+      "verification": "Teaching staff directory name and exact author identity corroborated by UGM affiliation or geophysics publication subjects/coauthors; saved research author/identity-works files.",
+      "status": "Aktif",
+      "openalex_ids": [
+        "A5009267658"
+      ],
+      "openalex_id": "A5009267658"
+    },
+    {
+      "name": "Anang Sahroni",
+      "profile": "https://acadstaff.ugm.ac.id/anangsahroni",
+      "verified": true,
+      "verification": "Teaching staff directory name and exact author identity corroborated by UGM affiliation or geophysics publication subjects/coauthors; saved research author/identity-works files.",
+      "status": "Aktif",
+      "openalex_ids": [
+        "A5063139860"
+      ],
+      "openalex_id": "A5063139860"
+    }
+  ],
+  "publications": [
+    {
+      "id": "https://openalex.org/W7213667059",
+      "title": "Equatorial Electrodynamic Disturbances During the May and October 2024 Extreme Geomagnetic Storms: Implications for HF Communication and Geomagnetically Induced Current Risks in Indonesia",
+      "publication_date": "2026-09-17",
+      "journal": "Science & Technology Indonesia",
+      "all_authors": [
+        "Anwar Santoso",
+        "Sismanto Sismanto",
+        "Eddy Hartantyo",
+        "Rhorom Priyatikanto",
+        "Nizam Ahmad",
+        "C. Y. Yatini",
+        "Erlansyah",
+        "Mario Batubara",
+        "Slamet Supriadi",
+        "Rizal Suryana",
+        "Setyanto Cahyo Pranoto",
+        "Emanuel Sungging Mumpuni",
+        "Asnawi Husin",
+        "Mira Juangsih",
+        "Annis Siradj Mardiani"
+      ],
+      "staff": [
+        "Eddy Hartantyo",
+        "Sismanto"
+      ],
+      "staff_author_names": [
+        "Eddy Hartantyo",
+        "Sismanto Sismanto"
+      ],
+      "biblio": {
+        "volume": "11",
+        "issue": "4",
+        "first_page": "1448",
+        "last_page": "1463"
+      },
+      "url": "https://doi.org/10.26554/sti.2026.11.4.1448-1463",
+      "doi": "https://doi.org/10.26554/sti.2026.11.4.1448-1463",
+      "rankings": [
+        {
+          "label": "Sinta 1",
+          "system": "Sinta accreditation",
+          "year": 2026,
+          "evidence_year": 2025,
+          "assumed": true,
+          "evidence_url": "https://repository.karyailmiah.trisakti.ac.id/documents/repository/artikel_cahaya-rosyidan-dokumen-sti-baru.pdf"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/W7212178185",
+      "title": "Curie-point depth and three-dimensional susceptibility structure of the Yogyakarta region, Indonesia, from EMAG2-v3 magnetic anomaly data",
+      "publication_date": "2026-09-10",
+      "journal": "Journal of Applied Geophysics",
+      "all_authors": [
+        "Sismanto Sismanto",
+        "Budi Eka Nurcahya",
+        "Sorja Koesuma",
+        "Ahmad F. Pohan",
+        "Richard Lewerissa",
+        "Sugeng Purwo Saputro",
+        "Rian Amukti",
+        "Hijrah Saputra",
+        "Mochamad Aryono Adhi"
+      ],
+      "staff": [
+        "Budi Eka Nurcahya"
+      ],
+      "staff_author_names": [
+        "Budi Eka Nurcahya"
+      ],
+      "biblio": {
+        "volume": "255",
+        "issue": null,
+        "first_page": "106520",
+        "last_page": "106520"
+      },
+      "url": "https://doi.org/10.1016/j.jappgeo.2026.106520",
+      "doi": "https://doi.org/10.1016/j.jappgeo.2026.106520",
+      "rankings": [
+        {
+          "label": "Q2",
+          "system": "SCImago SJR best quartile",
+          "year": 2026,
+          "evidence_year": 2024,
+          "assumed": true,
+          "evidence_url": "https://kniznica.umb.sk/app/cmsFile.php?ID=21739&disposition=i"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/W7165486890",
+      "title": "Temperature Estimation of Geothermal Systems and Subsurface Model Based on Geochemical of Lake Ranau",
+      "publication_date": "2026-06-21",
+      "journal": "Science & Technology Indonesia",
+      "all_authors": [
+        "Mochammad Malik Ibrahim",
+        "Agung Harijoko",
+        "Wiwit Suryanto"
+      ],
+      "staff": [
+        "Wiwit Suryanto"
+      ],
+      "staff_author_names": [
+        "Wiwit Suryanto"
+      ],
+      "biblio": {
+        "volume": "11",
+        "issue": "3",
+        "first_page": "773",
+        "last_page": "783"
+      },
+      "url": "https://doi.org/10.26554/sti.2026.11.3.773-783",
+      "doi": "https://doi.org/10.26554/sti.2026.11.3.773-783",
+      "rankings": [
+        {
+          "label": "Sinta 1",
+          "system": "Sinta accreditation",
+          "year": 2026,
+          "evidence_year": 2025,
+          "assumed": true,
+          "evidence_url": "https://repository.karyailmiah.trisakti.ac.id/documents/repository/artikel_cahaya-rosyidan-dokumen-sti-baru.pdf"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/W7147189688",
+      "title": "Detailed Seismic Structure Beneath the Opak Fault Zone, Yogyakarta, Indonesia: Evidence for an Interconnected Fault System and Implications for Seismic Hazard",
+      "publication_date": "2026-04-01",
+      "journal": "Bulletin of the Seismological Society of America",
+      "all_authors": [
+        "Rahmat Setyo Yuliatmoko",
+        "Wiwit Suryanto",
+        "Mochamad Nukman",
+        "Muzli Muzli",
+        "Ayu Krisno Ekarsti",
+        "Virga Librian",
+        "Mohamad Ramdhan",
+        "Andry Syaly Sembiring",
+        "Muhajir Anshori",
+        "Dwikorita Karnawati"
+      ],
+      "staff": [
+        "Mochamad Nukman",
+        "Wiwit Suryanto"
+      ],
+      "staff_author_names": [
+        "Mochamad Nukman",
+        "Wiwit Suryanto"
+      ],
+      "biblio": {
+        "volume": "116",
+        "issue": "4",
+        "first_page": "1456",
+        "last_page": "1486"
+      },
+      "url": "https://doi.org/10.1785/0120250170",
+      "doi": "https://doi.org/10.1785/0120250170",
+      "rankings": [
+        {
+          "label": "Q1",
+          "system": "SCImago SJR best quartile",
+          "year": 2026,
+          "evidence_year": 2024,
+          "assumed": true,
+          "evidence_url": "https://kniznica.umb.sk/app/cmsFile.php?ID=21739&disposition=i"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/W7124838938",
+      "title": "CO2 fluxing and carbon assimilation by arc melts during magma–limestone interaction",
+      "publication_date": "2026-01-20",
+      "journal": "Chemical Geology",
+      "all_authors": [
+        "Frances M. Deegan",
+        "Manfredo Capriolo",
+        "Valentín R. Troll",
+        "Franz A. Weis",
+        "Sara Callegaro",
+        "Simone Colucci",
+        "C. Freda",
+        "Valeria Misiti",
+        "László Előd Aradi",
+        "Henrik Skogby",
+        "Herlan Darmawan",
+        "Harri Geiger"
+      ],
+      "staff": [
+        "Herlan Darmawan"
+      ],
+      "staff_author_names": [
+        "Herlan Darmawan"
+      ],
+      "biblio": {
+        "volume": "704",
+        "issue": null,
+        "first_page": "123264",
+        "last_page": "123264"
+      },
+      "url": "https://doi.org/10.1016/j.chemgeo.2026.123264",
+      "doi": "https://doi.org/10.1016/j.chemgeo.2026.123264",
+      "rankings": [
+        {
+          "label": "Q1",
+          "system": "SCImago SJR best quartile",
+          "year": 2026,
+          "evidence_year": 2024,
+          "assumed": true,
+          "evidence_url": "https://www.scimagojr.com/journalrank.php?country=NL&min=2&min_type=cd&ord=desc&order=h&page=2&total_size=2037"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/W7119964870",
+      "title": "Multi-volcanic hazards assessment at Karangetang Volcano, Indonesia due to the reactivation of two craters",
+      "publication_date": "2026-01-09",
+      "journal": "Journal of Volcanology and Geothermal Research",
+      "all_authors": [
+        "Herlan Darmawan",
+        "Bondan Galih Dewanto",
+        "Argo Galih Suhadha",
+        "Imam Santoso",
+        "Farikhotul Chusnayah",
+        "Amalia Nurwijayanti",
+        "Afif Ari Wibowo",
+        "Atrida Hadianti",
+        "Nurkhalis Rahili"
+      ],
+      "staff": [
+        "Herlan Darmawan"
+      ],
+      "staff_author_names": [
+        "Herlan Darmawan"
+      ],
+      "biblio": {
+        "volume": "471",
+        "issue": null,
+        "first_page": "108533",
+        "last_page": "108533"
+      },
+      "url": "https://doi.org/10.1016/j.jvolgeores.2026.108533",
+      "doi": "https://doi.org/10.1016/j.jvolgeores.2026.108533",
+      "rankings": [
+        {
+          "label": "Q1",
+          "system": "SCImago SJR best quartile",
+          "year": 2026,
+          "evidence_year": 2024,
+          "assumed": true,
+          "evidence_url": "https://kniznica.umb.sk/app/cmsFile.php?ID=21739&disposition=i"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/W7118004123",
+      "title": "Probabilistic Earthquake Hazard Assessment in Indonesia Using Poisson Model and Spatial Grid Analysis",
+      "publication_date": "2026-01-02",
+      "journal": "Science & Technology Indonesia",
+      "all_authors": [
+        "Hartati",
+        "Adhitya Ronnie Effendie",
+        "Nanang Susyanto",
+        "Wiwit Suryanto"
+      ],
+      "staff": [
+        "Wiwit Suryanto"
+      ],
+      "staff_author_names": [
+        "Wiwit Suryanto"
+      ],
+      "biblio": {
+        "volume": "11",
+        "issue": "1",
+        "first_page": "207",
+        "last_page": "216"
+      },
+      "url": "https://doi.org/10.26554/sti.2026.11.1.207-216",
+      "doi": "https://doi.org/10.26554/sti.2026.11.1.207-216",
+      "rankings": [
+        {
+          "label": "Sinta 1",
+          "system": "Sinta accreditation",
+          "year": 2026,
+          "evidence_year": 2025,
+          "assumed": true,
+          "evidence_url": "https://repository.karyailmiah.trisakti.ac.id/documents/repository/artikel_cahaya-rosyidan-dokumen-sti-baru.pdf"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4416083692",
+      "title": "Integrated gravity, GNSS, and seismic analysis for fault mapping in Sulawesi island: Insights into the Palu-Koro Fault",
+      "publication_date": "2025-11-10",
+      "journal": "Geodesy and Geodynamics",
+      "all_authors": [
+        "Leni Sophia Heliani",
+        "Cecep Pratama",
+        "Ade Anggraini",
+        "Bondan Galih Dewanto",
+        "Al Shida Natul",
+        "Dwi Lestari"
+      ],
+      "staff": [
+        "Ade Anggraini"
+      ],
+      "staff_author_names": [
+        "Ade Anggraini"
+      ],
+      "biblio": {
+        "volume": "17",
+        "issue": "3",
+        "first_page": "326",
+        "last_page": "340"
+      },
+      "url": "https://doi.org/10.1016/j.geog.2025.07.001",
+      "doi": "https://doi.org/10.1016/j.geog.2025.07.001",
+      "rankings": [
+        {
+          "label": "Q2",
+          "system": "SCImago SJR best quartile",
+          "year": 2025,
+          "evidence_year": 2024,
+          "assumed": true,
+          "evidence_url": "https://kniznica.umb.sk/app/cmsFile.php?ID=21739&disposition=i"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4411660503",
+      "title": "Assessment of Bedrock PGA Values based on Probabilistic Seismic Hazard Analysis in Purworejo, Indonesia",
+      "publication_date": "2025-06-25",
+      "journal": "RISET Geologi dan Pertambangan",
+      "all_authors": [
+        "Zulfan Maulana Hermawan",
+        "Eka Akbar Permatasari",
+        "Arifan Jaya Syahbana",
+        "Zaroh Irayani",
+        "Ade Anggraini"
+      ],
+      "staff": [
+        "Ade Anggraini"
+      ],
+      "staff_author_names": [
+        "Ade Anggraini"
+      ],
+      "biblio": {
+        "volume": "35",
+        "issue": "1",
+        "first_page": "1",
+        "last_page": "1"
+      },
+      "url": "https://doi.org/10.55981/rgp.2025.1308",
+      "doi": "https://doi.org/10.55981/rgp.2025.1308",
+      "rankings": [
+        {
+          "label": "Sinta 2",
+          "system": "Sinta accreditation",
+          "year": 2025,
+          "evidence_year": 2025,
+          "assumed": false,
+          "evidence_url": "https://jrisetgeotam.brin.go.id/index.php/jrisgeotam/index"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4404235780",
+      "title": "Drought Management in Batam using Combined NDVI-TCT Algorithm to Create a Classification Level Map",
+      "publication_date": "2024-09-30",
+      "journal": "Journal of Geoscience Engineering Environment and Technology",
+      "all_authors": [
+        "Sudra Irawan",
+        "Tita Fitriania",
+        "Luthfiya Ratna Sari",
+        "Suci Dayanti Natali",
+        "Satriya Bayu Aji",
+        "Sismanto Sismanto"
+      ],
+      "staff": [
+        "Sismanto"
+      ],
+      "staff_author_names": [
+        "Sismanto Sismanto"
+      ],
+      "biblio": {
+        "volume": "9",
+        "issue": "3",
+        "first_page": "294",
+        "last_page": "300"
+      },
+      "url": "https://doi.org/10.25299/jgeet.2024.9.3.13033",
+      "doi": "https://doi.org/10.25299/jgeet.2024.9.3.13033",
+      "rankings": [
+        {
+          "label": "Sinta 2",
+          "system": "Sinta accreditation",
+          "year": 2024,
+          "evidence_year": 2024,
+          "assumed": false,
+          "evidence_url": "https://journal.uir.ac.id/index.php/JGEET/Accreditation"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4402759223",
+      "title": "A machine learning-based electronic nose for detecting neonatal sepsis: Analysis of volatile organic compound biomarkers in fecal samples",
+      "publication_date": "2024-09-24",
+      "journal": "Clinica Chimica Acta",
+      "all_authors": [
+        "Kombo Othman Kombo",
+        "Shidiq Nur Hidayat",
+        "Mayumi Puspita",
+        "Ahmad Kusumaatmaja",
+        "Roto Roto",
+        "Hera Nirwati",
+        "Rina Susilowati",
+        "Ekawaty Lutfia Haksari",
+        "Tunjung Wibowo",
+        "Setya Wandita",
+        "Wahyono Wahyono",
+        "Madarina Julia",
+        "Kuwat Trıyana"
+      ],
+      "staff": [
+        "Shidiq Nur Hidayat"
+      ],
+      "staff_author_names": [
+        "Shidiq Nur Hidayat"
+      ],
+      "biblio": {
+        "volume": "565",
+        "issue": null,
+        "first_page": "119974",
+        "last_page": "119974"
+      },
+      "url": "https://doi.org/10.1016/j.cca.2024.119974",
+      "doi": "https://doi.org/10.1016/j.cca.2024.119974",
+      "rankings": [
+        {
+          "label": "Q1",
+          "system": "SCImago SJR best quartile",
+          "year": 2024,
+          "evidence_year": 2024,
+          "assumed": false,
+          "evidence_url": "https://www.scimagojr.com/journalrank.php?ord=desc&order=item&page=90&total_size=31136"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4402936302",
+      "title": "Tsunami Modeling Using DEMNAS and DEM Data from UAV Surveys for Planning Evacuation Routes on Samas Coast, Bantul Regency",
+      "publication_date": "2024-06-29",
+      "journal": "Journal of Geoscience Engineering Environment and Technology",
+      "all_authors": [
+        "Sulpisius Sihombing",
+        "Sudarmaji",
+        "Bambang Sunardi",
+        "Herlan Darmawan"
+      ],
+      "staff": [
+        "Herlan Darmawan",
+        "Sudarmaji"
+      ],
+      "staff_author_names": [
+        "Herlan Darmawan",
+        "Sudarmaji"
+      ],
+      "biblio": {
+        "volume": "9",
+        "issue": "2",
+        "first_page": "152",
+        "last_page": "157"
+      },
+      "url": "https://doi.org/10.25299/jgeet.2024.9.2.14777",
+      "doi": "https://doi.org/10.25299/jgeet.2024.9.2.14777",
+      "rankings": [
+        {
+          "label": "Sinta 2",
+          "system": "Sinta accreditation",
+          "year": 2024,
+          "evidence_year": 2024,
+          "assumed": false,
+          "evidence_url": "https://journal.uir.ac.id/index.php/JGEET/Accreditation"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4393951270",
+      "title": "Radiogenic geothermal systems of Bangka Island, Indonesia: Implications of high heat production and tectonic framework",
+      "publication_date": "2024-04-04",
+      "journal": "Energy Geoscience",
+      "all_authors": [
+        "Rahmat Nawi Siregar",
+        "Mochamad Nukman",
+        "Kurnia Setiawan Widana",
+        "Agung Harijoko",
+        "Sismanto Sismanto"
+      ],
+      "staff": [
+        "Mochamad Nukman",
+        "Sismanto"
+      ],
+      "staff_author_names": [
+        "Mochamad Nukman",
+        "Sismanto Sismanto"
+      ],
+      "biblio": {
+        "volume": "5",
+        "issue": "4",
+        "first_page": "100306",
+        "last_page": "100306"
+      },
+      "url": "https://doi.org/10.1016/j.engeos.2024.100306",
+      "doi": "https://doi.org/10.1016/j.engeos.2024.100306",
+      "rankings": [
+        {
+          "label": "Q1",
+          "system": "SCImago SJR best quartile",
+          "year": 2024,
+          "evidence_year": 2024,
+          "assumed": false,
+          "evidence_url": "https://www.scimagojr.com/journalrank.php?country=CN&min=30&min_type=cd&ord=asc&order=fp&page=6&total_size=919"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4392748169",
+      "title": "Detailed seismic structure beneath the earthquake zone of Yogyakarta 2006 (Mw ∼6.4), Indonesia, from local earthquake tomography",
+      "publication_date": "2024-03-13",
+      "journal": "Physics of The Earth and Planetary Interiors",
+      "all_authors": [
+        "Virga Librian",
+        "Mohamad Ramdhan",
+        "Andri Dian Nugraha",
+        "Muhammad Maruf Mukti",
+        "Syuhada Syuhada",
+        "Birger G. Lühr",
+        "Sri Widiyantoro",
+        "Adityo Mursitantyo",
+        "Ade Anggraini",
+        "Zulfakriza Zulfakriza",
+        "Faiz Muttaqy",
+        "Yayan M. Husni"
+      ],
+      "staff": [
+        "Ade Anggraini"
+      ],
+      "staff_author_names": [
+        "Ade Anggraini"
+      ],
+      "biblio": {
+        "volume": "351",
+        "issue": null,
+        "first_page": "107170",
+        "last_page": "107170"
+      },
+      "url": "https://doi.org/10.1016/j.pepi.2024.107170",
+      "doi": "https://doi.org/10.1016/j.pepi.2024.107170",
+      "rankings": [
+        {
+          "label": "Q1",
+          "system": "SCImago SJR best quartile",
+          "year": 2024,
+          "evidence_year": 2024,
+          "assumed": false,
+          "evidence_url": "https://www.scimagojr.com/journalrank.php?area=1900&min=3&min_type=cd&ord=desc&order=h&page=7&total_size=1258"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4392470265",
+      "title": "Enhancing classification rate of electronic nose system and piecewise feature extraction method to classify black tea with superior quality",
+      "publication_date": "2024-03-05",
+      "journal": "Scientific African",
+      "all_authors": [
+        "Kombo Othman Kombo",
+        "Nasrul Ihsan",
+        "Tri Siswandi Syahputra",
+        "Shidiq Nur Hidayat",
+        "Mayumi Puspita",
+        "Wahyono Wahyono",
+        "Roto Roto",
+        "Kuwat Trıyana"
+      ],
+      "staff": [
+        "Shidiq Nur Hidayat"
+      ],
+      "staff_author_names": [
+        "Shidiq Nur Hidayat"
+      ],
+      "biblio": {
+        "volume": "24",
+        "issue": null,
+        "first_page": "e02153",
+        "last_page": "e02153"
+      },
+      "url": "https://doi.org/10.1016/j.sciaf.2024.e02153",
+      "doi": "https://doi.org/10.1016/j.sciaf.2024.e02153",
+      "rankings": [
+        {
+          "label": "Q1",
+          "system": "SCImago SJR best quartile",
+          "year": 2024,
+          "evidence_year": 2024,
+          "assumed": false,
+          "evidence_url": "https://www.scimagojr.com/journalrank.php?area=1000&country=EU-28&min=200&min_type=cd&ord=desc&order=rpd"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4391521815",
+      "title": "4D time lapse tomography for monitoring cave propagation and stress distribution in Deep Mill Level Zone (DMLZ) PT Freeport Indonesia",
+      "publication_date": "2024-02-04",
+      "journal": "Geomechanics and Geophysics for Geo-Energy and Geo-Resources",
+      "all_authors": [
+        "Wahyu Hidayat",
+        "David Prambudi Sahara",
+        "Sri Widiyantoro",
+        "Suharsono Suharsono",
+        "Erwin Riyanto",
+        "Mochamad Nukman",
+        "Ridho Kresna Wattimena",
+        "Sari Melati",
+        "Eric Sitorus",
+        "Turgod Nainggolan",
+        "I Putu Raditya Ambara Putra"
+      ],
+      "staff": [
+        "Mochamad Nukman"
+      ],
+      "staff_author_names": [
+        "Mochamad Nukman"
+      ],
+      "biblio": {
+        "volume": "10",
+        "issue": "1",
+        "first_page": null,
+        "last_page": null
+      },
+      "url": "https://doi.org/10.1007/s40948-023-00718-w",
+      "doi": "https://doi.org/10.1007/s40948-023-00718-w",
+      "rankings": [
+        {
+          "label": "Q1",
+          "system": "SCImago SJR best quartile",
+          "year": 2024,
+          "evidence_year": 2024,
+          "assumed": false,
+          "evidence_url": "https://kniznica.umb.sk/app/cmsFile.php?ID=21739&disposition=i"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+[
+  {
+    "name": "Ade Anggraini",
+    "openalex_id": "A5110014250",
+    "profile": "https://acadstaff.ugm.ac.id/anggraini",
+    "verified": true,
+    "verification": "Exact name, UGM affiliation and geophysics works in research/*-authors.json; pilot identity mapping, not a completeness claim.",
+    "status": "Aktif"
+  },
+  {
+    "name": "Afif Rakhman",
+    "profile": "https://acadstaff.ugm.ac.id/afif",
+    "verified": true,
+    "verification": "Teaching staff directory name and exact author identity corroborated by UGM affiliation or geophysics publication subjects/coauthors; saved research author/identity-works files.",
+    "status": "Aktif",
+    "openalex_ids": [
+      "A5087300966"
+    ],
+    "openalex_id": "A5087300966"
+  },
+  {
+    "name": "Budi Eka Nurcahya",
+    "profile": "https://acadstaff.ugm.ac.id/budieka",
+    "verified": true,
+    "verification": "Teaching staff directory name and exact author identity corroborated by UGM affiliation or geophysics publication subjects/coauthors; saved research author/identity-works files.",
+    "status": "Aktif",
+    "openalex_ids": [
+      "A5090634720"
+    ],
+    "openalex_id": "A5090634720"
+  },
+  {
+    "name": "Eddy Hartantyo",
+    "openalex_id": "A5035541994",
+    "profile": "https://acadstaff.ugm.ac.id/hartantyo",
+    "verified": true,
+    "verification": "Exact full name and Universitas Gadjah Mada affiliation; research/Eddy-Hartantyo-authors.json. Primary UGM staff directory confirms staff name.",
+    "status": "Aktif"
+  },
+  {
+    "name": "Herlan Darmawan",
+    "openalex_id": "A5072642154",
+    "profile": "https://acadstaff.ugm.ac.id/Herlan",
+    "verified": true,
+    "verification": "Exact name, UGM affiliation and geophysics works in research/*-authors.json; pilot identity mapping, not a completeness claim.",
+    "status": "Aktif"
+  },
+  {
+    "name": "Imam Suyanto",
+    "profile": "https://acadstaff.ugm.ac.id/imamsuyanto",
+    "verified": true,
+    "verification": "Teaching staff directory name and exact author identity corroborated by UGM affiliation or geophysics publication subjects/coauthors; saved research author/identity-works files.",
+    "status": "Aktif",
+    "openalex_ids": [
+      "A5045525159"
+    ],
+    "openalex_id": "A5045525159"
+  },
+  {
+    "name": "Mochamad Nukman",
+    "openalex_id": "A5110560884",
+    "profile": "https://acadstaff.ugm.ac.id/nukman",
+    "verified": true,
+    "verification": "Exact full name and Universitas Gadjah Mada affiliation; research/Mochamad-Nukman-authors.json. Primary UGM staff directory confirms staff name.",
+    "status": "Aktif"
+  },
+  {
+    "name": "Shidiq Nur Hidayat",
+    "openalex_id": "A5073043046",
+    "profile": "https://acadstaff.ugm.ac.id/snhidayat",
+    "verified": true,
+    "verification": "Exact full name and Universitas Gadjah Mada affiliation; research/Shidiq-Nur-Hidayat-authors.json. Primary UGM staff directory confirms staff name.",
+    "status": "Aktif"
+  },
+  {
+    "name": "Sintia Windhi Niasari",
+    "openalex_id": "A5029715300",
+    "profile": "https://acadstaff.ugm.ac.id/sintiawindhi",
+    "verified": true,
+    "verification": "Exact full name and Universitas Gadjah Mada affiliation; research/Sintia-Windhi-Niasari-authors.json. Primary UGM staff directory confirms staff name.",
+    "status": "Aktif"
+  },
+  {
+    "name": "Sismanto",
+    "profile": "https://acadstaff.ugm.ac.id/sismanto",
+    "verified": true,
+    "verification": "Teaching staff directory name and exact author identity corroborated by UGM affiliation or geophysics publication subjects/coauthors; saved research author/identity-works files.",
+    "status": "Aktif",
+    "openalex_ids": [
+      "A5006250016",
+      "A5101439554",
+      "A5152604764"
+    ],
+    "openalex_id": "A5006250016",
+    "required_institution_id": "I165230279"
+  },
+  {
+    "name": "Sudarmaji",
+    "profile": "https://acadstaff.ugm.ac.id/sudarmaji",
+    "verified": true,
+    "verification": "Teaching staff directory name and exact author identity corroborated by UGM affiliation or geophysics publication subjects/coauthors; saved research author/identity-works files.",
+    "status": "Aktif",
+    "openalex_ids": [
+      "A5107535312",
+      "A5020700447"
+    ],
+    "openalex_id": "A5107535312",
+    "required_institution_id": "I165230279"
+  },
+  {
+    "name": "Theodorus Permana",
+    "profile": "https://acadstaff.ugm.ac.id/theodoruspermana",
+    "verified": true,
+    "verification": "Teaching staff directory name and exact author identity corroborated by UGM affiliation or geophysics publication subjects/coauthors; saved research author/identity-works files.",
+    "status": "Aktif",
+    "openalex_ids": [
+      "A5023347694"
+    ],
+    "openalex_id": "A5023347694"
+  },
+  {
+    "name": "Theodosius Marwan Irnaka",
+    "openalex_id": "A5032253920",
+    "profile": "https://acadstaff.ugm.ac.id/irnaka",
+    "verified": true,
+    "verification": "Exact full name and Universitas Gadjah Mada affiliation; research/Theodosius-Marwan-Irnaka-authors.json. Primary UGM staff directory confirms staff name.",
+    "status": "Aktif"
+  },
+  {
+    "name": "Wiwit Suryanto",
+    "openalex_id": "A5040351015",
+    "profile": "https://acadstaff.ugm.ac.id/wiwit",
+    "verified": true,
+    "verification": "Exact name, UGM affiliation and geophysics works in research/*-authors.json; pilot identity mapping, not a completeness claim.",
+    "status": "Aktif"
+  },
+  {
+    "name": "Wahyudi",
+    "profile": "https://acadstaff.ugm.ac.id/wahyudi",
+    "verified": true,
+    "verification": "Teaching staff directory name and exact author identity corroborated by UGM affiliation or geophysics publication subjects/coauthors; saved research author/identity-works files.",
+    "status": "Purnatugas",
+    "openalex_ids": [
+      "A5114821353",
+      "A5100675514"
+    ],
+    "openalex_id": "A5114821353",
+    "required_institution_id": "I165230279"
+  },
+  {
+    "name": "Adam Sukma Putra",
+    "profile": "",
+    "verified": true,
+    "verification": "Teaching staff directory name and exact author identity corroborated by UGM affiliation or geophysics publication subjects/coauthors; saved research author/identity-works files.",
+    "status": "Aktif",
+    "openalex_ids": [
+      "A5009267658"
+    ],
+    "openalex_id": "A5009267658"
+  },
+  {
+    "name": "Anang Sahroni",
+    "profile": "https://acadstaff.ugm.ac.id/anangsahroni",
+    "verified": true,
+    "verification": "Teaching staff directory name and exact author identity corroborated by UGM affiliation or geophysics publication subjects/coauthors; saved research author/identity-works files.",
+    "status": "Aktif",
+    "openalex_ids": [
+      "A5063139860"
+    ],
+    "openalex_id": "A5063139860"
+  }
+]

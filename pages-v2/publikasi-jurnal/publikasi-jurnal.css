@@ -1,0 +1,69 @@
+/* Matches the site's navy and gold article feed. */
+.gf-publication-feed{margin:0 0 40px!important;padding:0!important;min-width:0;color:#344654;font:14px/1.7 "Open Sans",Arial,sans-serif}
+.gf-publication-feed *{box-sizing:border-box}
+.gf-publication-feed [hidden]{display:none!important}
+.gf-publication-feed .gf-pub-heading{display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:16px;padding-bottom:14px;border-bottom:3px solid #fdcb2c}
+.gf-publication-feed .gf-pub-heading-text{flex:1 1 300px;min-width:0}
+.gf-publication-feed h2{margin:0 0 12px;color:#073c64;font:700 25px/1.3 "Open Sans",Arial,sans-serif}
+.gf-publication-feed p{margin:0 0 12px}
+.gf-publication-feed .gf-pub-heading p{margin:0}
+.gf-publication-feed .gf-pub-note{font-size:12px;color:#6b7780;margin:12px 0}
+.gf-publication-feed .gf-pub-controls{display:flex;flex-wrap:wrap;gap:12px;margin:0}
+.gf-publication-feed.gf-pub-page .gf-pub-controls{margin:18px 0 12px;align-items:flex-end}
+.gf-publication-feed .gf-pub-count{font-size:12px;color:#6b7780;margin:0 0 8px}
+.gf-publication-feed .gf-pub-navigation{margin:0;flex-shrink:0}
+.gf-publication-feed .gf-pub-description-row{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.gf-publication-feed .gf-pub-description-row p{flex:1 1 260px}
+.gf-publication-feed .gf-pub-navigation a,.gf-publication-feed [data-pub-reset]{display:inline-flex;align-items:center;gap:8px;padding:9px 14px;border:1px solid #b9cddc;border-radius:5px;background:#edf3f7;color:#073c64;text-decoration:none;font:600 14px/1.5 "Open Sans",Arial,sans-serif;cursor:pointer}
+.gf-publication-feed button:focus-visible{outline:3px solid #fdcb2c;outline-offset:3px}
+.gf-publication-feed label{display:flex;flex-direction:column;gap:4px;color:#073c64;font-size:12px}
+.gf-publication-feed select{max-width:100%;padding:8px 12px;border:1px solid #b9cddc;border-radius:5px;background:#edf3f7;color:#073c64;font:14px "Open Sans",Arial,sans-serif}
+.gf-publication-feed .gf-pub-list{list-style:none;padding:0!important;margin:0!important}
+.gf-publication-feed .gf-pub-item{margin:0!important;padding:0!important;border-bottom:1px solid #e6edf1}
+.gf-publication-feed .gf-pub-post{display:grid;grid-template-columns:minmax(0,1fr) 28px;gap:4px 16px;padding:14px 12px 14px 0;color:#073c64;text-decoration:none;overflow-wrap:anywhere}
+.gf-publication-feed .gf-pub-meta,.gf-publication-feed .gf-pub-title,.gf-publication-feed .gf-pub-authors,.gf-publication-feed .gf-pub-staff,.gf-publication-feed .gf-pub-journal{grid-column:1}
+.gf-publication-feed .gf-pub-journal{font-size:12px;color:#596b78}
+.gf-publication-feed .gf-pub-staff{font-size:12px;color:#596b78}
+.gf-publication-feed .gf-pub-meta{color:#718391;font-size:12px}
+.gf-publication-feed .gf-pub-title{font-size:15px;font-weight:600}
+.gf-publication-feed .gf-pub-authors{font-size:12px;color:#596b78}
+.gf-publication-feed .gf-pub-badges{display:flex;flex-wrap:wrap;gap:6px}
+.gf-publication-feed .gf-pub-badge{padding:2px 8px;background:#edf3f7;color:#073c64;border-radius:12px;font-size:11px}
+.gf-publication-feed .gf-pub-arrow{grid-column:2;grid-row:1 / span 3;align-self:center;display:flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;background:#fdcb2c;color:#073c64;font-size:24px;opacity:0}
+.gf-publication-feed .gf-pub-post:hover,.gf-publication-feed .gf-pub-post:focus-visible{background:#f2f5f7}
+.gf-publication-feed .gf-pub-post:hover .gf-pub-arrow,.gf-publication-feed .gf-pub-post:focus-visible .gf-pub-arrow{opacity:1}
+.gf-publication-feed a:focus-visible,.gf-publication-feed select:focus-visible{outline:3px solid #fdcb2c;outline-offset:3px}
+@media(max-width:540px){.gf-publication-feed .gf-pub-controls{flex-direction:column}.gf-publication-feed .gf-pub-post{gap:4px 8px}}
+@media(max-width:540px){.gf-publication-feed.gf-pub-page .gf-pub-controls{align-items:stretch}}
+
+.gf-publication-feed .gf-pub-navigation a{padding:6px 10px;font-size:12px;white-space:nowrap}
+
+/* Dedicated publication archive; independently maintained page styles. */
+#content article:has(.gf-pub-page) .post-heading .entry-meta{display:none!important}
+.gf-publication-feed.gf-pub-page .gf-pub-page-notice{padding:20px 24px;margin:0 0 24px!important;border-left:4px solid #fdcb2c;background:#fff}
+.gf-publication-feed.gf-pub-page .gf-pub-page-notice p{margin:0 0 10px;font-size:14px;color:#344654}
+.gf-publication-feed.gf-pub-page .gf-pub-legend{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:12px 0 16px!important}
+.gf-publication-feed.gf-pub-page .gf-pub-controls{gap:12px 16px;padding:0;margin:0 0 12px;border:0;background:transparent;align-items:flex-end}
+.gf-publication-feed.gf-pub-page .gf-pub-controls label{margin:0!important;font-weight:600;font-size:13px}
+.gf-publication-feed.gf-pub-page select{height:42px;margin:0!important;min-width:160px}
+.gf-publication-feed.gf-pub-page [data-pub-author]{min-width:240px}
+.gf-publication-feed.gf-pub-page [data-pub-reset]{height:42px}
+.gf-publication-feed.gf-pub-page .gf-pub-count{margin:0 0 16px!important}
+.gf-publication-feed.gf-pub-page .gf-pub-list{display:block;border:1px solid #d8e2e9;border-left:4px solid #fdcb2c;border-radius:0 8px 8px 0;background:#fff;padding:0 24px!important}
+.gf-publication-feed.gf-pub-page .gf-pub-item{border:0;border-bottom:1px solid #e6edf1;border-radius:0;background:transparent}
+.gf-publication-feed.gf-pub-page .gf-pub-item:last-child{border-bottom:0}
+.gf-publication-feed.gf-pub-page .gf-pub-paper{padding:22px 0;margin:0!important}
+.gf-publication-feed.gf-pub-page .gf-pub-meta{margin:0 0 8px;line-height:1.8}
+.gf-publication-feed.gf-pub-page h2.gf-pub-title{margin:0 0 8px!important;font-size:17px;line-height:1.5;font-weight:700}
+.gf-publication-feed.gf-pub-page .gf-pub-authors{margin:0 0 10px;font-size:13px;line-height:1.8}
+.gf-publication-feed.gf-pub-page .gf-pub-authors strong{color:#073c64;font-weight:700}
+.gf-publication-feed.gf-pub-page .gf-pub-doi{font-size:13px;margin:0 0 12px;overflow-wrap:anywhere}
+.gf-publication-feed.gf-pub-page .gf-pub-doi a{color:#006ab5;text-decoration:underline}
+.gf-publication-feed.gf-pub-page .gf-pub-access{display:inline-flex;align-items:baseline;gap:6px;max-width:100%;padding:3px 8px;border:1px solid #b9cddc;border-radius:5px;background:#edf3f7;color:#073c64;text-decoration:none;font-size:12px;font-weight:600;overflow-wrap:anywhere}
+.gf-publication-feed.gf-pub-page .gf-pub-access:hover{background:#dfeaf1}
+.gf-publication-feed.gf-pub-page .gf-pub-badge{display:inline-block;white-space:nowrap;font-size:11px;line-height:1.6;border:1px solid transparent}
+.gf-publication-feed.gf-pub-page .gf-pub-rank-q1{background:#e4f3eb;color:#226345;border-color:#b8dbc8}
+.gf-publication-feed.gf-pub-page .gf-pub-rank-q2{background:#e7effb;color:#285a91;border-color:#bed0ec}
+.gf-publication-feed.gf-pub-page .gf-pub-rank-sinta-1{background:#f0e9f8;color:#704497;border-color:#d7c5e8}
+.gf-publication-feed.gf-pub-page .gf-pub-rank-sinta-2{background:#fff1dc;color:#875b1d;border-color:#ecd3a9}
+@media(max-width:540px){.gf-publication-feed.gf-pub-page .gf-pub-page-notice{padding:16px 18px}.gf-publication-feed.gf-pub-page .gf-pub-list{padding:0 16px!important}.gf-publication-feed.gf-pub-page select{width:100%;min-width:0}.gf-publication-feed.gf-pub-page [data-pub-author]{min-width:0}}
