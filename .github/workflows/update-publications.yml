@@ -1,0 +1,36 @@
+name: Update publications
+on:
+  schedule:
+    - cron: '23 0 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: publication-update
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test collector
+        run: python -m unittest discover -s scripts -p test_publication_feed.py
+      - name: Collect and build
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+        run: |
+          mkdir -p widgets/publication-feed/research
+          python scripts/update_publication_feed.py
+          python automation/publication-feed/publish.py
+      - name: Save successful update
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/publications-display.json widgets/publication-feed/publications.json widgets/publication-feed/coverage.json widgets/publication-feed/review.json widgets/publication-feed/publication-feed-wordpress.html widgets/publication-feed/preview.html pages-v2/publikasi-jurnal/01-publications-wordpress.html pages-v2/publikasi-jurnal/preview.html
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Refresh publication data'
+          git push
