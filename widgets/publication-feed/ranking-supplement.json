@@ -1,0 +1,52 @@
+[
+  {
+    "journal": "Riset Geologi dan Pertambangan",
+    "issns": [
+      "0125-9849",
+      "2354-6638"
+    ],
+    "rank": "Sinta 2",
+    "system": "Sinta accreditation",
+    "years": [
+      2023
+    ],
+    "verified": true,
+    "checked_on": "2026-10-26",
+    "evidence_url": "https://jrisetgeotam.brin.go.id/index.php/jrisgeotam/index",
+    "note": "Decree 10/C/C3/DT.05.00/2025; Volume 32(2), 2022 through Volume 37(1), 2027. Complete pilot years 2024-2026 covered. Extended only to earlier complete calendar years explicitly covered by the existing decree/certificate. No backwards extrapolation of a later ranking."
+  },
+  {
+    "journal": "Journal of Geoscience, Engineering, Environment, and Technology",
+    "issns": [
+      "2503-216X",
+      "2541-5794"
+    ],
+    "rank": "Sinta 2",
+    "system": "Sinta accreditation",
+    "years": [
+      2022,
+      2023
+    ],
+    "verified": true,
+    "checked_on": "2026-10-26",
+    "evidence_url": "https://journal.uir.ac.id/index.php/JGEET/Accreditation",
+    "note": "Decree 105/E/KPT/2022 valid through Volume 10(2), June 2025. Only full covered pilot year 2024 enabled; later accreditation not extrapolated. Extended only to earlier complete calendar years explicitly covered by the existing decree/certificate. No backwards extrapolation of a later ranking."
+  },
+  {
+    "journal": "Science and Technology Indonesia",
+    "issns": [
+      "2580-4391",
+      "2580-4405"
+    ],
+    "rank": "Sinta 1",
+    "system": "Sinta accreditation",
+    "years": [
+      2022,
+      2023
+    ],
+    "evidence_url": "https://repository.karyailmiah.trisakti.ac.id/documents/repository/artikel_cahaya-rosyidan-dokumen-sti-baru.pdf",
+    "note": "Official certificate 164/E/KPT/2021: Sinta 1 from Volume 6(1), 2021 through Volume 10(4), 2025. Publisher corroborates decree at https://sciencetechindonesia.com/index.php/jsti . The 2026 rank is assumed by user policy, not independently verified accreditation renewal. Extended only to earlier complete calendar years explicitly covered by the existing decree/certificate. No backwards extrapolation of a later ranking.",
+    "verified": true,
+    "checked_on": "2026-10-26"
+  }
+]

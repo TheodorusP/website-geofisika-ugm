@@ -4,7 +4,7 @@ from datetime import date, datetime, timezone, timedelta
 from urllib.parse import urlencode, urlsplit, unquote
 from html import escape
 from format_page_html import format_html
-from update_journal_rankings import refresh_rankings
+from update_journal_rankings import refresh_rankings, WINDOW_YEARS
 import argparse
 import json
 import os
@@ -13,7 +13,7 @@ import subprocess
 import tempfile
 
 ROOT = Path(__file__).resolve().parents[1] / 'widgets/publication-feed'
-ALLOWED = {'Q1', 'Q2', 'Sinta 1', 'Sinta 2'}
+ALLOWED = {'Q1', 'Q2', 'Q3', 'Q4', 'Sinta 1', 'Sinta 2'}
 MONTHS = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli',
           'Agustus', 'September', 'Oktober', 'November', 'Desember']
 
@@ -62,6 +62,20 @@ def staff_label(names):
     return join_names([short(name) for name in names]) + ' terlibat sebagai penulis publikasi ini.'
 
 
+def author_ids(person):
+    return person.get('openalex_ids') or ([person['openalex_id']] if person.get('openalex_id') else [])
+
+
+def author_display(authorship, person=None):
+    raw = (authorship.get('author') or {}).get('display_name') or authorship.get('raw_author_name') or 'Penulis tidak diketahui'
+    if person and len(person['name'].split()) == 1:
+        token = person['name'].casefold()
+        parts = raw.casefold().replace('.', '').split()
+        if parts and all(part == token or part == token[0] for part in parts):
+            return person['name']
+    return raw
+
+
 def safe_url(value):
     if not isinstance(value, str):
         return None
@@ -80,24 +94,27 @@ def doi_url(value):
 def select_works(works, authors, rankings, as_of):
     """Return eligible unique works and review records; never infer a ranking."""
     staff = {aid: a for a in authors if a.get('verified') is True
-             for aid in a.get('openalex_ids', [a['openalex_id']])}
+             for aid in author_ids(a)}
     included, review = {}, []
-    start = date(as_of.year - 2, 1, 1)
+    start = date(as_of.year - WINDOW_YEARS + 1, 1, 1)
     for work in works:
         wid = work.get('id', '')
         names = set()
         staff_author_names = set()
+        display_names = []
         for authorship in work.get('authorships', []):
             aid = ((authorship.get('author') or {}).get('id') or '').rsplit('/', 1)[-1]
             person = staff.get(aid)
-            if not person:
-                continue
-            institution = person.get('required_institution_id')
+            display = author_display(authorship, person)
+            institution = person.get('required_institution_id') if person else None
             if institution and not any((i.get('id') or '').rsplit('/', 1)[-1] == institution
                                        for i in authorship.get('institutions', [])):
+                person = None
+            display_names.append(display)
+            if not person:
                 continue
             names.add(person['name'])
-            staff_author_names.add((authorship.get('author') or {}).get('display_name') or authorship.get('raw_author_name') or person['name'])
+            staff_author_names.add(display)
         names = sorted(names)
         reason = None
         published, date_value = publication_date(work)
@@ -152,7 +169,7 @@ def select_works(works, authors, rankings, as_of):
             continue
         included[key] = {'id': wid, 'title': work.get('title') or 'Tanpa judul',
                          'publication_date': date_value, 'journal': source.get('display_name'),
-                         'all_authors': [(a.get('author') or {}).get('display_name') or a.get('raw_author_name') or 'Penulis tidak diketahui' for a in work.get('authorships', [])],
+                         'all_authors': display_names,
                          'staff': names, 'staff_author_names': sorted(staff_author_names),
                          'biblio': work.get('biblio') or {}, 'url': target, 'doi': doi,
                          'rankings': [{'label': r['rank'], 'system': r['system'], 'year': published.year,
@@ -165,8 +182,10 @@ def select_works(works, authors, rankings, as_of):
 def fetch_works(author, as_of):
     works, cursor, seen = [], '*', set()
     for _ in range(100):
-        params = {'filter': f"author.id:{author['openalex_id']},from_publication_date:{as_of.year-2}-01-01,to_publication_date:{as_of}",
+        params = {'filter': f"author.id:{author['openalex_id']},from_publication_date:{as_of.year-WINDOW_YEARS+1}-01-01,to_publication_date:{as_of}",
                   'per_page': 100, 'sort': 'publication_date:desc', 'cursor': cursor}
+        if author.get('required_institution_id'):
+            params['filter'] += ',institutions.id:' + author['required_institution_id']
         if os.environ.get('OPENALEX_API_KEY'):
             params['api_key'] = os.environ['OPENALEX_API_KEY']
         url = 'https://api.openalex.org/works?' + urlencode(params)
@@ -212,8 +231,8 @@ def render(feed):
     <span class="gf-pub-arrow" aria-hidden="true">›</span>
   </a>
 </li>''')
-    body = f'''<section class="gf-publication-feed" aria-label="Publikasi jurnal staf pendidik">
-  <div class="gf-pub-heading"><div class="gf-pub-heading-text"><h2>Publikasi Jurnal</h2><p>Publikasi terbaru staf pendidik Program Studi Geofisika.</p><p class="gf-pub-note">Data publikasi dari OpenAlex, diperbarui {date_label(feed['as_of'])}.</p></div></div>
+    body = f'''<section class="gf-publication-feed" aria-label="Publikasi jurnal staf pendidik dan tenaga kependidikan">
+  <div class="gf-pub-heading"><div class="gf-pub-heading-text"><h2>Publikasi Jurnal</h2><p>Publikasi terbaru staf Program Studi Geofisika.</p><p class="gf-pub-note">Data publikasi dari OpenAlex, diperbarui {date_label(feed['as_of'])}.</p></div></div>
   <ul class="gf-pub-list">{''.join(rows)}</ul>
   <p class="gf-pub-empty" role="status" {'hidden' if rows else ''}>Belum ada publikasi dengan peringkat terverifikasi pada pilihan ini.</p>
 </section>'''
@@ -226,8 +245,8 @@ def render(feed):
     options = ''.join(f'<option value="{escape(a["name"], quote=True)}">{escape(a["name"])}</option>' for a in feed['authors'])
     years = ''.join(f'<option>{year}</option>' for year in range(int(feed['as_of'][:4]), feed['start_year']-1, -1))
     controls = f'''<div class="gf-pub-controls" hidden>
-      <label>Peringkat jurnal<select data-pub-rank><option value="">Semua peringkat</option><option>Q1</option><option>Q2</option><option>Sinta 1</option><option>Sinta 2</option></select></label>
-      <label>Staf pendidik<select data-pub-author><option value="">Semua staf</option>{options}</select></label>
+      <label>Peringkat jurnal<select data-pub-rank><option value="">Semua peringkat</option><option>Q1</option><option>Q2</option><option>Q3</option><option>Q4</option><option>Sinta 1</option><option>Sinta 2</option></select></label>
+      <label>Staf<select data-pub-author><option value="">Semua staf</option>{options}</select></label>
       <label>Tahun<select data-pub-year><option value="">Semua tahun</option>{years}</select></label>
       <button type="button" data-pub-reset>Reset Filter</button>
     </div><p class="gf-pub-count" role="status" aria-live="polite">{len(rows)} publikasi</p>'''
@@ -258,9 +277,9 @@ def render(feed):
             <a class="gf-pub-access" href="{escape(work['url'], quote=True)}" target="_blank" rel="noopener noreferrer">{escape(link_label)} <span aria-hidden="true">&#8599;</span></a>
           </article>
         </li>''')
-    legend = ' '.join(f'<span class="gf-pub-badge gf-pub-rank-{rank_class(label)}">{label}</span>' for label in ['Q1', 'Q2', 'Sinta 1', 'Sinta 2'])
-    full = f'''<section class="gf-publication-feed gf-pub-page" aria-label="Publikasi jurnal staf pendidik">
-      <div class="gf-pub-page-notice"><p>Berikut adalah daftar publikasi dari staf pendidik Program Studi Geofisika dalam tiga tahun terakhir dari jurnal-jurnal dengan peringkat berikut:</p><p class="gf-pub-legend" aria-label="Legenda peringkat jurnal">{legend}</p><p>Data publikasi dari OpenAlex dan diperbarui mingguan. Terakhir diperbarui {date_label(feed['as_of'])}. Peringkat jurnal berdasarkan peringkat terbaru dalam rentang {feed['start_year']}-{feed['as_of'][:4]}.</p></div>
+    legend = ' '.join(f'<span class="gf-pub-badge gf-pub-rank-{rank_class(label)}">{label}</span>' for label in ['Q1', 'Q2', 'Q3', 'Q4', 'Sinta 1', 'Sinta 2'])
+    full = f'''<section class="gf-publication-feed gf-pub-page" aria-label="Publikasi jurnal staf pendidik dan tenaga kependidikan">
+      <div class="gf-pub-page-notice"><p>Berikut adalah daftar publikasi dari staf pendidik dan tenaga kependidikan Program Studi Geofisika dalam lima tahun terakhir dari jurnal-jurnal dengan peringkat berikut:</p><p class="gf-pub-legend" aria-label="Legenda peringkat jurnal">{legend}</p><p>Data publikasi dari OpenAlex dan diperbarui mingguan. Terakhir diperbarui {date_label(feed['as_of'])}. Peringkat jurnal berdasarkan peringkat terbaru dalam rentang {feed['start_year']}-{feed['as_of'][:4]}.</p></div>
       {controls}
       <ul class="gf-pub-list">{''.join(page_rows)}</ul>
       <p class="gf-pub-empty" role="status" {'hidden' if rows else ''}>Belum ada publikasi dengan peringkat terverifikasi pada pilihan ini.</p>
@@ -287,33 +306,39 @@ def main():
     args = parser.parse_args()
     today = args.as_of or datetime.now(timezone(timedelta(hours=7))).date()
     authors = json.loads((ROOT / 'authors.json').read_text(encoding='utf-8'))
+    authors += json.loads((ROOT / 'support-staff.json').read_text(encoding='utf-8'))
     rankings = json.loads((ROOT / 'journal-rankings.json').read_text(encoding='utf-8'))
+    for record in json.loads((ROOT / 'ranking-supplement.json').read_text(encoding='utf-8')):
+        if record not in rankings:
+            rankings.append(record)
     all_works, snapshots = [], []
     for author in authors:
         if author.get('verified') is not True:
-            raise RuntimeError('Verify every author ID before updating.')
+            continue  # Pending roster identities remain visible in selectors and coverage reports.
         path = ROOT / 'research' / (author['name'].replace(' ', '-') + '-works.json')
         if args.offline:
             data = json.loads(path.read_text(encoding='utf-8'))
             if not data['meta'].get('captured_as_of') or str(today) > data['meta']['captured_as_of']:
                 raise RuntimeError('Offline date exceeds the saved capture date; refresh online or choose the capture date.')
+            if data['meta'].get('start_year', 2024) > today.year-WINDOW_YEARS+1:
+                raise RuntimeError('Offline snapshot does not cover five years; refresh online.')
             if len(data['results']) != data['meta']['count']:
                 raise RuntimeError('Offline snapshot is incomplete.')
             works = data['results']
         else:
             unique = {}
-            for aid in author.get('openalex_ids', [author['openalex_id']]):
+            for aid in author_ids(author):
                 for work in fetch_works(dict(author, openalex_id=aid), today):
                     unique[work['id']] = work
             works = list(unique.values())
-            snapshots.append((path, {'meta': {'count': len(works), 'captured_as_of': str(today)}, 'results': works}))
+            snapshots.append((path, {'meta': {'count': len(works), 'captured_as_of': str(today), 'start_year': today.year-WINDOW_YEARS+1}, 'results': works}))
         all_works.extend(works)
     all_works = list({w['id']: w for w in all_works}.values())
     ranking_report = None
     if not args.offline:
         rankings, ranking_report = refresh_rankings(ROOT, all_works, rankings, today)
     publications, review = select_works(all_works, authors, rankings, today)
-    feed = {'schema_version': 1, 'as_of': str(today), 'start_year': today.year-2,
+    feed = {'schema_version': 1, 'as_of': str(today), 'start_year': today.year-WINDOW_YEARS+1,
             'mode': 'saved_snapshot' if args.offline else 'live_fetch',
             'authors': authors, 'publications': publications}
     # Publish only after every author's request and selection succeeds.
@@ -327,7 +352,8 @@ def main():
         atomic_write(path, json.dumps(data, ensure_ascii=False, indent=2))
     atomic_write(ROOT / 'review.json', json.dumps(review, ensure_ascii=False, indent=2))
     coverage = [{'name': a['name'], 'status': a.get('status', ''),
-                 'openalex_ids': a.get('openalex_ids', [a['openalex_id']]),
+                 'openalex_ids': author_ids(a), 'staff_type': a.get('staff_type', 'Staf pendidik'),
+                 'identity_status': 'verified' if a.get('verified') else 'pending',
                  'displayed_publications': sum(a['name'] in w['staff'] for w in publications)} for a in authors]
     atomic_write(ROOT / 'coverage.json', json.dumps(coverage, ensure_ascii=False, indent=2))
     render(feed)

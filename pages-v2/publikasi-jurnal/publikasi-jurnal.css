@@ -49,10 +49,10 @@
 .gf-publication-feed.gf-pub-page [data-pub-author]{min-width:240px}
 .gf-publication-feed.gf-pub-page [data-pub-reset]{height:42px}
 .gf-publication-feed.gf-pub-page .gf-pub-count{margin:0 0 16px!important}
-.gf-publication-feed.gf-pub-page .gf-pub-list{display:block;border:1px solid #d8e2e9;border-left:4px solid #fdcb2c;border-radius:0 8px 8px 0;background:#fff;padding:0 24px!important}
+.gf-publication-feed.gf-pub-page .gf-pub-list{display:block;border:1px solid #d8e2e9;border-left:4px solid #fdcb2c;border-radius:0 8px 8px 0;background:#fff;padding:0!important;overflow:hidden}
 .gf-publication-feed.gf-pub-page .gf-pub-item{border:0;border-bottom:1px solid #e6edf1;border-radius:0;background:transparent}
 .gf-publication-feed.gf-pub-page .gf-pub-item:last-child{border-bottom:0}
-.gf-publication-feed.gf-pub-page .gf-pub-paper{padding:22px 0;margin:0!important}
+.gf-publication-feed.gf-pub-page .gf-pub-paper{padding:22px 24px;margin:0!important}
 .gf-publication-feed.gf-pub-page .gf-pub-meta{margin:0 0 8px;line-height:1.8}
 .gf-publication-feed.gf-pub-page h2.gf-pub-title{margin:0 0 8px!important;font-size:17px;line-height:1.5;font-weight:700}
 .gf-publication-feed.gf-pub-page .gf-pub-authors{margin:0 0 10px;font-size:13px;line-height:1.8}
@@ -66,4 +66,7 @@
 .gf-publication-feed.gf-pub-page .gf-pub-rank-q2{background:#e7effb;color:#285a91;border-color:#bed0ec}
 .gf-publication-feed.gf-pub-page .gf-pub-rank-sinta-1{background:#f0e9f8;color:#704497;border-color:#d7c5e8}
 .gf-publication-feed.gf-pub-page .gf-pub-rank-sinta-2{background:#fff1dc;color:#875b1d;border-color:#ecd3a9}
-@media(max-width:540px){.gf-publication-feed.gf-pub-page .gf-pub-page-notice{padding:16px 18px}.gf-publication-feed.gf-pub-page .gf-pub-list{padding:0 16px!important}.gf-publication-feed.gf-pub-page select{width:100%;min-width:0}.gf-publication-feed.gf-pub-page [data-pub-author]{min-width:0}}
+@media(max-width:540px){.gf-publication-feed.gf-pub-page .gf-pub-page-notice{padding:16px 18px}.gf-publication-feed.gf-pub-page .gf-pub-paper{padding:20px 16px}.gf-publication-feed.gf-pub-page select{width:100%;min-width:0}.gf-publication-feed.gf-pub-page [data-pub-author]{min-width:0}}
+
+.gf-publication-feed.gf-pub-page .gf-pub-rank-q3{background:#e4f3f3;color:#24646c;border-color:#b4d9dd}
+.gf-publication-feed.gf-pub-page .gf-pub-rank-q4{background:#f5e9ec;color:#884458;border-color:#dfc2cb}

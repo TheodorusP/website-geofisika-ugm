@@ -26,13 +26,13 @@ The loader only downloads public generated HTML inside JSON; it does not fetch O
 
 The workflow is scheduled for Monday 00:23 UTC (07:23 WIB). GitHub schedules may be delayed; public repositories' scheduled workflows can be disabled after 60 days without repository activity. Successful weekly data commits normally provide activity; check Actions periodically and re-enable the schedule if needed. Manual runs remain available.
 
-Every successful run queries all configured staff, checks ranking sources, deduplicates publications and regenerates both displays. It retains three calendar years, not a rolling 36 months. Homepage: latest three. Page: all eligible results with filters, full authors and available citation metadata. New journals remain excluded until their rankings are verified in `journal-rankings.json`. When the three-year window advances, ranking evidence outside it expires.
+Every successful run queries all configured staff, checks ranking sources, deduplicates publications and regenerates both displays. It retains five calendar years, not a rolling 60 months. Homepage: latest three. Page: all eligible results with filters, full authors and available citation metadata. New journals remain excluded until their rankings are verified in `journal-rankings.json`. When the five-year window advances, ranking evidence outside it expires.
 
 ## Automatic ranking checks
 
 Upload the contents of `ranking-automation-update.zip` to the existing repository root to add this feature. This smaller upgrade does not overwrite your collected publication data or ranking registry. Ensure the hidden `.github/workflows/update-publications.yml` file is updated too, then manually run **Update publications**.
 
-The collector now checks the official SCImago annual exports for the completed years in the three-year window. It imports only explicit best-quartile fields matched by ISSN for journals encountered in staff works. Q3/Q4 are recorded too, so newer ineligible ranks stop older Q1/Q2 evidence from carrying forward. Full exported datasets are not redistributed; only matching evidence records, source URLs and hashes are saved.
+The collector now checks the official SCImago annual exports for the completed years in the five-year window. It imports only explicit best-quartile fields matched by ISSN for journals encountered in staff works. Q3/Q4 are now eligible too; the latest verified rank replaces older evidence. Full exported datasets are not redistributed; only matching evidence records, source URLs and hashes are saved.
 
 Sinta checks currently support one configured primary publisher source: Riset Geologi dan Pertambangan's BRIN accreditation notice. That adapter requires a matching ISSN, explicit rank, decree and validity range. It verifies only calendar years strictly inside issue-based boundaries. Other Sinta journals, image/PDF-only certificates, boundary years and ambiguous renewals remain subject to review; this is not a general Sinta database crawler. Add narrowly tested publisher adapters to `ranking-sources.json` to expand coverage. Current Sinta badges alone are not treated as historical accreditation evidence.
 
@@ -45,3 +45,9 @@ Offline regeneration never performs ranking checks or updates their verification
 Collection, tests or publishing failures prevent committing the new payload; visitors continue to see the previous successful data. A valid empty result is published as empty. Review Actions failures and `review.json` if results unexpectedly disappear.
 
 Maintain source files in this repository once installed. This package is a copy of the local project and changes do not synchronize back automatically. No GitHub Pages configuration is required; the loader uses raw GitHub JSON.
+
+## Expanded journal roster and five-year window
+
+Upload the contents of `publication-expansion-update.zip` to the existing repository root, preserving paths and replacing the supplied source files. It includes updated teaching-staff aliases, a separate six-person support roster, the five-year collector/ranking window, tests and page CSS. It does not overwrite the live publications JSON or existing ranking registry. Run Update publications afterward. The remote widget/page will read the new data automatically; update WordPress page-local publikasi-jurnal.css for Q3/Q4 colors. No site-wide JavaScript replacement is necessary. Optionally update the pasted fallback HTML from your successful GitHub run.
+
+Window: 2022-2026 for the 2026 run. Allowed ranks: Q1-Q4, Sinta 1/2. Unknown rankings are still excluded. Older papers need evidence no later than their publication year. Teaching staff: 17. Support staff: 6; Budiarjo and Pamungkas Yuliantoro have verified identities, while Catur Jaka Priyana, Supriyanta, Yan Hendra Kurniawan and Nindy Husnul Majid remain pending. Pending identities do not stop collection and are reported explicitly in coverage.json. No namesake profile is assigned based on name alone.

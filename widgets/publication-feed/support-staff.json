@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Catur Jaka Priyana",
+    "staff_type": "Tenaga kependidikan",
+    "status": "Aktif",
+    "profile": "",
+    "openalex_ids": [],
+    "verified": false,
+    "verification": "Roster confirmed; no unambiguous OpenAlex publication identity found. Do not attach namesakes.",
+    "identity_status": "pending"
+  },
+  {
+    "name": "Supriyanta",
+    "staff_type": "Tenaga kependidikan",
+    "status": "Aktif",
+    "profile": "",
+    "openalex_ids": [],
+    "verified": false,
+    "verification": "Roster confirmed; no unambiguous OpenAlex publication identity found. Do not attach namesakes.",
+    "identity_status": "pending"
+  },
+  {
+    "name": "Yan Hendra Kurniawan",
+    "staff_type": "Tenaga kependidikan",
+    "status": "Aktif",
+    "profile": "",
+    "openalex_ids": [],
+    "verified": false,
+    "verification": "Roster confirmed; no unambiguous OpenAlex publication identity found. Do not attach namesakes.",
+    "identity_status": "pending"
+  },
+  {
+    "name": "Budiarjo",
+    "staff_type": "Tenaga kependidikan",
+    "status": "Aktif",
+    "profile": "https://acadstaff.ugm.ac.id/Budiarjo",
+    "openalex_ids": [
+      "A5062722160",
+      "A5045858822",
+      "A5097132415"
+    ],
+    "verified": true,
+    "verification": "UGM FMIPA profile lists groundwater thesis and geophysics research; matching JFI DOI 10.22146/jfi.v23i1.42997 and IMU paper with Wiwit Suryanto/Eddy Hartantyo. Mixed-name profiles require UGM affiliation on each authorship.",
+    "identity_status": "verified",
+    "openalex_id": "A5062722160",
+    "required_institution_id": "I165230279"
+  },
+  {
+    "name": "Nindy Husnul Majid",
+    "staff_type": "Tenaga kependidikan",
+    "status": "Aktif",
+    "profile": "",
+    "openalex_ids": [],
+    "verified": false,
+    "verification": "Roster confirmed; no unambiguous OpenAlex publication identity found. Do not attach namesakes.",
+    "identity_status": "pending"
+  },
+  {
+    "name": "Pamungkas Yuliantoro",
+    "staff_type": "Tenaga kependidikan",
+    "status": "Aktif",
+    "profile": "",
+    "openalex_ids": [
+      "A5031958328"
+    ],
+    "verified": true,
+    "verification": "Exact full name, UGM Geophysics Laboratory affiliations and coauthors Herlan Darmawan, Wiwit Suryanto, Afif Rakhman and Eddy Hartantyo; saved A5031958328 identity works.",
+    "identity_status": "verified",
+    "openalex_id": "A5031958328",
+    "required_institution_id": "I165230279"
+  }
+]

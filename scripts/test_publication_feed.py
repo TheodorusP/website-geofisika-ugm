@@ -33,7 +33,7 @@ class PublicationSelectionTests(unittest.TestCase):
         self.assertEqual(rows[0]['url'], 'https://example.org/article/1')
 
     def test_ranking_must_be_verified_and_match_year_and_issn(self):
-        for change in ({'verified': False}, {'years': [2025]}, {'issns': ['0000-0000']}, {'rank': 'Q3'}):
+        for change in ({'verified': False}, {'years': [2025]}, {'issns': ['0000-0000']}, {'rank': 'Sinta 3'}):
             ranking = dict(self.ranks[0], **change)
             rows, review = self.select([self.work], [ranking])
             self.assertFalse(rows)
@@ -76,8 +76,8 @@ class PublicationSelectionTests(unittest.TestCase):
         newer = dict(self.ranks[0], years=[2025], rank='Q2')
         rows, _ = self.select([work], self.ranks + [newer])
         self.assertEqual(rows[0]['rankings'][0]['label'], 'Q2')
-        self.assertFalse(self.select([work], self.ranks + [dict(newer, rank='Q3')])[0])
-        self.assertFalse(self.select([work], [dict(newer, years=[2023])])[0])
+        self.assertEqual(self.select([work], self.ranks + [dict(newer, rank='Q3')])[0][0]['rankings'][0]['label'], 'Q3')
+        self.assertFalse(self.select([work], [dict(newer, years=[2021])])[0])
 
     def test_split_author_ids_and_institution_guard(self):
         self.authors[0]['openalex_ids'] = ['A1', 'A3']
@@ -87,6 +87,39 @@ class PublicationSelectionTests(unittest.TestCase):
         self.assertFalse(self.select([self.work])[0])
         self.work['authorships'][0]['institutions'] = [{'id': 'https://openalex.org/IUGM'}]
         self.assertEqual(self.select([self.work])[0][0]['staff'], ['A'])
+
+    def test_five_year_window_and_q3_q4(self):
+        for rank in ['Q3', 'Q4']:
+            ranking = dict(self.ranks[0], years=[2022], rank=rank)
+            work = dict(self.work, publication_date='2022-01-01')
+            self.assertEqual(self.select([work], [ranking])[0][0]['rankings'][0]['label'], rank)
+            self.assertFalse(self.select([dict(work, publication_date='2021-12-31')], [ranking])[0])
+            self.assertFalse(self.select([work], self.ranks)[0])  # No backwards extrapolation from 2024.
+
+    def test_mononym_display_variants_are_canonical_and_boldable(self):
+        self.authors[0]['name'] = 'Sismanto'
+        for variant in ['Sismanto', 'Sismanto Sismanto', 'S. Sismanto']:
+            self.work['authorships'] = [{'author': {'id': 'A1', 'display_name': variant}}]
+            record = self.select([self.work])[0][0]
+            self.assertEqual(record['all_authors'], ['Sismanto'])
+            self.assertEqual(record['staff_author_names'], ['Sismanto'])
+
+    def test_name_alone_does_not_attach_a_namesake(self):
+        self.authors[0]['name'] = 'Sismanto'
+        self.work['authorships'] = [{'author': {'id': 'A_OTHER', 'display_name': 'Sismanto'}}]
+        self.assertFalse(self.select([self.work])[0])
+
+    def test_pending_support_staff_do_not_break_selection(self):
+        self.authors.append({'name': 'Support Staff', 'verified': False, 'openalex_ids': []})
+        self.assertEqual(len(self.select([self.work])[0]), 1)
+
+    def test_sudarmaji_saroji_variant_uses_verified_alias_id(self):
+        self.authors[0].update(name='Sudarmaji', openalex_ids=['A1', 'A_SAROJI'], required_institution_id='IUGM')
+        self.work['authorships'] = [{'author': {'id': 'A_SAROJI', 'display_name': 'Sudarmaji Saroji'},
+                                     'institutions': [{'id': 'IUGM'}]}]
+        record = self.select([self.work])[0][0]
+        self.assertEqual(record['staff'], ['Sudarmaji'])
+        self.assertEqual(record['staff_author_names'], ['Sudarmaji Saroji'])
 
 
 if __name__ == '__main__':

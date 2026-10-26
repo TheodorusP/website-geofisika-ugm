@@ -16,6 +16,7 @@ from urllib.robotparser import RobotFileParser
 
 AGENT = 'GeofisikaPublicationMonitor/1.0'
 SCIMAGO = 'SCImago SJR best quartile'
+WINDOW_YEARS = 5
 
 
 def issn(value):
@@ -127,7 +128,7 @@ def parse_notice(raw, source, today):
     match = matches[0]
     rank, start, end = match['rank'], int(match['start']), int(match['end'])
     # Boundaries are issue-based. Only complete INTERIOR years are verified.
-    years = [year for year in range(today.year - 2, today.year + 1) if start < year < end]
+    years = [year for year in range(today.year - WINDOW_YEARS + 1, today.year + 1) if start < year < end]
     if not years or end <= start:
         raise ValueError('No complete calendar year within explicit accreditation boundaries')
     return [{'journal': source['journal'], 'issns': source['issns'], 'rank': 'Sinta ' + rank,
@@ -165,7 +166,7 @@ def refresh_rankings(root, works, existing, today, fetch=read_url):
     incoming, robots = [], {}
     sources = []
     if config.get('scimago'):
-        for year in range(today.year - 2, today.year):
+        for year in range(today.year - WINDOW_YEARS + 1, today.year):
             sources.append(('scimago', f'https://www.scimagojr.com/journalrank.php?year={year}&out=xls', year))
     sources.extend(('publisher', source['url'], source) for source in config.get('publisher_notices', []))
     for kind, url, argument in sources:
@@ -181,11 +182,11 @@ def refresh_rankings(root, works, existing, today, fetch=read_url):
     result = merge(existing, incoming)
     for identifier, journal in sorted(candidates.items()):
         matches = [r for r in result if identifier in set(map(issn, r['issns'])) and r.get('verified')
-                   and any(today.year - 2 <= year <= today.year for year in r['years'])]
+                   and any(today.year - WINDOW_YEARS + 1 <= year <= today.year for year in r['years'])]
         if not matches:
             report['review'].append({'journal': journal, 'issn': identifier, 'reason': 'No verified ranking in current window'})
         for system in {r['system'] for r in matches}:
-            for year in range(today.year - 2, today.year + 1):
+            for year in range(today.year - WINDOW_YEARS + 1, today.year + 1):
                 ranks = {r['rank'] for r in matches if r['system'] == system and year in r['years']}
                 if len(ranks) > 1:
                     report['review'].append({'journal': journal, 'issn': identifier, 'system': system,
