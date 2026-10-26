@@ -28,15 +28,19 @@ def clean(value):
 
 
 def request(url, allow_missing=False):
-    response = subprocess.run(['curl.exe' if os.name == 'nt' else 'curl', '-sS', '-L', '--retry', '1',
-                               '--max-time', '35', '-w', '\n%{http_code}', url], capture_output=True)
+    response = subprocess.run(['curl.exe' if os.name == 'nt' else 'curl', '-sS', '-L', '--retry', '4',
+                               '--retry-delay', '3', '--retry-max-time', '180',
+                               '--connect-timeout', '15', '--max-time', '45',
+                               '--user-agent', 'UGM-Geophysics-Conference-Feed/1.0',
+                               '-H', 'Accept: application/json',
+                               '-w', '\n%{http_code}', url], capture_output=True)
     if response.returncode:
-        raise RuntimeError('Conference metadata request failed; previous output preserved')
+        raise RuntimeError(f'Conference metadata request failed (curl {response.returncode}) for {url}; previous output preserved')
     body, status = response.stdout.rsplit(b'\n', 1)
     if status == b'404' and allow_missing:
         return None
     if status != b'200':
-        raise RuntimeError('Conference metadata HTTP request failed; previous output preserved')
+        raise RuntimeError(f'Conference metadata HTTP {status.decode("ascii", errors="replace")} for {url}; previous output preserved')
     return json.loads(body)
 
 
@@ -292,7 +296,7 @@ def main():
         def fetch_metadata(doi):
             response = request('https://api.crossref.org/works/' + quote(doi.removeprefix('https://doi.org/'), safe='/'), allow_missing=True)
             return doi, (response or {}).get('message') or {}
-        with ThreadPoolExecutor(max_workers=4) as pool:
+        with ThreadPoolExecutor(max_workers=2) as pool:
             metadata = dict(pool.map(fetch_metadata, sorted({doi_url(w.get('doi')) for w in works} - {None})))
     overrides = json.loads((PAGE / 'verified-contributions.json').read_text(encoding='utf-8'))
     records, review = select_conferences(works, authors, metadata, overrides, today)
