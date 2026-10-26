@@ -13,6 +13,21 @@
     ]
   },
   {
+    "id": "https://openalex.org/W4390072844",
+    "title": "Earthquake statistical performance due to increasing of the seismic network around Opak Fault, Yogyakarta",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Ade Anggraini",
+      "Theodosius Marwan Irnaka",
+      "Wiwit Suryanto"
+    ],
+    "journal": "E3S Web of Conferences",
+    "issns": [
+      "2267-1242",
+      "2555-0403"
+    ]
+  },
+  {
     "id": "https://openalex.org/W7128516031",
     "title": "Insights into karst aquifer functioning from multi-method time series analysis of two adjacent tropical springs (Central Java, Indonesia)",
     "reason": "unverified_or_ineligible_ranking",
@@ -76,6 +91,21 @@
     ]
   },
   {
+    "id": "https://openalex.org/W4390073150",
+    "title": "VEVCC program for concatenation of volcanic events based on cross-correlation analysis",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Afif Rakhman",
+      "Sudarmaji",
+      "Wiwit Suryanto"
+    ],
+    "journal": "E3S Web of Conferences",
+    "issns": [
+      "2267-1242",
+      "2555-0403"
+    ]
+  },
+  {
     "id": "https://openalex.org/W7220865852",
     "title": "SEISMIC ATTRIBUTE ANALYSIS OF FRACTURES IN THE MYA FIELD, EASTERN PART OF THE CENTRAL SUMATRA BASIN",
     "reason": "unverified_or_ineligible_ranking",
@@ -112,6 +142,97 @@
     "issns": [
       "2685-6190",
       "2714-7746"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4413224564",
+    "title": "Evaluation of Structural Features and Hydrocarbon Reservoir Potential of the Baturaja Formation Using Seismic Envelope and Sweetness Attributes",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Budi Eka Nurcahya"
+    ],
+    "journal": "Rekayasa",
+    "issns": [
+      "0216-6631",
+      "2527-6964"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4413224722",
+    "title": "Identification of Hydrocarbon Reservoir Distribution Using Seismic Attributes: RMS Amplitude and Sweetness in the Bani Field, South Sumatra Basin",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Budi Eka Nurcahya"
+    ],
+    "journal": "Rekayasa",
+    "issns": [
+      "0216-6631",
+      "2527-6964"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4413225312",
+    "title": "Seismic Interpretation Using RMS Amplitude and Envelope Attributes to Identify Hydrocarbon Prospects in the “CAT” Field, Central Sumatra Basin",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Budi Eka Nurcahya"
+    ],
+    "journal": "Rekayasa",
+    "issns": [
+      "0216-6631",
+      "2527-6964"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4379259947",
+    "title": "Utilization and modeling of satellite gravity data for geohazard assessment in the Yogyakarta area of Java Island, Indonesia",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Budi Eka Nurcahya",
+      "Sismanto"
+    ],
+    "journal": "Kuwait Journal of Science",
+    "issns": [
+      "2307-4108",
+      "2307-4116"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4323656076",
+    "title": "Investigating the Mainshock and Aftershock of the May 2006 Earthquake in Central Java for Aerothropolis Development at Yogyakarta International Airport",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Budi Eka Nurcahya",
+      "Sismanto"
+    ],
+    "journal": null,
+    "issns": []
+  },
+  {
+    "id": "https://openalex.org/W7218137961",
+    "title": "Microtremor Data Processing and Interpretation: A Case Studi on Area Damaged by Yogyakarta 2006 Earthquake",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Budi Eka Nurcahya"
+    ],
+    "journal": "Proceeding International Conference on Religion Science and Education",
+    "issns": [
+      "2828-8467",
+      "2829-3355"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4296473308",
+    "title": "Joint interpretation global gravity model plus with seismic interpretation at Kradenan mud volcano area, Purwodadi, Central Java",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Budi Eka Nurcahya"
+    ],
+    "journal": "AIP conference proceedings",
+    "issns": [
+      "0094-243X",
+      "1551-7616",
+      "1935-0465"
     ]
   },
   {
@@ -283,6 +404,7 @@
     "reason": "not_journal_article_or_review",
     "staff": [
       "Eddy Hartantyo",
+      "Pamungkas Yuliantoro",
       "Theodosius Marwan Irnaka"
     ],
     "journal": null,
@@ -316,10 +438,24 @@
     "reason": "not_journal_article_or_review",
     "staff": [
       "Eddy Hartantyo",
+      "Pamungkas Yuliantoro",
       "Theodosius Marwan Irnaka"
     ],
     "journal": null,
     "issns": []
+  },
+  {
+    "id": "https://openalex.org/W4389525083",
+    "title": "Kajian Numerik Kesalahan Hasil Pengukuran Geolistrik 2D Terhadap Target Model 3D: Studi Kasus Pengukuran di Dekat Gedung Berpondasi Beton",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Eddy Hartantyo"
+    ],
+    "journal": "POSITRON",
+    "issns": [
+      "2301-4970",
+      "2549-936X"
+    ]
   },
   {
     "id": "https://openalex.org/W7196949267",
@@ -340,6 +476,7 @@
     "reason": "not_journal_article_or_review",
     "staff": [
       "Herlan Darmawan",
+      "Pamungkas Yuliantoro",
       "Theodorus Permana",
       "Theodosius Marwan Irnaka",
       "Wiwit Suryanto"
@@ -444,6 +581,131 @@
     "issns": []
   },
   {
+    "id": "https://openalex.org/W4387956961",
+    "title": "Subsurface Structure Evaluation Beneath the Sileri Crater’s East Flank Using the Misfit Function Gradient of the Full Waveform Modeling",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Herlan Darmawan",
+      "Theodosius Marwan Irnaka"
+    ],
+    "journal": "IOP Conference Series Earth and Environmental Science",
+    "issns": [
+      "1755-1315",
+      "1755-1307"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4319879499",
+    "title": "Interactions of magmatic intrusions with the multiyear flank instability at Anak Krakatau volcano, Indonesia: Insights from InSAR and analogue modeling",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Herlan Darmawan"
+    ],
+    "journal": "Geology",
+    "issns": [
+      "0091-7613",
+      "1943-2682"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4318769122",
+    "title": "Morphology and Instability of the Merapi Lava Dome Monitored by Unoccupied Aircraft Systems",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Herlan Darmawan"
+    ],
+    "journal": "Active volcanoes of the world",
+    "issns": [
+      "2195-3589",
+      "2195-7029"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4310444651",
+    "title": "Porosity, strength, and alteration – Towards a new volcano stability assessment tool using VNIR-SWIR reflectance spectroscopy",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Herlan Darmawan"
+    ],
+    "journal": "Earth and Planetary Science Letters",
+    "issns": [
+      "0012-821X",
+      "1385-013X"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4306672912",
+    "title": "LiDAR and UAV SfM-MVS of Merapi Volcanic Dome and Crater Rim Change from 2012 to 2014",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Herlan Darmawan",
+      "Wiwit Suryanto"
+    ],
+    "journal": "Remote Sensing",
+    "issns": [
+      "2072-4292"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4296755071",
+    "title": "Identification and ranking of subaerial volcanic tsunami hazard sources in Southeast Asia",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Herlan Darmawan"
+    ],
+    "journal": "Natural hazards and earth system sciences",
+    "issns": [
+      "1561-8633",
+      "1684-9981"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4293577051",
+    "title": "Grain size, mineralogical, and geochemistry of the 1996-2018 Volcanic Products of Anak Krakatau Volcano, Indonesia",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Herlan Darmawan",
+      "Wahyudi"
+    ],
+    "journal": "IOP Conference Series Earth and Environmental Science",
+    "issns": [
+      "1755-1315",
+      "1755-1307"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4226280913",
+    "title": "Supplementary material to \"Identification and ranking of volcanic tsunami hazard sources in Southeast Asia\"",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Herlan Darmawan"
+    ],
+    "journal": null,
+    "issns": []
+  },
+  {
+    "id": "https://openalex.org/W4220942171",
+    "title": "Towards a global spectral-geomechanical database of volcanic rocks using VNIR-SWIR spectroscopy",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Herlan Darmawan"
+    ],
+    "journal": null,
+    "issns": []
+  },
+  {
+    "id": "https://openalex.org/W4214604451",
+    "title": "Hidden mechanical weaknesses within lava domes provided by buried high-porosity hydrothermal alteration zones",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Herlan Darmawan"
+    ],
+    "journal": "Scientific Reports",
+    "issns": [
+      "2045-2322"
+    ]
+  },
+  {
     "id": "https://openalex.org/W7142319670",
     "title": "Delineation of Sulfide Mineralization Zone Based on Geomagnetic and Induced Polarization (IP) Methods in Sangon-II, Kokap, Kulonprogo Districts, Yogyakarta",
     "reason": "unverified_or_ineligible_ranking",
@@ -467,6 +729,32 @@
     "issns": [
       "1367-9120",
       "1878-5786"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4395680935",
+    "title": "Mineralogy and Ore Characteristics of the Kujang Pb-Zn Skarn Deposit, Sukabumi Regency, West Java",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Imam Suyanto"
+    ],
+    "journal": "Journal of Applied Geology",
+    "issns": [
+      "2086-5104",
+      "2502-2822"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4393354527",
+    "title": "Analisis Metode Magnetik pada Daerah Manifestasi Panas Bumi Karangrejo, Kabupaten Pacitan",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Imam Suyanto"
+    ],
+    "journal": "INSOLOGI Jurnal Sains dan Teknologi",
+    "issns": [
+      "2828-4984",
+      "2828-4992"
     ]
   },
   {
@@ -527,6 +815,20 @@
     ]
   },
   {
+    "id": "https://openalex.org/W4390073212",
+    "title": "Characteristics of Active Volcanoes in Sumatra, Indonesia: From Perspective Seismicity, Magma Chemical Composition and Eruption History",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Mochamad Nukman",
+      "Wiwit Suryanto"
+    ],
+    "journal": "E3S Web of Conferences",
+    "issns": [
+      "2267-1242",
+      "2555-0403"
+    ]
+  },
+  {
     "id": "https://openalex.org/W7128311447",
     "title": "Development of a rapid metal oxide semiconductor-based sensory system for noninvasive neonatal sepsis detection",
     "reason": "unverified_or_ineligible_ranking",
@@ -573,6 +875,82 @@
     "issns": [
       "2193-4126",
       "2193-4134"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4380992805",
+    "title": "Rapid analysis of meat floss origin using a supervised machine learning-based electronic nose towards food authentication",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Shidiq Nur Hidayat"
+    ],
+    "journal": "npj Science of Food",
+    "issns": [
+      "2396-8370"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4389331517",
+    "title": "Electronic Nose-Based Monitoring of Chicken Freshness in Room and Refrigerated Storage",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Shidiq Nur Hidayat"
+    ],
+    "journal": "SSRN Electronic Journal",
+    "issns": [
+      "1556-5068"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4292060938",
+    "title": "Fast and noninvasive electronic nose for sniffing out COVID-19 based on exhaled breath-print recognition",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Shidiq Nur Hidayat"
+    ],
+    "journal": "npj Digital Medicine",
+    "issns": [
+      "2398-6352"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4280572530",
+    "title": "Hybrid learning method based on feature clustering and scoring for enhanced COVID-19 breath analysis by an electronic nose",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Shidiq Nur Hidayat"
+    ],
+    "journal": "Artificial Intelligence in Medicine",
+    "issns": [
+      "0933-3657",
+      "1873-2860"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4385884921",
+    "title": "Identification of geological structure based on gravity satellite and seismicity data in Kepahiang geothermal prospect area",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Sintia Windhi Niasari"
+    ],
+    "journal": "AIP conference proceedings",
+    "issns": [
+      "0094-243X",
+      "1551-7616",
+      "1935-0465"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4293577095",
+    "title": "Heat flow and gravity anomalies in some presumed hidden geothermal prospects in Java",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Sintia Windhi Niasari"
+    ],
+    "journal": "IOP Conference Series Earth and Environmental Science",
+    "issns": [
+      "1755-1315",
+      "1755-1307"
     ]
   },
   {
@@ -635,30 +1013,12 @@
     ]
   },
   {
-    "id": "https://openalex.org/W7144738346",
-    "title": "Lithium enrichment in high radiogenic geothermal systems originating from lithospheric water due to water-rock interactions",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Institutional Repositories DataBase (IRDB)",
-    "issns": []
-  },
-  {
-    "id": "https://openalex.org/W7125715387",
-    "title": "Identification of Underground Rivers Using Very Low Frequency Electromagnetic and Graphical User Interface Matrix Laboratory: Implications for Groundwater Exploration",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Jurnal Ilmiah Pendidikan Fisika Al-Biruni",
-    "issns": [
-      "2303-1832",
-      "2503-023X"
-    ]
-  },
-  {
     "id": "https://openalex.org/W7125690283",
     "title": "Reservoir Characterization using Simultaneous Inversion, AVO Analysis, and Seismic Attributes: A Case Study of Conglomerates-Volcanic, Northwest Java Basin",
     "reason": "not_journal_article_or_review",
     "staff": [
-      "Sismanto"
+      "Sismanto",
+      "Sudarmaji"
     ],
     "journal": "Zenodo (CERN European Organization for Nuclear Research)",
     "issns": []
@@ -668,7 +1028,8 @@
     "title": "Reservoir Characterization using Simultaneous Inversion, AVO Analysis, and Seismic Attributes: A Case Study of Conglomerates-Volcanic, Northwest Java Basin",
     "reason": "unverified_or_ineligible_ranking",
     "staff": [
-      "Sismanto"
+      "Sismanto",
+      "Sudarmaji"
     ],
     "journal": "Evergreen",
     "issns": [
@@ -707,7 +1068,8 @@
     "title": "Geophysical-guided Wasserstein cycle-consistent generative adversarial networks for seismic impedance inversion",
     "reason": "unverified_or_ineligible_ranking",
     "staff": [
-      "Sismanto"
+      "Sismanto",
+      "Sudarmaji"
     ],
     "journal": "Acta Geophysica",
     "issns": [
@@ -806,6 +1168,70 @@
     ]
   },
   {
+    "id": "https://openalex.org/W4396929770",
+    "title": "Quaternary Deposit Response to Earthquakes in Pemalang City Based on Peak Ground Acceleration, Earthquake Intensity, and Microtremor Method",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Sismanto"
+    ],
+    "journal": "Indonesian Journal on Geoscience",
+    "issns": [
+      "2355-9306",
+      "2355-9314"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4386221727",
+    "title": "Identification of Permeable Structures and Heat Source in the Geothermal Working Area of Galunggung Volcano and the Heat Source Connectivity to the Karaha-Cakrabuana Area Using Gravity Data",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Sismanto"
+    ],
+    "journal": "Journal of Applied Geology",
+    "issns": [
+      "2086-5104",
+      "2502-2822"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4311536994",
+    "title": "Fabrication and experimental study of transformer 400 V with a simple rectifier circuit design",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Sismanto"
+    ],
+    "journal": "International Journal of Power Electronics and Drive Systems/International Journal of Electrical and Computer Engineering",
+    "issns": [
+      "2722-256X",
+      "2722-2578"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4296523714",
+    "title": "NUMERICAL SIMULATION OF MAXWELL EQUATION USING FINITE DIFFERENCE METHOD IN CASE OF SUBSURFACE CONDUCTIVITY PARAMETER",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Adam Sukma Putra",
+      "Sismanto"
+    ],
+    "journal": "Jurnal Inovasi Penelitian dan Pembelajaran Fisika",
+    "issns": [
+      "2746-170X",
+      "2746-3796"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4285172665",
+    "title": "A Study Experimental of Design Considerations of Constant Input Current Source",
+    "reason": "unverified_author",
+    "staff": [],
+    "journal": "Journal of Engineering Science and Technology Review",
+    "issns": [
+      "1791-2377",
+      "1791-9320"
+    ]
+  },
+  {
     "id": "https://openalex.org/W4411974828",
     "title": "Integrating seismicity parameter analysis and gravity anomaly characterization to enhance the accuracy of earthquake hazard assessment: a case study in Cenderawasih Bay, Indonesia",
     "reason": "unverified_or_ineligible_ranking",
@@ -842,6 +1268,33 @@
     "issns": []
   },
   {
+    "id": "https://openalex.org/W4402152241",
+    "title": "Identification of Subsurface Structures Using Topex Altimetry Satellite Gravity Data: Implications for Preliminary Surveys of Geothermal Existence",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Sismanto"
+    ],
+    "journal": "International Journal of Hydrological and Environmental for Sustainability",
+    "issns": [
+      "2828-5050",
+      "2828-6405"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4294884485",
+    "title": "Identification of sediment–basement structure in West Papua province, Indonesia, using gravity and magnetic data inversion as an Earth’s crust stress indicator",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Sismanto"
+    ],
+    "journal": "Acta Geophysica",
+    "issns": [
+      "0001-5725",
+      "1895-6572",
+      "1895-7455"
+    ]
+  },
+  {
     "id": "https://openalex.org/W7220846761",
     "title": "Microzonation of Seismic Vulnerability Index in Anyer Banten by Using HVSR Method",
     "reason": "unverified_or_ineligible_ranking",
@@ -852,6 +1305,70 @@
     "issns": [
       "1410-2994",
       "2579-8820"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W7147725809",
+    "title": "A GIS-based spatio-temporal database approach to land suitability classification for papaya (Carica papaya L.) cultivation",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Sismanto"
+    ],
+    "journal": "Journal of Degraded and Mining Lands Management",
+    "issns": [
+      "2339-076X",
+      "2502-2458"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W7150755246",
+    "title": "Seismic Characteristics of Mount Agung during the October–November 2017 Period",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Sismanto"
+    ],
+    "journal": "Jurnal Penelitian Pendidikan IPA",
+    "issns": [
+      "2407-795X",
+      "2460-2582"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4412009104",
+    "title": "Metode Double-Difference Untuk Merelokasi Hiposenter Gempabumi Susulan Seririt Singaraja",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Sismanto"
+    ],
+    "journal": "Kappa Journal",
+    "issns": [
+      "2549-2950"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W7171654705",
+    "title": "Preliminary Delineation of Uncertain Paleogene Basin Boundaries in Southern Java Using Gravity and Magnetic Data through Spectral Depth Slicing",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Sismanto"
+    ],
+    "journal": "IOP Conference Series Earth and Environmental Science",
+    "issns": [
+      "1755-1315",
+      "1755-1307"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W7171704961",
+    "title": "The occurrence of aseismic zones in eastern java as evidence of lithospheric detachment and its relation to the lateral displacement of the subduction slab",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Sismanto"
+    ],
+    "journal": "IOP Conference Series Earth and Environmental Science",
+    "issns": [
+      "1755-1315",
+      "1755-1307"
     ]
   },
   {
@@ -879,6 +1396,159 @@
     "issns": [
       "2774-0226"
     ]
+  },
+  {
+    "id": "https://openalex.org/W4384433218",
+    "title": "The Estimation of Fracture Intensity and Pressure Distribution using Analysis of Shear Wave Splitting on “Landak” Geothermal Field",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Sudarmaji"
+    ],
+    "journal": "INDONESIAN JOURNAL OF APPLIED PHYSICS",
+    "issns": [
+      "2089-0133",
+      "2477-6416"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4409976493",
+    "title": "EFFECTIVE POROSITY PREDICTION FROM WELL LOG DATA USING SUPPORT VECTOR MACHINE (SVM)",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Sudarmaji"
+    ],
+    "journal": "Jurnal Geosaintek",
+    "issns": [
+      "2460-9072",
+      "2502-3659"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4411410497",
+    "title": "Petrophysical Analysis and Seismic Attribute for Reservoir Characterization in “AMN” Field, Talang Akar Formation, South Sumatra Basin",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Sudarmaji"
+    ],
+    "journal": "Jurnal Penelitian Fisika dan Aplikasinya (JPFA)",
+    "issns": [
+      "2087-9946",
+      "2477-1775"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4385877908",
+    "title": "Implementation of machine learning for volcanic earthquake pattern classification using XGBoost algorithm",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Sudarmaji"
+    ],
+    "journal": "Acta Geophysica",
+    "issns": [
+      "0001-5725",
+      "1895-6572",
+      "1895-7455"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4379383991",
+    "title": "An implementation of XGBoost algorithm to estimate effective porosity on well log data",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Sudarmaji"
+    ],
+    "journal": "Journal of Physics Conference Series",
+    "issns": [
+      "1742-6588",
+      "1742-6596"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4410127494",
+    "title": "Implementation of Deterministic and Multimineral Method in Petrophysical Analysis for Identifying Low Resistivity Reservoir in Tesla Field, Air Benakat Formation, South Sumatera Basin",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Sudarmaji"
+    ],
+    "journal": "Aceh International Journal of Science and Technology",
+    "issns": [
+      "2088-9860",
+      "2503-2348"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4404334547",
+    "title": "An Implementation of XGBoost and Random Forest Algorithm to Estimate Effective Porosity and Permeability on Well log data at Fajar Field, South Sumatera Basin, Indonesia",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Sudarmaji"
+    ],
+    "journal": "INDONESIAN JOURNAL OF APPLIED PHYSICS",
+    "issns": [
+      "2089-0133",
+      "2477-6416"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4399982756",
+    "title": "Comparison of Hydrocarbon Volumetric Calculation between Cell-Based Model and Numerical Integration",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Sudarmaji"
+    ],
+    "journal": "POSITRON",
+    "issns": [
+      "2301-4970",
+      "2549-936X"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4387695668",
+    "title": "Seismic signature detection during the 2018 Anak Krakatau flank collapse and tsunami using seismic amplitudes from regional-scale monitoring",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Theodorus Permana"
+    ],
+    "journal": "Earth Planets and Space",
+    "issns": [
+      "1343-8832",
+      "1880-5981"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4385837454",
+    "title": "Role of updraft in dry‐season torrential rainfall in Greater Jakarta, Indonesia",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Theodorus Permana"
+    ],
+    "journal": "Atmospheric Science Letters",
+    "issns": [
+      "1530-261X"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4309831879",
+    "title": "Locating Volcanic Earthquakes and Tremors Using Delay Time and Amplitude Ratio Information from Cross-Correlation Functions",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Theodorus Permana"
+    ],
+    "journal": "Seismological Research Letters",
+    "issns": [
+      "0895-0695",
+      "1938-2057"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4225282978",
+    "title": "Locating Shallow Seismic Source Changes Using Delay Time and Amplitude Ratio Information from Cross-Correlation Functions",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Theodorus Permana"
+    ],
+    "journal": null,
+    "issns": []
   },
   {
     "id": "https://openalex.org/W7172218449",
@@ -1341,407 +2011,192 @@
     ]
   },
   {
-    "id": "https://openalex.org/W7219031029",
-    "title": "Bentuk Lagu Ku Jaga Diriku Karya Sri Seskya Situmorang Sebagai Media Edukasi Seksual Anak Usia Dini Di TK Masyitoh Al-Iman Sorogenen",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "IDEA Jurnal Ilmiah Seni Pertunjukan",
+    "id": "https://openalex.org/W4390470639",
+    "title": "Magnetic Characterization of Fine Sediment in the Solo Basin Indonesia",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
+    "journal": "Journal of Mathematical and Fundamental Sciences",
     "issns": [
-      "1411-6472"
+      "1978-3043",
+      "2337-5760",
+      "2338-5510"
     ]
   },
   {
-    "id": "https://openalex.org/W7213304885",
-    "title": "Model Problem Based Learning Untuk Menumbuhkan Keterampilan 4c Dalam Pembelajaran Fisika Di Indonesia: Studi Systematic Literature Review",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Jurnal Inovasi Pendidikan dan Pengajaran.",
+    "id": "https://openalex.org/W4389145486",
+    "title": "PEMODELAN TSUNAMI BERDASARKAN AMPLITUDO MAKSIMUM HISTORIS GEMPABUMI DI PESISIR JAILOLO SELATAN",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
+    "journal": "JGE (Jurnal Geofisika Eksplorasi)",
     "issns": [
-      "2962-3081"
+      "2356-1599",
+      "2685-6182"
     ]
   },
   {
-    "id": "https://openalex.org/W7213775151",
-    "title": "Pengembangan Media Pembelajaran Kompas (Kotak Matematika Pintar Asyik) pada Materi Perkalian untuk Siswa Kelas III SD",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Journal of Instructional and Development Researches",
+    "id": "https://openalex.org/W4389313663",
+    "title": "Data Collection Platform Design using LEO Satellite-based LoRa for Disaster Management in Indonesia",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
+    "journal": "IEEE International Conference on Aerospace Electronics and Remote Sensing Technology (ICARES)",
+    "issns": []
+  },
+  {
+    "id": "https://openalex.org/W4385254858",
+    "title": "Identification pyroclastic flow of magnetic minerals (Holocene volcano): A case study of paleo-volcano Lawu on the south side, Central Java, Indonesia",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
+    "journal": "Kuwait Journal of Science",
     "issns": [
-      "2807-5471",
-      "2807-548X"
+      "2307-4108",
+      "2307-4116"
     ]
   },
   {
-    "id": "https://openalex.org/W7171705594",
-    "title": "Reflections on Thai Elementary School Teaching Experiences in Increasing the Professionalism of Prospective Teachers",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "International Journal of Community Engagement and Development",
+    "id": "https://openalex.org/W4379472667",
+    "title": "Study comparison physical properties and minerals analysis of rock magnetic in Lawu Volcanic Complex",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
+    "journal": "Journal of Physics Conference Series",
     "issns": [
-      "3031-9749",
-      "3031-9765"
+      "1742-6588",
+      "1742-6596"
     ]
   },
   {
-    "id": "https://openalex.org/W7162284121",
-    "title": "Pengembangan Model Pembelajaran Student Oriented Berbasis Praktikum untuk Meningkatkan Kesadaran Bencana Mahasiswa Calon Guru",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Jurnal Ilmiah Profesi Pendidikan",
+    "id": "https://openalex.org/W4319987207",
+    "title": "Crustal Structure and Ascent of Fluids and Melts Beneath Merapi: Insights From Geophysical Investigations",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
+    "journal": "Active volcanoes of the world",
     "issns": [
-      "2502-7069",
-      "2620-8326"
+      "2195-3589",
+      "2195-7029"
     ]
   },
   {
-    "id": "https://openalex.org/W7162677534",
-    "title": "Pondok Pesantren Sebagai Pilar Pembentukan Akhlak Santri : Studi Kasus di Pondok Pesantren As-Saidiyyah 2 Bahrul Ulum Tambak Beras Jombang",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Journal of Innovative and Creativity (Joecy)",
+    "id": "https://openalex.org/W4390072906",
+    "title": "Structural map of Sulawesi derives from gravity data and its implications for geothermal systems",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
+    "journal": "E3S Web of Conferences",
     "issns": [
-      "2776-771X",
-      "2962-570X"
+      "2267-1242",
+      "2555-0403"
     ]
   },
   {
-    "id": "https://openalex.org/W7160532925",
-    "title": "Pengaruh Model Pembelajaran Berbasis Masalah Berbantuan Video Animasi Terhadap Pemahaman Konsep Fisika Peserta Didik SMA",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Jurnal Ilmiah Profesi Pendidikan",
+    "id": "https://openalex.org/W4390090434",
+    "title": "Low sulfidation epithermal gold mineralization at Tambang Sawah, Lebong, Bengkulu Province, Indonesia",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
+    "journal": "E3S Web of Conferences",
     "issns": [
-      "2502-7069",
-      "2620-8326"
+      "2267-1242",
+      "2555-0403"
     ]
   },
   {
-    "id": "https://openalex.org/W7160095715",
-    "title": "Pengembangan Game Edukasi Wordwall untuk Meningkatkan Minat Belajar Siswa dalam Mata Pelajaran Sejarah Kebudayaan Islam di MTS al-Asy’ariyah Banjarsari",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "YASIN",
+    "id": "https://openalex.org/W4390090516",
+    "title": "Site Analysis Using Microtremor Array for Disaster Mitigation of Landslide in the Cianjur Aquatic Resort",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
+    "journal": "E3S Web of Conferences",
     "issns": [
-      "2808-1854",
-      "2808-2346"
+      "2267-1242",
+      "2555-0403"
     ]
   },
   {
-    "id": "https://openalex.org/W7152388967",
-    "title": "Role of LMS-Based Learning Communities on the Independent Teaching Platform in Enhancing Teachers’ Basic Competencies",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Online Learning In Educational Research (OLER)",
+    "id": "https://openalex.org/W4380904177",
+    "title": "Magnetic properties of the Upper Bengawan Solo river sediments",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
+    "journal": "AIP conference proceedings",
     "issns": [
-      "2798-2351",
-      "2798-9763"
+      "0094-243X",
+      "1551-7616",
+      "1935-0465"
     ]
   },
   {
-    "id": "https://openalex.org/W4416904635",
-    "title": "PELATIHAN PENERAPAN INOVASI BISNIS PERIKANAN LOKAL BERKELANJUTAN BERBASIS ENERGI TERBARUKAN DI KELURAHAN SIBATUA",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Kumawula Jurnal Pengabdian Kepada Masyarakat",
+    "id": "https://openalex.org/W4390072972",
+    "title": "Study Characteristics of a Multipurpose Reactor Building G.A. Siwabessy using Floor Spectral Ratio",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
+    "journal": "E3S Web of Conferences",
     "issns": [
-      "2620-844X"
+      "2267-1242",
+      "2555-0403"
     ]
   },
   {
-    "id": "https://openalex.org/W4416933428",
-    "title": "Pengembangan Media Augmented Reality (AR) Berbasis STEM untuk Meningkatkan Kemampuan Berpikir Kritis dalam Pembelajaran IPA",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Jurnal Pendidikan Sains Geologi dan Geofisika (GeoScienceEd Journal)",
+    "id": "https://openalex.org/W4313425828",
+    "title": "Importance of Tropospheric Correction to C-band InSAR Measurements: Application in the 2018 Palu Earthquake",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
+    "journal": "Indonesian Journal of Geography",
     "issns": [
-      "2723-2905",
-      "2723-2913"
+      "0024-9521",
+      "2354-9114"
     ]
   },
   {
-    "id": "https://openalex.org/W7217114228",
-    "title": "Pengendalian Arm Robot Berbasis Invers Kinematics Menggunakan Metode ANN",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Jurnal Teknologi Elektro",
+    "id": "https://openalex.org/W4310244101",
+    "title": "GEOLOGY AND ORE CHARACTERISTICS OF LOW SULFIDATION EPITHERMAL GOLD MINERALIZATION AT TAMBANG SAWAH, LEBONG, BENGKULU PROVINCE",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
+    "journal": "KURVATEK",
     "issns": [
-      "2086-9479",
-      "2621-8534"
+      "2477-7870",
+      "2528-2670"
     ]
   },
   {
-    "id": "https://openalex.org/W4415075054",
-    "title": "The Effect of Human Resources Competencies and Work Environment on Employee Performance with Work Motivation as an Intervening Variable at J&T Express Makassar",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Best Journal of Administration and Management",
+    "id": "https://openalex.org/W4293393044",
+    "title": "Trends in rainfall and hydrometeorological disasters in new capital city of Indonesia from long-term satellite-based precipitation products",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
+    "journal": "Remote Sensing Applications Society and Environment",
     "issns": [
-      "2964-657X"
+      "2352-9385"
     ]
   },
   {
-    "id": "https://openalex.org/W4414726645",
-    "title": "Pengaruh Teknologi Informasi dan Kualitas Pelayanan Publik terhadap Kepuasan Pengguna Jasa di Balai Besar Kekarantinaan Kesehatan Tanjung Priok",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "MAHESA Malahayati Health Student Journal",
-    "issns": [
-      "2746-198X",
-      "2746-3486"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4414093764",
-    "title": "Tingkat Pengetahuan Dan Penggunaan Jamu Di Desa Jawa Laut Kota Martapura: Studi Cross-Sectional",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Jurnal Farmasi Galenika.",
-    "issns": [
-      "2406-9299",
-      "2579-4469"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4413993634",
-    "title": "Perancangan Sistem Kontrol Ketinggian Muka Cairan Pada Tangki Spherical Menggunakan Kontroler PID-Gain Scheduling",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Jurnal Teknologi Elektro",
-    "issns": [
-      "2086-9479",
-      "2621-8534"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W7220277867",
-    "title": "Perceptions of Junior High School Teachers and Students on English Language Instruction through the Merdeka Curriculum",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Jurnal Intelek Insan Cendikia",
-    "issns": [
-      "3047-7824"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W7220186555",
-    "title": "Enhancing Collaborative Learning and Academic Achievement through the Team Games Tournament (TGT) Strategy among University Students in English Language Instruction",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Jurnal Intelek Insan Cendikia",
-    "issns": [
-      "3047-7824"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W7220035862",
-    "title": "PERIODE DAN FASE-FASE PENDIDIKAN ISLAM: ANALISIS KOMPREHENSIF DALAM PEMBENTUKAN KARAKTER INDIVIDU",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "JURNAL MULTIDISIPLIN ILMU AKADEMIK",
-    "issns": [
-      "3032-7377",
-      "3032-7385"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W7219987919",
-    "title": "PROGRAM SHARING SESSION KELOMPOK 16 BSI EXPLORE UNTUK ANAK ANAK SMAIT EL MUNA",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "JURNAL AKADEMIK PENGABDIAN MASYARAKAT",
-    "issns": [
-      "3030-8631",
-      "3030-864X"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4414878324",
-    "title": "Validity and Reliability of Physics Learning Devices Based on Guided Inquiry to Improve Students' Creative Thinking Skills",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "International Journal of Contextual Science Education",
-    "issns": [
-      "3046-8876"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4412101997",
-    "title": "Performance Of Land Office Employees In South Tangerang City: The Role Of Work Motivation, Work Discipline And Competence In Work Effectiveness",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Kontigensi Jurnal Ilmiah Manajemen",
-    "issns": [
-      "2088-4877",
-      "2528-0139"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4411475934",
-    "title": "The Effect of PjBL on Critical Thinking Skills of High School Students in Physics Learning on Topic of Static Fluid",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Jurnal Pendidikan Fisika dan Teknologi",
-    "issns": [
-      "2407-6902",
-      "2614-5618"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4413934055",
-    "title": "E-Customer Relationship Management on Satisfaction of Millenial Zakat Users in Lampung Province",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Equilibrium Jurnal Ekonomi Syariah",
-    "issns": [
-      "2355-0228",
-      "2502-8316"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4413933086",
-    "title": "Penerapan Model Problem Based Learning dengan Media Google Earth untuk Meningkat Hasil Belajar IPAS pada Siswa Kelas V SD",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Kalam Cendekia Jurnal Ilmiah Kependidikan",
-    "issns": [
-      "2338-9400",
-      "2808-2621"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4411377191",
-    "title": "Student Sentiment and Academic Achievement in Indonesian Language Learning",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "QALAMUNA Jurnal Pendidikan Sosial dan Agama",
-    "issns": [
-      "1907-6355",
-      "2656-9779"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4412066697",
-    "title": "Pendampingan Optimalisasi Teknik Tahsin Dalam Membaca Al-Qur’an Dengan Menggunakan Metode Yanbu’a di TPQ Hiyatullah Pule Ngimbang",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Jumat Keagamaan Jurnal Pengabdian Masyarakat",
-    "issns": [
-      "2774-7964"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4410064718",
-    "title": "Penerapan Model Project Based Learning (PjBL) dengan Media Konkret untuk Meningkatkan Motivasi dan Hasil Belajar Matematika Materi Bangun Ruang pada Siswa Kelas V",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Kalam Cendekia Jurnal Ilmiah Kependidikan",
-    "issns": [
-      "2338-9400",
-      "2808-2621"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4410064760",
-    "title": "Penerapan Model Pembelajaran Problem Based Learning (PBL) dengan Berbantuan Media Flashcard untuk Meningkatkan Keterampilan Sosial dan Hasil Belajar IPS Tentang Perkembangan Teknologi Pangan pada Kelas III",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Kalam Cendekia Jurnal Ilmiah Kependidikan",
-    "issns": [
-      "2338-9400",
-      "2808-2621"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4410264581",
-    "title": "Implementasi Model Group Investigation dengan Media Online dalam Pembelajaran IPAS untuk Menumbuhkan Kerja Sama dan Hasil Belajar",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Kalam Cendekia Jurnal Ilmiah Kependidikan",
-    "issns": [
-      "2338-9400",
-      "2808-2621"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4409743089",
-    "title": "Pengaruh Kualitas Pelayanan, Harga dan Lokasi Terhadap Kepuasan Pelanggan Bengkel UD. Jaya Utama Motor Mojokerto",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Miftah Jurnal Ekonomi dan Bisnis Islam",
-    "issns": [
-      "2986-982X"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4409810508",
-    "title": "Implementasi Pendekatan Pembelajaran Berdiferensiasi dengan Media Konkret untuk Meningkatkan Pembelajaran Matematika Siswa Kelas IV SD",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Kalam Cendekia Jurnal Ilmiah Kependidikan",
-    "issns": [
-      "2338-9400",
-      "2808-2621"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4415324777",
-    "title": "The Role of International Cooperation in the Enforcement of Anti-Terrorism Laws",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Pena Justisia Media Komunikasi dan Kajian Hukum",
-    "issns": [
-      "1412-6605",
-      "2301-6426"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4408955795",
-    "title": "Efektivitas Penggunaan Media Pembelajaran Interactive Learning Berbasis ICT pada Mata Pelajaran Fiqih Kelas VIII Madrasah Tsanawiyah",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "YASIN",
-    "issns": [
-      "2808-1854",
-      "2808-2346"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4409810439",
-    "title": "Penerapan Model Project Based Learning (PjBL) Berbantuan LKPD Berbasis STEAM untuk Meningkatkan Pembelajaran Bahasa Indonesia di Kelas III SD Negeri 1 Adikarso",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Kalam Cendekia Jurnal Ilmiah Kependidikan",
-    "issns": [
-      "2338-9400",
-      "2808-2621"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4407633078",
-    "title": "Implementasi Sistem Irigasi Otomatis Berbasis IoT untuk Pertanian Greenhouse",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Jurnal Pendidikan dan Teknologi Indonesia",
-    "issns": [
-      "2775-4219",
-      "2775-4227"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4407244747",
-    "title": "Implementasi Pembelajaran Seni Tari pada Kurikulum Merdeka Belajar di SMA Negeri 2 Mesuji Makmur",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "ALACRITY Journal of Education",
-    "issns": [
-      "2775-4138"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4407723033",
-    "title": "Safety Assessment for Geotourism in Ciletuh-Palabuhanratu UNESCO Global Geopark, West Java",
-    "reason": "unverified_author",
-    "staff": [],
+    "id": "https://openalex.org/W4293577124",
+    "title": "Parameters test on time migration with Kirchhoff method on 2D synthetic data with dipping event and its reflector structural changes",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
     "journal": "IOP Conference Series Earth and Environmental Science",
     "issns": [
       "1755-1315",
@@ -1749,334 +2204,104 @@
     ]
   },
   {
-    "id": "https://openalex.org/W4409385095",
-    "title": "Management of Islamic Boarding School Based Merdeka Belajar Curriculum",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "JIE (Journal of Islamic Education)",
+    "id": "https://openalex.org/W4293577139",
+    "title": "Identification of Seismic Response to Aquifer System with A Synthetic Modelling Approach",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
+    "journal": "IOP Conference Series Earth and Environmental Science",
     "issns": [
-      "2503-5363",
-      "2528-0465"
+      "1755-1315",
+      "1755-1307"
     ]
   },
   {
-    "id": "https://openalex.org/W4405978898",
-    "title": "Implementing a Hybrid Ethnoscience Project-Based Learning (E-PjBL) Model Integrated with Virtual Assistive Technology to Enhance Critical Thinking Performance of Science Teacher Candidates",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "International Journal of Ethnoscience and Technology in Education",
+    "id": "https://openalex.org/W4286516543",
+    "title": "Evaluation of GPM IMERG Products for Extreme Precipitation over Indonesia",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
+    "journal": "Journal of Physics Conference Series",
     "issns": [
-      "3046-6946"
+      "1742-6588",
+      "1742-6596"
     ]
   },
   {
-    "id": "https://openalex.org/W4407061626",
-    "title": "Pengaruh Dedak Padi Terfermentasi Menggunakan Fermentor Berbeda dalam Pakan Ikan Nila",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "JURNAL GALUNG TROPIKA",
+    "id": "https://openalex.org/W4323968803",
+    "title": "Magnetic Properties of Ancient Sediments Bengawan Solo, Central Java-East Java, Indonesia",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
+    "journal": "Trends in Sciences",
     "issns": [
-      "2302-4178",
-      "2407-6279"
+      "2774-0226"
     ]
   },
   {
-    "id": "https://openalex.org/W4412137879",
-    "title": "Pendampingan dan Penggunaan Media Suplay Study With Play Untuk Meningkatkan Motivasi Belajar Peserta Didik",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Jumat Pendidikan Jurnal Pengabdian Masyarakat",
+    "id": "https://openalex.org/W4214483182",
+    "title": "Evaluation of GPM IMERG Performance Using Gauge Data over Indonesian Maritime Continent at Different Time Scales",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
+    "journal": "Remote Sensing",
     "issns": [
-      "2774-7921"
+      "2072-4292"
     ]
   },
   {
-    "id": "https://openalex.org/W7203709992",
-    "title": "MENELISIK TAFSIR MODERASI BERAGAMA DALAM KALIGRAFI AYAT AL-QUR’AN DI MASJID KOTA PANGKALPINANG",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "CONS-IEDU",
+    "id": "https://openalex.org/W4213112609",
+    "title": "Modelling of Volcano Lawu Fault Structure Using Gravity Anomaly to Determine Landslides Potential",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
+    "journal": "IOP Conference Series Earth and Environmental Science",
     "issns": [
-      "2798-3218",
-      "2798-5040"
+      "1755-1315",
+      "1755-1307"
     ]
   },
   {
-    "id": "https://openalex.org/W4408859785",
-    "title": "Upaya Peningkatan Hasil Belajar Siswa Menggunakan Media Interaktif Diorama Fotosintesis Tumbuhan Pada Kelas IV SDN Mangkubumen Wetan No.63",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Social Humanities and Educational Studies (SHEs) Conference Series",
+    "id": "https://openalex.org/W4214561236",
+    "title": "Optical and Electrical Based Indoor Landslide Early Warning System Based on the Change of the Wall Crack Width",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
+    "journal": "IOP Conference Series Earth and Environmental Science",
     "issns": [
-      "2620-9284",
-      "2620-9292"
+      "1755-1315",
+      "1755-1307"
     ]
   },
   {
-    "id": "https://openalex.org/W4410906541",
-    "title": "Practice of Fasting and Dhikr in Developing Emotional Spiritual Quotient (ESQ)",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "DINAMIKA Jurnal Kajian Pendidikan dan Keislaman",
+    "id": "https://openalex.org/W4206327309",
+    "title": "Capability of GPM IMERG Products for Extreme Precipitation Analysis over the Indonesian Maritime Continent",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
+    "journal": "Remote Sensing",
     "issns": [
-      "2548-6896",
-      "2597-4858"
+      "2072-4292"
     ]
   },
   {
-    "id": "https://openalex.org/W4406045367",
-    "title": "DEVELOPMENT OF DIGITAL COMICS MEDIA BASED ON I-SPRING ON PANCASILA VALUES MATERIAL FOR GRADE IV SDN 2 KUTOANYAR, TULUNGAGUNG REGENCY",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "PIONIR JURNAL PENDIDIKAN",
-    "issns": [
-      "2339-2495",
-      "2549-6611"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4410215097",
-    "title": "Pengaruh Kompetensi, Motivasi dan Lingkungan Kerja terhadap Kinerja Ustaz dan Ustazah pada Dayah Misbahudh Dhulam Al-Aziziyah Pidie Jaya",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Singkite Journal",
-    "issns": [
-      "2964-9730"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4408879553",
-    "title": "Penerapan Pendekatan Realistic Mathematics Education (RME) dengan Media Flashcard untuk Meningkatkan Kemampuan Numerasi dan Hasil Belajar Pecahan pada Siswa Kelas III SD",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Kalam Cendekia Jurnal Ilmiah Kependidikan",
-    "issns": [
-      "2338-9400",
-      "2808-2621"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4408879604",
-    "title": "Penerapan Metode Games Based Learning dengan Media Interaktif untuk Meningkatkan Hasil Belajar IPAS tentang Indonesiaku Kaya Raya Kelas V SD",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Kalam Cendekia Jurnal Ilmiah Kependidikan",
-    "issns": [
-      "2338-9400",
-      "2808-2621"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4405123391",
-    "title": "Enhancing organizational citizenship behavior using transformational leadership: Role of quality of work life",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Edelweiss Applied Science and Technology",
-    "issns": [
-      "2576-8484"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4405387886",
-    "title": "Empirical investigation on sectoral inequality, gender empowerment, education, and income inequality in Indonesia: Dynamic panel approach",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Asian Development Policy Review",
-    "issns": [
-      "2313-8343",
-      "2518-2544"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4408879536",
-    "title": "Penerapan Model Problem Based Learning (PBL) dengan Media Konkret untuk Meningkatkan Pembelajar Matematika tentang Pecahan pada Peserta Didik Kelas II di SD Negeri 1 Gemeksekti Tahun Ajaran 2023/2024",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Kalam Cendekia Jurnal Ilmiah Kependidikan",
-    "issns": [
-      "2338-9400",
-      "2808-2621"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4409345331",
-    "title": "Instrumen Survei Kepuasan Mahasiswa Berbasis Kriteria Unggul Lamemba: Pengembangan Dan Validasi",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Jurnal Akuntansi dan Keuangan Daerah",
-    "issns": [
-      "1978-4848",
-      "2621-6787"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4404028626",
-    "title": "Speech performance in language teaching-learning: Culturally textual and non-textual landscapes of Toba Caldera Geosites",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Studies in English Language and Education",
-    "issns": [
-      "2355-2794",
-      "2461-0275"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4407003786",
-    "title": "The Effect of Halal Supplier Service Quality and Staff Preparedness to Embrace Halal Technology on Halal Logistics Performance",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Management Analysis Journal",
-    "issns": [
-      "2252-6552",
-      "2502-1451"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4407255240",
-    "title": "Experimental Study of Wave Run-Up and Overtopping for the Concrete Armour A-Jack on a Seawall Structure",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "International Journal on Engineering Applications (IREA)",
-    "issns": [
-      "2281-2881",
-      "2281-289X",
-      "2533-2295"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4402994017",
-    "title": "Hubungan Hasil Belajar Produk Kreatif dan Kewirausahaan (PKK) dengan Kesiapan Berwirausaha Siswa Teknik Pemesinan SMKS Dhuafa Padang",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "MASALIQ",
-    "issns": [
-      "2808-8115",
-      "2809-1051"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4405634370",
-    "title": "Edible and Poisonous Mushroom Classification using Convolution Neural Network (CNN)",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "International Seminar on Application for Technology of Information and Communication (iSemantic)",
-    "issns": []
-  },
-  {
-    "id": "https://openalex.org/W4408879697",
-    "title": "Penerapan Pendekatan Realistic Mathematics Education Untuk Meningkatkan Hasil Belajar Matematika Tentang Penyajian Data Pada Siswa Kelas V SDN Poncowarno Tahun Ajaran 2021/2022",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Kalam Cendekia Jurnal Ilmiah Kependidikan",
-    "issns": [
-      "2338-9400",
-      "2808-2621"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4414184689",
-    "title": "Pengembangan Multimedia Berbasis Animasi Adobe After Effects pada Materi Sistem Pernapasan Manusia Kelas 5 Sekolah Dasar",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Pendekar Jurnal Pendidikan Berkarakter",
-    "issns": [
-      "2615-1421"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4404894530",
-    "title": "The Diversity of Oil Palm Weeds Results in The People's Oil Palm Plantations in Kuantan Singingi Regency",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "JURNAL AGRONOMI TANAMAN TROPIKA (JUATIKA)",
-    "issns": [
-      "2656-1727",
-      "2684-785X"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4406844601",
-    "title": "Assessing Prospective Physics Teachers' Inquiry Skills in Post-Pandemic: Rasch Analysis",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Jurnal Pendidikan IPA Indonesia",
-    "issns": [
-      "2089-4392",
-      "2339-1286"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4401651645",
-    "title": "Produktivitas Pengelolaan Tanah Wakaf Di Desa Munggu Kecamatan Bungkal Kabupaten Ponorogo Perspektif Hukum Wakaf Di Indonesia",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Journal of Sharia Economic Law",
-    "issns": [
-      "2987-095X"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W7218807562",
-    "title": "Survey dan Checklist Kesiapan Pasar Ber-SNI untuk Pasar Rakyat di Kota Pontianak (Bersama Dinas Koperasi, Usaha Mikro dan Perdagangan Kota Pontianak): Survey Pasar Ber-SNI",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Kapuas",
-    "issns": [
-      "2774-4736"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4409718313",
-    "title": "AGRESI RUSIA TERHADAP UKRAINA DIKECAM SEBAGAI PELANGGARAN BERAT HAK ASASI MANUSIA",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Jurnal Res Justitia Jurnal Ilmu Hukum",
-    "issns": [
-      "2774-8138",
-      "2774-8146"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4403930392",
-    "title": "Analysis of Creativity and Critical Thinking Skills Through Project-Based Learning of Smart Solar Panel System",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Journal of Instructional and Development Researches",
-    "issns": [
-      "2807-5471",
-      "2807-548X"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4400288495",
-    "title": "The Effect of the Guided Inquiry Model Assisted by PhET Media on Students’ Critical Thinking Skills",
-    "reason": "unverified_author",
-    "staff": [],
+    "id": "https://openalex.org/W4206663869",
+    "title": "Ground Validation of GPM IMERG-F Precipitation Products with the Point Rain Gauge Records on the Extreme Rainfall Over a Mountainous Area of Sumatra Island",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
     "journal": "Jurnal Penelitian Pendidikan IPA",
     "issns": [
       "2407-795X",
       "2460-2582"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4400430119",
-    "title": "Development of Interactive Powerpoint Media in Science Learning to Improve Primary Students Critical Thinking Ability",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "JURNAL PENDIDIKAN IPS",
-    "issns": [
-      "2088-0308",
-      "2685-0141"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4400609671",
-    "title": "Penerapan Bahan Ajar Model Project Based Learning untuk Meningkatkan Keterampilan Generik Sains Peserta Didik",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Empiricism Journal",
-    "issns": [
-      "2745-7613"
     ]
   },
   {
@@ -2091,298 +2316,16 @@
     ]
   },
   {
-    "id": "https://openalex.org/W4402255300",
-    "title": "Improving teacher competence in designing minimum competency assessment tasks",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "TRANSFORMASI Jurnal Pengabdian Masyarakat",
+    "id": "https://openalex.org/W4379055790",
+    "title": "The coulomb stress changes for correlation analysis of tectonic earthquake activity and volcanic of the 2001–2010 Merapi eruption based on focal mechanism data",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Wahyudi"
+    ],
+    "journal": "Kuwait Journal of Science",
     "issns": [
-      "1858-3571",
-      "2580-9628"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4409542802",
-    "title": "Analisis Perspektif Masyarakat Terhadap Kualitas Pelayanan PDAM Tirta Mayang Kota Jambi",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Jurnal Administrasi Publik dan Pembangunan",
-    "issns": [
-      "2655-3856",
-      "2775-0590"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4401962454",
-    "title": "Analisis Manajemen Risiko Pembiayaan Pada Pegadaian Syariah (Studi pada Pegadaian Syariah Cabang Jelutung Kota Jambi)",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "ILTIZAM Journal of Sharia Economic Research",
-    "issns": [
-      "2598-2222",
-      "2598-2540"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4400515490",
-    "title": "Impact of Mass Flow Rate on Thermal Behavior of PCM-Based SWH during Charging Operations",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "JMPM (Jurnal Material dan Proses Manufaktur)",
-    "issns": [
-      "2580-3271",
-      "2656-5897"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4401496394",
-    "title": "Strategi Corporate Social Responsibility dan Modal Intelektual: Pengaruhnya terhadap Nilai Perusahaan dan Kinerja Keuangan",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "KINERJA Jurnal Manajemen Organisasi dan Industri",
-    "issns": [
-      "2964-4372"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4401430654",
-    "title": "Application of ROC Criteria Prioritization Technique in Employee Performance Appraisal Evaluation",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Jurnal Galaksi",
-    "issns": [
-      "3048-2399",
-      "3089-2341"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4406895242",
-    "title": "Peningkatan Hasil Belajar Matematika Materi Luas Daerah Bangun Datar Melalui Model Problem Based Learning dengan Media Konkret pada Siswa Kelas V SD Negeri Kedungagung Tahun Ajaran 2023/2024",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Kalam Cendekia Jurnal Ilmiah Kependidikan",
-    "issns": [
-      "2338-9400",
-      "2808-2621"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W7219443917",
-    "title": "METODE PEMBELAJARAN GROUP INVESTIGATION DALAM PEMBELAJARAN PENDIDIKAN AGAMA ISLAM",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Community Development Journal Jurnal Pengabdian Masyarakat",
-    "issns": [
-      "2721-4990",
-      "2721-5008"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4406374353",
-    "title": "Community Asset Empowerment In Vietnam: Stakeholder Engagement, Networking And Partnerships",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "International Journal of Community Engagement and Development",
-    "issns": [
-      "3031-9749",
-      "3031-9765"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4396659050",
-    "title": "Pengembangan Desain Produk E-LKM Berbasis Problem Solving untuk Pemecahan Masalah dan Miskonsepsi IPA SD pada Mahasiswa PGSD",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "PTK Jurnal Tindakan Kelas",
-    "issns": [
-      "2747-1969",
-      "2747-1977"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4406895236",
-    "title": "Penerapan Model Pembelajaran Problem Based Learning dengan Media Konkret untuk Meningkatkan Pembelajaran Matematika tentang Bangun Ruang pada Siswa Kelas V di SD Negeri Sitibentar Tahun Ajaran 2022/2023",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Kalam Cendekia Jurnal Ilmiah Kependidikan",
-    "issns": [
-      "2338-9400",
-      "2808-2621"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4406895259",
-    "title": "Penerapan Model Problem Based Learning dengan Media Konkret untuk Meningkatkan Pembelajaran Matematika tentang Pecahan Pada Siswa Kelas III SD Negeri 4 Pandansari Tahun Ajaran 2022/ 2023",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Kalam Cendekia Jurnal Ilmiah Kependidikan",
-    "issns": [
-      "2338-9400",
-      "2808-2621"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4406895256",
-    "title": "Analisis Kesalahan Siswa pada Tes Kemampuan Dasar Matematika Siswa Kelas III SD Negeri 1 Kedawung Tahun Ajaran 2019/2020",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Kalam Cendekia Jurnal Ilmiah Kependidikan",
-    "issns": [
-      "2338-9400",
-      "2808-2621"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4401867547",
-    "title": "Konstelasi Tingkat Pengetahuan Dan Risiko Terkena Penyakit Tidak Menular (PTM) Pada Kalangan Remaja (Studi pada Siswa SMA Muhammadiyah Purbalingga)",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "JURNAL KEPERAWATAN MERSI",
-    "issns": [
-      "1979-7753",
-      "2746-6000"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4409570381",
-    "title": "Strategi Guru Fiqih Untuk Meningkatkan Hasil Belajar Siswa dengan Metode True Or False di MA Bahrul ‘Ulum Tambakberas Jombang",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Akhlaqul Karimah Jurnal Pendidikan Agama Islam",
-    "issns": [
-      "2828-058X"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4408477117",
-    "title": "Penerapan Teknologi Tepat Guna Berbasis Energi Surya untuk Pengolahan Hasil Pertanian Menjadi Berbagai Produk Industri Rumah Tangga",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Jurnal Sipakatau Inovasi Pengabdian Masyarakat",
-    "issns": [
-      "3031-5905",
-      "3031-5972"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4395462481",
-    "title": "KNOWLEDGE SHARING DALAM BUDIDAYA KOPI: STUDI KASUS PROGRAM PENINGKATAN KAPASITAS PETANI LMDH WANA ASRI, KABUPATEN KEBUMEN",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Kumawula Jurnal Pengabdian Kepada Masyarakat",
-    "issns": [
-      "2620-844X"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4396627269",
-    "title": "Penerapan Model Problem Based Learning dengan Bantuan Media Konkret untuk Meningkatkan Hasil Belajar Matematika tentang Volume Bangun Ruang pada Siswa Kelas V SD Negeri Sruwohdukuh Tahun Ajaran 2022/2023",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Kalam Cendekia Jurnal Ilmiah Kependidikan",
-    "issns": [
-      "2338-9400",
-      "2808-2621"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4393391542",
-    "title": "Penerapan Metode Brainstorming dalam Meningkatkan Pemahaman Peserta Didik pada Mata Pelajaran Fiqih di Madrasah Aliyah Al-I'dadiyyah Bahrul Ulum Tambakberas Jombang",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "ISLAMIKA",
-    "issns": [
-      "2656-0224",
-      "2656-5382"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4396627922",
-    "title": "Penerapan Model Problem Based Learning untuk Meningkatkan Keterampilan Proses dan Hasil Belajar IPA Materi Perubahan Wujud Benda pada Siswa",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Kalam Cendekia Jurnal Ilmiah Kependidikan",
-    "issns": [
-      "2338-9400",
-      "2808-2621"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4406211765",
-    "title": "PELATIHAN AKUNTANSI BERBASIS KOMPUTER MENGGUNAKAN PROGRAM ACURATE DALAM UPAYA MENINGKATKAN KOMPETENSI SISWA SMK JURUSAN AKUNTANSI DI KOTA PONTIANAK DALAM MEMASUKI PASAR TENAGA KERJA DI ERA REVOLUSI INDUSTRI 4.0.",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Prosiding Seminar Hasil Penelitian dan Pengabdian Kepada Masyarakat",
-    "issns": [
-      "2615-0255",
-      "2963-2110"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4391260159",
-    "title": "IMPLEMENTASI TEAMS GAMES TOURNAMENT UNTUK MENINGKATKAN KETERAMPILAN KOLABORASI SISWA KELAS SEKOLAH DASAR",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Scholaria Jurnal Pendidikan dan Kebudayaan",
-    "issns": [
-      "2088-3439",
-      "2549-9653"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4393076819",
-    "title": "Current ratio, return on assets and company size to capital structure in manufacturing companies in the food and beverage subsector",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "International Journal of Applied Finance and Business Studies",
-    "issns": [
-      "2338-3631",
-      "2809-9982"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4396628306",
-    "title": "Analisis Kesalahan Siswa dalam Menyelesaikan Soal Cerita Materi Bangun Ruag di Kelas V SD Negeri Bonosari Tahun Ajaran 2020/2021",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Kalam Cendekia Jurnal Ilmiah Kependidikan",
-    "issns": [
-      "2338-9400",
-      "2808-2621"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4394002550",
-    "title": "Is science concept can analyze by study ethnoscience? Study bibliometric and analysis",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "AIP conference proceedings",
-    "issns": [
-      "0094-243X",
-      "1551-7616",
-      "1935-0465"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4392732156",
-    "title": "KESEIMBANGAN KERJA: Kepuasan Dosen dalam Kaitannya dengan Faktor-Faktor Kerja",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "SCIENTIFIC JOURNAL OF REFLECTION Economic Accounting Management and Business",
-    "issns": [
-      "2615-3009",
-      "2621-3389"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4390475694",
-    "title": "Makna Qoryah dalam Al-Quran dan Kaitannya dengan Lingkungan Pendidikan Islam (Analisis Semantik Karya Toshihiku Izutsu)",
-    "reason": "unverified_author",
-    "staff": [],
-    "journal": "Al-Muhith Jurnal Ilmu Qur an dan Hadits",
-    "issns": [
-      "2963-4016",
-      "2963-4024"
+      "2307-4108",
+      "2307-4116"
     ]
   },
   {
@@ -2450,5 +2393,70 @@
     ],
     "journal": "International Conference & Exhibition on Mass Mining (MassMin)",
     "issns": []
+  },
+  {
+    "id": "https://openalex.org/W4387346698",
+    "title": "Cianjur M5.6 Earthquake Aftershock Survey (CEAS) Using ITB Temporary Seismographs",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Adam Sukma Putra"
+    ],
+    "journal": "IOP Conference Series Earth and Environmental Science",
+    "issns": [
+      "1755-1315",
+      "1755-1307"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4386970357",
+    "title": "A Preliminary Tomography Inversion Study on the Palu Koro Fault, Central Sulawesi Using BMKG Seismic Network",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Adam Sukma Putra"
+    ],
+    "journal": "IOP Conference Series Earth and Environmental Science",
+    "issns": [
+      "1755-1315",
+      "1755-1307"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4379053080",
+    "title": "Heavy Metals in Surface Sediments of the Coastal Area Around Daerah Istimewa Yogyakarta, Indonesia: Their Relations to Land-Use Types",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Adam Sukma Putra"
+    ],
+    "journal": "Iraqi Geological Journal",
+    "issns": [
+      "2414-6064",
+      "2663-8754"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4281810711",
+    "title": "Geochemical Characteristics and Evaluation of the Groundwater and Surface Water in Limestone Mining Area around Gunungkidul Regency, Indonesia",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Adam Sukma Putra"
+    ],
+    "journal": "Iraqi Geological Journal",
+    "issns": [
+      "2414-6064",
+      "2663-8754"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4214727025",
+    "title": "Assessment of Heavy Metal Concentrations in Seawater in the Coastal Areas around Daerah Istimewa Yogyakarta Province, Indonesia",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Adam Sukma Putra"
+    ],
+    "journal": "Iraqi Geological Journal",
+    "issns": [
+      "2414-6064",
+      "2663-8754"
+    ]
   }
 ]

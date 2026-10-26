@@ -5,6 +5,8 @@
     "openalex_ids": [
       "A5110014250"
     ],
+    "staff_type": "Staf pendidik",
+    "identity_status": "verified",
     "displayed_publications": 3
   },
   {
@@ -13,6 +15,8 @@
     "openalex_ids": [
       "A5087300966"
     ],
+    "staff_type": "Staf pendidik",
+    "identity_status": "verified",
     "displayed_publications": 0
   },
   {
@@ -21,6 +25,8 @@
     "openalex_ids": [
       "A5090634720"
     ],
+    "staff_type": "Staf pendidik",
+    "identity_status": "verified",
     "displayed_publications": 1
   },
   {
@@ -29,7 +35,9 @@
     "openalex_ids": [
       "A5035541994"
     ],
-    "displayed_publications": 1
+    "staff_type": "Staf pendidik",
+    "identity_status": "verified",
+    "displayed_publications": 2
   },
   {
     "name": "Herlan Darmawan",
@@ -37,6 +45,8 @@
     "openalex_ids": [
       "A5072642154"
     ],
+    "staff_type": "Staf pendidik",
+    "identity_status": "verified",
     "displayed_publications": 3
   },
   {
@@ -45,6 +55,8 @@
     "openalex_ids": [
       "A5045525159"
     ],
+    "staff_type": "Staf pendidik",
+    "identity_status": "verified",
     "displayed_publications": 0
   },
   {
@@ -53,6 +65,8 @@
     "openalex_ids": [
       "A5110560884"
     ],
+    "staff_type": "Staf pendidik",
+    "identity_status": "verified",
     "displayed_publications": 3
   },
   {
@@ -61,6 +75,8 @@
     "openalex_ids": [
       "A5073043046"
     ],
+    "staff_type": "Staf pendidik",
+    "identity_status": "verified",
     "displayed_publications": 2
   },
   {
@@ -69,6 +85,8 @@
     "openalex_ids": [
       "A5029715300"
     ],
+    "staff_type": "Staf pendidik",
+    "identity_status": "verified",
     "displayed_publications": 0
   },
   {
@@ -77,17 +95,28 @@
     "openalex_ids": [
       "A5006250016",
       "A5101439554",
-      "A5152604764"
+      "A5152604764",
+      "A5132574591",
+      "A5133032697",
+      "A5118812544",
+      "A5152216326",
+      "A5143882452"
     ],
-    "displayed_publications": 3
+    "staff_type": "Staf pendidik",
+    "identity_status": "verified",
+    "displayed_publications": 4
   },
   {
     "name": "Sudarmaji",
     "status": "Aktif",
     "openalex_ids": [
       "A5107535312",
-      "A5020700447"
+      "A5020700447",
+      "A5103268774",
+      "A5099439979"
     ],
+    "staff_type": "Staf pendidik",
+    "identity_status": "verified",
     "displayed_publications": 1
   },
   {
@@ -96,6 +125,8 @@
     "openalex_ids": [
       "A5023347694"
     ],
+    "staff_type": "Staf pendidik",
+    "identity_status": "verified",
     "displayed_publications": 0
   },
   {
@@ -104,6 +135,8 @@
     "openalex_ids": [
       "A5032253920"
     ],
+    "staff_type": "Staf pendidik",
+    "identity_status": "verified",
     "displayed_publications": 0
   },
   {
@@ -112,6 +145,8 @@
     "openalex_ids": [
       "A5040351015"
     ],
+    "staff_type": "Staf pendidik",
+    "identity_status": "verified",
     "displayed_publications": 3
   },
   {
@@ -121,6 +156,8 @@
       "A5114821353",
       "A5100675514"
     ],
+    "staff_type": "Staf pendidik",
+    "identity_status": "verified",
     "displayed_publications": 0
   },
   {
@@ -129,6 +166,8 @@
     "openalex_ids": [
       "A5009267658"
     ],
+    "staff_type": "Staf pendidik",
+    "identity_status": "verified",
     "displayed_publications": 0
   },
   {
@@ -137,6 +176,62 @@
     "openalex_ids": [
       "A5063139860"
     ],
+    "staff_type": "Staf pendidik",
+    "identity_status": "verified",
+    "displayed_publications": 0
+  },
+  {
+    "name": "Catur Jaka Priyana",
+    "status": "Aktif",
+    "openalex_ids": [],
+    "staff_type": "Tenaga kependidikan",
+    "identity_status": "pending",
+    "displayed_publications": 0
+  },
+  {
+    "name": "Supriyanta",
+    "status": "Aktif",
+    "openalex_ids": [],
+    "staff_type": "Tenaga kependidikan",
+    "identity_status": "pending",
+    "displayed_publications": 0
+  },
+  {
+    "name": "Yan Hendra Kurniawan",
+    "status": "Aktif",
+    "openalex_ids": [],
+    "staff_type": "Tenaga kependidikan",
+    "identity_status": "pending",
+    "displayed_publications": 0
+  },
+  {
+    "name": "Budiarjo",
+    "status": "Aktif",
+    "openalex_ids": [
+      "A5062722160",
+      "A5045858822",
+      "A5097132415"
+    ],
+    "staff_type": "Tenaga kependidikan",
+    "identity_status": "verified",
+    "displayed_publications": 0
+  },
+  {
+    "name": "Nindy Husnul Majid",
+    "status": "Aktif",
+    "openalex_ids": [],
+    "staff_type": "Tenaga kependidikan",
+    "identity_status": "pending",
+    "displayed_publications": 0
+  },
+  {
+    "name": "Pamungkas Yuliantoro",
+    "status": "Aktif",
+    "openalex_ids": [
+      "A5031958328"
+    ],
+    "staff_type": "Tenaga kependidikan",
+    "identity_status": "verified",
     "displayed_publications": 0
   }
 ]

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "as_of": "2026-10-26",
-  "start_year": 2024,
+  "start_year": 2022,
   "mode": "live_fetch",
   "authors": [
     {
@@ -10,7 +10,8 @@
       "profile": "https://acadstaff.ugm.ac.id/anggraini",
       "verified": true,
       "verification": "Exact name, UGM affiliation and geophysics works in research/*-authors.json; pilot identity mapping, not a completeness claim.",
-      "status": "Aktif"
+      "status": "Aktif",
+      "staff_type": "Staf pendidik"
     },
     {
       "name": "Afif Rakhman",
@@ -21,7 +22,8 @@
       "openalex_ids": [
         "A5087300966"
       ],
-      "openalex_id": "A5087300966"
+      "openalex_id": "A5087300966",
+      "staff_type": "Staf pendidik"
     },
     {
       "name": "Budi Eka Nurcahya",
@@ -32,7 +34,8 @@
       "openalex_ids": [
         "A5090634720"
       ],
-      "openalex_id": "A5090634720"
+      "openalex_id": "A5090634720",
+      "staff_type": "Staf pendidik"
     },
     {
       "name": "Eddy Hartantyo",
@@ -40,7 +43,8 @@
       "profile": "https://acadstaff.ugm.ac.id/hartantyo",
       "verified": true,
       "verification": "Exact full name and Universitas Gadjah Mada affiliation; research/Eddy-Hartantyo-authors.json. Primary UGM staff directory confirms staff name.",
-      "status": "Aktif"
+      "status": "Aktif",
+      "staff_type": "Staf pendidik"
     },
     {
       "name": "Herlan Darmawan",
@@ -48,7 +52,8 @@
       "profile": "https://acadstaff.ugm.ac.id/Herlan",
       "verified": true,
       "verification": "Exact name, UGM affiliation and geophysics works in research/*-authors.json; pilot identity mapping, not a completeness claim.",
-      "status": "Aktif"
+      "status": "Aktif",
+      "staff_type": "Staf pendidik"
     },
     {
       "name": "Imam Suyanto",
@@ -59,7 +64,8 @@
       "openalex_ids": [
         "A5045525159"
       ],
-      "openalex_id": "A5045525159"
+      "openalex_id": "A5045525159",
+      "staff_type": "Staf pendidik"
     },
     {
       "name": "Mochamad Nukman",
@@ -67,7 +73,8 @@
       "profile": "https://acadstaff.ugm.ac.id/nukman",
       "verified": true,
       "verification": "Exact full name and Universitas Gadjah Mada affiliation; research/Mochamad-Nukman-authors.json. Primary UGM staff directory confirms staff name.",
-      "status": "Aktif"
+      "status": "Aktif",
+      "staff_type": "Staf pendidik"
     },
     {
       "name": "Shidiq Nur Hidayat",
@@ -75,7 +82,8 @@
       "profile": "https://acadstaff.ugm.ac.id/snhidayat",
       "verified": true,
       "verification": "Exact full name and Universitas Gadjah Mada affiliation; research/Shidiq-Nur-Hidayat-authors.json. Primary UGM staff directory confirms staff name.",
-      "status": "Aktif"
+      "status": "Aktif",
+      "staff_type": "Staf pendidik"
     },
     {
       "name": "Sintia Windhi Niasari",
@@ -83,34 +91,55 @@
       "profile": "https://acadstaff.ugm.ac.id/sintiawindhi",
       "verified": true,
       "verification": "Exact full name and Universitas Gadjah Mada affiliation; research/Sintia-Windhi-Niasari-authors.json. Primary UGM staff directory confirms staff name.",
-      "status": "Aktif"
+      "status": "Aktif",
+      "staff_type": "Staf pendidik"
     },
     {
       "name": "Sismanto",
       "profile": "https://acadstaff.ugm.ac.id/sismanto",
       "verified": true,
-      "verification": "Teaching staff directory name and exact author identity corroborated by UGM affiliation or geophysics publication subjects/coauthors; saved research author/identity-works files.",
+      "verification": "Teaching staff directory name and exact author identity corroborated by UGM affiliation or geophysics publication subjects/coauthors; saved research author/identity-works files. Additional split profiles reviewed against per-paper UGM geophysics affiliations; retain UGM institution guard. Display recognized mononym variants as Sismanto.",
       "status": "Aktif",
       "openalex_ids": [
         "A5006250016",
         "A5101439554",
-        "A5152604764"
+        "A5152604764",
+        "A5132574591",
+        "A5133032697",
+        "A5118812544",
+        "A5152216326",
+        "A5143882452"
       ],
       "openalex_id": "A5006250016",
-      "required_institution_id": "I165230279"
+      "required_institution_id": "I165230279",
+      "staff_type": "Staf pendidik",
+      "name_aliases": [
+        "Sismanto",
+        "Sismanto Sismanto",
+        "S. Sismanto"
+      ]
     },
     {
       "name": "Sudarmaji",
       "profile": "https://acadstaff.ugm.ac.id/sudarmaji",
       "verified": true,
-      "verification": "Teaching staff directory name and exact author identity corroborated by UGM affiliation or geophysics publication subjects/coauthors; saved research author/identity-works files.",
+      "verification": "Teaching staff directory name and exact author identity corroborated by UGM affiliation or geophysics publication subjects/coauthors; saved research author/identity-works files. Sudarmaji Saroji variants confirmed by UGM-affiliated geophysics publications and official publisher author page; retain per-paper UGM institution guard.",
       "status": "Aktif",
       "openalex_ids": [
         "A5107535312",
-        "A5020700447"
+        "A5020700447",
+        "A5103268774",
+        "A5099439979"
       ],
       "openalex_id": "A5107535312",
-      "required_institution_id": "I165230279"
+      "required_institution_id": "I165230279",
+      "staff_type": "Staf pendidik",
+      "name_aliases": [
+        "Sudarmaji",
+        "Sudarmaji Sudarmaji",
+        "Sudarmaji Saroji",
+        "Saroji, Sudarmaji"
+      ]
     },
     {
       "name": "Theodorus Permana",
@@ -121,7 +150,8 @@
       "openalex_ids": [
         "A5023347694"
       ],
-      "openalex_id": "A5023347694"
+      "openalex_id": "A5023347694",
+      "staff_type": "Staf pendidik"
     },
     {
       "name": "Theodosius Marwan Irnaka",
@@ -129,7 +159,8 @@
       "profile": "https://acadstaff.ugm.ac.id/irnaka",
       "verified": true,
       "verification": "Exact full name and Universitas Gadjah Mada affiliation; research/Theodosius-Marwan-Irnaka-authors.json. Primary UGM staff directory confirms staff name.",
-      "status": "Aktif"
+      "status": "Aktif",
+      "staff_type": "Staf pendidik"
     },
     {
       "name": "Wiwit Suryanto",
@@ -137,7 +168,8 @@
       "profile": "https://acadstaff.ugm.ac.id/wiwit",
       "verified": true,
       "verification": "Exact name, UGM affiliation and geophysics works in research/*-authors.json; pilot identity mapping, not a completeness claim.",
-      "status": "Aktif"
+      "status": "Aktif",
+      "staff_type": "Staf pendidik"
     },
     {
       "name": "Wahyudi",
@@ -150,7 +182,8 @@
         "A5100675514"
       ],
       "openalex_id": "A5114821353",
-      "required_institution_id": "I165230279"
+      "required_institution_id": "I165230279",
+      "staff_type": "Staf pendidik"
     },
     {
       "name": "Adam Sukma Putra",
@@ -161,7 +194,8 @@
       "openalex_ids": [
         "A5009267658"
       ],
-      "openalex_id": "A5009267658"
+      "openalex_id": "A5009267658",
+      "staff_type": "Staf pendidik"
     },
     {
       "name": "Anang Sahroni",
@@ -172,10 +206,129 @@
       "openalex_ids": [
         "A5063139860"
       ],
-      "openalex_id": "A5063139860"
+      "openalex_id": "A5063139860",
+      "staff_type": "Staf pendidik"
+    },
+    {
+      "name": "Catur Jaka Priyana",
+      "staff_type": "Tenaga kependidikan",
+      "status": "Aktif",
+      "profile": "",
+      "openalex_ids": [],
+      "verified": false,
+      "verification": "Roster confirmed; no unambiguous OpenAlex publication identity found. Do not attach namesakes.",
+      "identity_status": "pending"
+    },
+    {
+      "name": "Supriyanta",
+      "staff_type": "Tenaga kependidikan",
+      "status": "Aktif",
+      "profile": "",
+      "openalex_ids": [],
+      "verified": false,
+      "verification": "Roster confirmed; no unambiguous OpenAlex publication identity found. Do not attach namesakes.",
+      "identity_status": "pending"
+    },
+    {
+      "name": "Yan Hendra Kurniawan",
+      "staff_type": "Tenaga kependidikan",
+      "status": "Aktif",
+      "profile": "",
+      "openalex_ids": [],
+      "verified": false,
+      "verification": "Roster confirmed; no unambiguous OpenAlex publication identity found. Do not attach namesakes.",
+      "identity_status": "pending"
+    },
+    {
+      "name": "Budiarjo",
+      "staff_type": "Tenaga kependidikan",
+      "status": "Aktif",
+      "profile": "https://acadstaff.ugm.ac.id/Budiarjo",
+      "openalex_ids": [
+        "A5062722160",
+        "A5045858822",
+        "A5097132415"
+      ],
+      "verified": true,
+      "verification": "UGM FMIPA profile lists groundwater thesis and geophysics research; matching JFI DOI 10.22146/jfi.v23i1.42997 and IMU paper with Wiwit Suryanto/Eddy Hartantyo. Mixed-name profiles require UGM affiliation on each authorship.",
+      "identity_status": "verified",
+      "openalex_id": "A5062722160",
+      "required_institution_id": "I165230279"
+    },
+    {
+      "name": "Nindy Husnul Majid",
+      "staff_type": "Tenaga kependidikan",
+      "status": "Aktif",
+      "profile": "",
+      "openalex_ids": [],
+      "verified": false,
+      "verification": "Roster confirmed; no unambiguous OpenAlex publication identity found. Do not attach namesakes.",
+      "identity_status": "pending"
+    },
+    {
+      "name": "Pamungkas Yuliantoro",
+      "staff_type": "Tenaga kependidikan",
+      "status": "Aktif",
+      "profile": "",
+      "openalex_ids": [
+        "A5031958328"
+      ],
+      "verified": true,
+      "verification": "Exact full name, UGM Geophysics Laboratory affiliations and coauthors Herlan Darmawan, Wiwit Suryanto, Afif Rakhman and Eddy Hartantyo; saved A5031958328 identity works.",
+      "identity_status": "verified",
+      "openalex_id": "A5031958328",
+      "required_institution_id": "I165230279"
     }
   ],
   "publications": [
+    {
+      "id": "https://openalex.org/W7213672666",
+      "title": "Space Weather-Induced Charging in The Garuda-1 Satellite Power Failure",
+      "publication_date": "2026-09-17",
+      "journal": "Science & Technology Indonesia",
+      "all_authors": [
+        "La Ode Muhammad Musafar Kilowasid",
+        "Sismanto",
+        "Nizam Ahmad",
+        "Muhammad Farchani Rosyid",
+        "Neflia",
+        "Elyyani",
+        "Dian Yudha Risdianto",
+        "Silmie Vidiya Fani",
+        "Erlansyah",
+        "Suraina",
+        "Djohar Syamsi",
+        "Moh Andi Aris Biyantoro",
+        "Angga Yolanda Putra",
+        "Elvina Ayu Ratnasari",
+        "Visca Wellyanita",
+        "Setyanto Cahyo Pranoto"
+      ],
+      "staff": [
+        "Sismanto"
+      ],
+      "staff_author_names": [
+        "Sismanto"
+      ],
+      "biblio": {
+        "volume": "11",
+        "issue": "4",
+        "first_page": "1705",
+        "last_page": "1714"
+      },
+      "url": "https://doi.org/10.26554/sti.2026.11.4.1705-1714",
+      "doi": "https://doi.org/10.26554/sti.2026.11.4.1705-1714",
+      "rankings": [
+        {
+          "label": "Sinta 1",
+          "system": "Sinta accreditation",
+          "year": 2026,
+          "evidence_year": 2025,
+          "assumed": true,
+          "evidence_url": "https://repository.karyailmiah.trisakti.ac.id/documents/repository/artikel_cahaya-rosyidan-dokumen-sti-baru.pdf"
+        }
+      ]
+    },
     {
       "id": "https://openalex.org/W7213667059",
       "title": "Equatorial Electrodynamic Disturbances During the May and October 2024 Extreme Geomagnetic Storms: Implications for HF Communication and Geomagnetically Induced Current Risks in Indonesia",
@@ -183,7 +336,7 @@
       "journal": "Science & Technology Indonesia",
       "all_authors": [
         "Anwar Santoso",
-        "Sismanto Sismanto",
+        "Sismanto",
         "Eddy Hartantyo",
         "Rhorom Priyatikanto",
         "Nizam Ahmad",
@@ -204,7 +357,7 @@
       ],
       "staff_author_names": [
         "Eddy Hartantyo",
-        "Sismanto Sismanto"
+        "Sismanto"
       ],
       "biblio": {
         "volume": "11",
@@ -231,7 +384,7 @@
       "publication_date": "2026-09-10",
       "journal": "Journal of Applied Geophysics",
       "all_authors": [
-        "Sismanto Sismanto",
+        "Sismanto",
         "Budi Eka Nurcahya",
         "Sorja Koesuma",
         "Ahmad F. Pohan",
@@ -552,13 +705,13 @@
         "Luthfiya Ratna Sari",
         "Suci Dayanti Natali",
         "Satriya Bayu Aji",
-        "Sismanto Sismanto"
+        "Sismanto"
       ],
       "staff": [
         "Sismanto"
       ],
       "staff_author_names": [
-        "Sismanto Sismanto"
+        "Sismanto"
       ],
       "biblio": {
         "volume": "9",
@@ -672,7 +825,7 @@
         "Mochamad Nukman",
         "Kurnia Setiawan Widana",
         "Agung Harijoko",
-        "Sismanto Sismanto"
+        "Sismanto"
       ],
       "staff": [
         "Mochamad Nukman",
@@ -680,7 +833,7 @@
       ],
       "staff_author_names": [
         "Mochamad Nukman",
-        "Sismanto Sismanto"
+        "Sismanto"
       ],
       "biblio": {
         "volume": "5",
@@ -825,6 +978,41 @@
           "evidence_year": 2024,
           "assumed": false,
           "evidence_url": "https://kniznica.umb.sk/app/cmsFile.php?ID=21739&disposition=i"
+        }
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4303980704",
+      "title": "The Effect of Weathered Layer Thickness and Slope on Potential Areas of Landslides in Gerbosari Village, Samigaluh District, Kulonprogo Regency, Indonesia",
+      "publication_date": "2022-09-28",
+      "journal": "Journal of Geoscience Engineering Environment and Technology",
+      "all_authors": [
+        "Novia Nurul Khayati",
+        "Sudarmaji",
+        "Eddy Hartantyo"
+      ],
+      "staff": [
+        "Eddy Hartantyo"
+      ],
+      "staff_author_names": [
+        "Eddy Hartantyo"
+      ],
+      "biblio": {
+        "volume": "7",
+        "issue": "3",
+        "first_page": "124",
+        "last_page": "131"
+      },
+      "url": "https://doi.org/10.25299/jgeet.2022.7.3.9161",
+      "doi": "https://doi.org/10.25299/jgeet.2022.7.3.9161",
+      "rankings": [
+        {
+          "label": "Sinta 2",
+          "system": "Sinta accreditation",
+          "year": 2022,
+          "evidence_year": 2022,
+          "assumed": false,
+          "evidence_url": "https://journal.uir.ac.id/index.php/JGEET/Accreditation"
         }
       ]
     }
