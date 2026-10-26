@@ -1,0 +1,41 @@
+[
+  {
+    "doi": "https://doi.org/10.5194/egusphere-egu24-7943",
+    "verified": true,
+    "conference_name": "EGU General Assembly 2024",
+    "conference_start": "2024-04-14",
+    "conference_end": "2024-04-19",
+    "city": "Vienna",
+    "country": "Austria",
+    "publication_kind": "Abstrak",
+    "evidence_url": "https://meetingorganizer.copernicus.org/EGU24/session/50173",
+    "note": "Official Orals program lists EGU24-7943 at 14:35-14:45 on 18 April, explicitly On-site presentation. Does not identify the UGM coauthor as presenter.",
+    "presentation_type": "Oral",
+    "online": false
+  },
+  {
+    "doi": "https://doi.org/10.5194/egusphere-egu24-5415",
+    "verified": true,
+    "conference_name": "EGU General Assembly 2024",
+    "conference_start": "2024-04-14",
+    "conference_end": "2024-04-19",
+    "city": "Vienna",
+    "country": "Austria",
+    "publication_kind": "Abstrak",
+    "evidence_url": "https://meetingorganizer.copernicus.org/EGU24/EGU24-5415.html",
+    "note": "Official organizer event dates; a page updated-on timestamp is not the conference date. Individual format/online participation not confirmed."
+  },
+  {
+    "doi": "https://doi.org/10.5194/egusphere-egu22-2087",
+    "verified": true,
+    "conference_name": "EGU General Assembly 2022",
+    "conference_start": "2022-05-23",
+    "conference_end": "2022-05-27",
+    "city": "Vienna",
+    "country": "Austria",
+    "publication_kind": "Abstrak",
+    "evidence_url": "https://meetingorganizer.copernicus.org/EGU22/session/43331",
+    "note": "Official session program explicitly labels EGU22-2087 Virtual presentation. Format not forced into Oral/Poster without explicit classification.",
+    "online": true
+  }
+]

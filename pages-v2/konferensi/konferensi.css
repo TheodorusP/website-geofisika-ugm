@@ -1,0 +1,36 @@
+/* Standalone conference archive; uses the academic pages' navy and gold theme. */
+.gf-conf-page{margin:0 0 40px!important;padding:0!important;min-width:0;color:#344654;font:14px/1.7 "Open Sans",Arial,sans-serif}
+.gf-conf-page *{box-sizing:border-box}
+.gf-conf-page [hidden]{display:none!important}
+#content article:has(.gf-conf-page) .post-heading .entry-meta{display:none!important}
+.gf-conf-page .gf-conf-notice{padding:20px 24px;margin:0 0 24px;border-left:4px solid #fdcb2c;background:#fff}
+.gf-conf-page .gf-conf-notice p{margin:0 0 10px}
+.gf-conf-page .gf-conf-notice p:last-child{margin-bottom:0}
+.gf-conf-page .gf-conf-controls{display:flex;align-items:flex-end;flex-wrap:wrap;gap:12px 16px;margin:0 0 12px}
+.gf-conf-page label{display:flex;flex-direction:column;gap:4px;margin:0!important;color:#073c64;font-size:13px;font-weight:600;max-width:100%}
+.gf-conf-page select,.gf-conf-page button{min-height:42px;max-width:100%;padding:8px 12px;border:1px solid #b9cddc;border-radius:5px;background:#edf3f7;color:#073c64;font:14px "Open Sans",Arial,sans-serif}
+.gf-conf-page [data-conf-staff]{min-width:220px}
+.gf-conf-page [data-conf-event]{width:300px}
+.gf-conf-page button{cursor:pointer;font-weight:600}
+.gf-conf-page .gf-conf-count{margin:0 0 16px!important;font-size:12px;color:#6b7780}
+.gf-conf-page .gf-conf-list{list-style:none;margin:0!important;padding:0!important;border:1px solid #d8e2e9;border-left:4px solid #fdcb2c;border-radius:0 8px 8px 0;overflow:hidden;background:#fff}
+.gf-conf-page .gf-conf-list:empty{display:none}
+.gf-conf-page .gf-conf-item{margin:0!important;padding:0!important;border-bottom:1px solid #e6edf1}
+.gf-conf-page .gf-conf-item:last-child{border-bottom:0}
+.gf-conf-page .gf-conf-item article{margin:0!important;padding:22px 24px}
+.gf-conf-page .gf-conf-meta{margin:0 0 6px;font-size:12px;color:#596b78;line-height:1.9}
+.gf-conf-page .gf-conf-publication{margin:0 0 8px;font-size:12px;color:#718391}
+.gf-conf-page h2{margin:0 0 8px!important;color:#073c64;font-size:17px;font-weight:700;line-height:1.5}
+.gf-conf-page .gf-conf-authors{margin:0 0 10px;font-size:13px;line-height:1.8}
+.gf-conf-page .gf-conf-authors strong{color:#073c64;font-weight:700}
+.gf-conf-page .gf-conf-access{display:inline-flex;align-items:baseline;gap:6px;max-width:100%;padding:3px 8px;border:1px solid #b9cddc;border-radius:5px;background:#edf3f7;color:#073c64;font-size:12px;font-weight:600;text-decoration:none;overflow-wrap:anywhere}
+.gf-conf-page .gf-conf-access:hover{background:#dfeaf1}
+.gf-conf-page :is(a,button,select):focus-visible{outline:3px solid #fdcb2c;outline-offset:3px}
+.gf-conf-page .gf-conf-pill{display:inline-block;white-space:nowrap;vertical-align:baseline;margin-left:4px;padding:2px 8px;border:1px solid transparent;border-radius:12px;font-size:11px;line-height:1.6}
+.gf-conf-page .gf-conf-prosiding{background:#e4f3eb;color:#226345;border-color:#b8dbc8}
+.gf-conf-page .gf-conf-abstrak{background:#fff1dc;color:#875b1d;border-color:#ecd3a9}
+.gf-conf-page .gf-conf-oral{background:#e7effb;color:#285a91;border-color:#bed0ec}
+.gf-conf-page .gf-conf-poster{background:#f0e9f8;color:#704497;border-color:#d7c5e8}
+.gf-conf-page .gf-conf-online{background:#e4f3f3;color:#24646c;border-color:#b4d9dd}
+.gf-conf-page .gf-conf-empty{margin:16px 0;color:#596b78}
+@media(max-width:540px){.gf-conf-page .gf-conf-notice,.gf-conf-page .gf-conf-item article{padding:16px 18px}.gf-conf-page .gf-conf-controls{flex-direction:column;align-items:stretch}.gf-conf-page [data-conf-staff]{min-width:0}.gf-conf-page [data-conf-event]{width:100%}}
