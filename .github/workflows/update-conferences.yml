@@ -27,9 +27,8 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add public/conferences-display.json pages-v2/konferensi/conferences.json pages-v2/konferensi/review.json pages-v2/konferensi/01-conferences-wordpress.html pages-v2/konferensi/preview.html
+          git add public/conferences-display.json pages-v2/konferensi/conferences.json pages-v2/konferensi/review.json pages-v2/konferensi/01-conferences-wordpress.html pages-v2/konferensi/preview.html pages-v2/konferensi/conference-snapshot.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m 'Refresh conference contributions'
           git pull --rebase
           git push
- 
