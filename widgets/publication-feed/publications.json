@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "as_of": "2026-10-26",
+  "as_of": "2026-11-02",
   "start_year": 2022,
   "mode": "live_fetch",
   "authors": [
@@ -395,10 +395,12 @@
         "Mochamad Aryono Adhi"
       ],
       "staff": [
-        "Budi Eka Nurcahya"
+        "Budi Eka Nurcahya",
+        "Sismanto"
       ],
       "staff_author_names": [
-        "Budi Eka Nurcahya"
+        "Budi Eka Nurcahya",
+        "Sismanto"
       ],
       "biblio": {
         "volume": "255",

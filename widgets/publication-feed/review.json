@@ -145,8 +145,8 @@
     ]
   },
   {
-    "id": "https://openalex.org/W4413224564",
-    "title": "Evaluation of Structural Features and Hydrocarbon Reservoir Potential of the Baturaja Formation Using Seismic Envelope and Sweetness Attributes",
+    "id": "https://openalex.org/W4413224722",
+    "title": "Identification of Hydrocarbon Reservoir Distribution Using Seismic Attributes: RMS Amplitude and Sweetness in the Bani Field, South Sumatra Basin",
     "reason": "unverified_or_ineligible_ranking",
     "staff": [
       "Budi Eka Nurcahya"
@@ -158,8 +158,8 @@
     ]
   },
   {
-    "id": "https://openalex.org/W4413224722",
-    "title": "Identification of Hydrocarbon Reservoir Distribution Using Seismic Attributes: RMS Amplitude and Sweetness in the Bani Field, South Sumatra Basin",
+    "id": "https://openalex.org/W4413224564",
+    "title": "Evaluation of Structural Features and Hydrocarbon Reservoir Potential of the Baturaja Formation Using Seismic Envelope and Sweetness Attributes",
     "reason": "unverified_or_ineligible_ranking",
     "staff": [
       "Budi Eka Nurcahya"
@@ -407,7 +407,7 @@
       "Pamungkas Yuliantoro",
       "Theodosius Marwan Irnaka"
     ],
-    "journal": null,
+    "journal": "EAGE Asia Pacific Meeting on Near Surface Geoscience & Engineering",
     "issns": []
   },
   {
@@ -441,7 +441,7 @@
       "Pamungkas Yuliantoro",
       "Theodosius Marwan Irnaka"
     ],
-    "journal": null,
+    "journal": "EAGE Asia Pacific Meeting on Near Surface Geoscience & Engineering",
     "issns": []
   },
   {
@@ -861,8 +861,11 @@
     "staff": [
       "Shidiq Nur Hidayat"
     ],
-    "journal": null,
-    "issns": []
+    "journal": "European Respiratory Journal",
+    "issns": [
+      "0903-1936",
+      "1399-3003"
+    ]
   },
   {
     "id": "https://openalex.org/W4402528405",
@@ -1264,7 +1267,7 @@
     "staff": [
       "Sismanto"
     ],
-    "journal": null,
+    "journal": "Geoinformation Science Symposium (GSS)",
     "issns": []
   },
   {
@@ -2371,7 +2374,7 @@
     "staff": [
       "Adam Sukma Putra"
     ],
-    "journal": null,
+    "journal": "EAGE Asia Pacific Meeting on Near Surface Geoscience & Engineering",
     "issns": []
   },
   {
@@ -2381,7 +2384,7 @@
     "staff": [
       "Adam Sukma Putra"
     ],
-    "journal": null,
+    "journal": "EAGE Asia Pacific Meeting on Near Surface Geoscience & Engineering",
     "issns": []
   },
   {
