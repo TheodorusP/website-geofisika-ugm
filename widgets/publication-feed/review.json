@@ -132,6 +132,20 @@
     ]
   },
   {
+    "id": "https://openalex.org/W7225177792",
+    "title": "PHYSICS-INFORMED NEURAL NETWORKS FOR OFFSHORE TSUNAMI SIMULATION OF THE 2006 SOUTHERN JAVA EARTHQUAKE",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Budi Eka Nurcahya",
+      "Sismanto"
+    ],
+    "journal": "Rudarsko-geološko-naftni zbornik",
+    "issns": [
+      "0353-4529",
+      "1849-0409"
+    ]
+  },
+  {
     "id": "https://openalex.org/W7223532330",
     "title": "2D Modeling of Subsurface Structures Based on Gravity Data of Mount Arjuno-Welirang",
     "reason": "unverified_or_ineligible_ranking",
@@ -246,6 +260,20 @@
     "issns": [
       "1411-0172",
       "2528-1488"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W7225197247",
+    "title": "TOWARD A GIC HAZARD MODEL FOR INDONESIA: ANALYSING LATITUDINAL EFFECTS OF GEOMAGNETIC STORMS ON THE 210° MAGNETIC MERIDIAN",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Eddy Hartantyo",
+      "Sismanto"
+    ],
+    "journal": "Rudarsko-geološko-naftni zbornik",
+    "issns": [
+      "0353-4529",
+      "1849-0409"
     ]
   },
   {
@@ -411,8 +439,8 @@
     "issns": []
   },
   {
-    "id": "https://openalex.org/W4402462761",
-    "title": "Automatic time Lapse Monitoring of Fluid Injection Using Self-Potential Method",
+    "id": "https://openalex.org/W4402462933",
+    "title": "Large Scale Deployment of Self-Potential Monitoring System in The Kawengan Oil Field",
     "reason": "not_journal_article_or_review",
     "staff": [
       "Eddy Hartantyo",
@@ -422,8 +450,8 @@
     "issns": []
   },
   {
-    "id": "https://openalex.org/W4402462933",
-    "title": "Large Scale Deployment of Self-Potential Monitoring System in The Kawengan Oil Field",
+    "id": "https://openalex.org/W4402462761",
+    "title": "Automatic time Lapse Monitoring of Fluid Injection Using Self-Potential Method",
     "reason": "not_journal_article_or_review",
     "staff": [
       "Eddy Hartantyo",
@@ -524,18 +552,6 @@
     ]
   },
   {
-    "id": "https://openalex.org/W4413044505",
-    "title": "Multi Volcanic Hazards Assessment of Karangetang Volcano Due to Reactivation of Two Craters",
-    "reason": "not_journal_article_or_review",
-    "staff": [
-      "Herlan Darmawan"
-    ],
-    "journal": "SSRN Electronic Journal",
-    "issns": [
-      "1556-5068"
-    ]
-  },
-  {
     "id": "https://openalex.org/W4411222721",
     "title": "Pemetaan Endapan Awan Panas Gunung Api Semeru Periode Juni 2021 – Desember 2021 menggunakan Citra Radar Sentinel 1 dan Optik Sentinel 2",
     "reason": "unverified_or_ineligible_ranking",
@@ -567,7 +583,7 @@
     "staff": [
       "Herlan Darmawan"
     ],
-    "journal": null,
+    "journal": "EGU General Assembly Conference Abstracts",
     "issns": []
   },
   {
@@ -577,7 +593,7 @@
     "staff": [
       "Herlan Darmawan"
     ],
-    "journal": null,
+    "journal": "EGU General Assembly Conference Abstracts",
     "issns": []
   },
   {
@@ -690,7 +706,7 @@
     "staff": [
       "Herlan Darmawan"
     ],
-    "journal": null,
+    "journal": "EGU General Assembly Conference Abstracts",
     "issns": []
   },
   {
@@ -893,18 +909,6 @@
     ]
   },
   {
-    "id": "https://openalex.org/W4389331517",
-    "title": "Electronic Nose-Based Monitoring of Chicken Freshness in Room and Refrigerated Storage",
-    "reason": "not_journal_article_or_review",
-    "staff": [
-      "Shidiq Nur Hidayat"
-    ],
-    "journal": "SSRN Electronic Journal",
-    "issns": [
-      "1556-5068"
-    ]
-  },
-  {
     "id": "https://openalex.org/W4292060938",
     "title": "Fast and noninvasive electronic nose for sniffing out COVID-19 based on exhaled breath-print recognition",
     "reason": "unverified_or_ineligible_ranking",
@@ -1014,17 +1018,6 @@
       "0353-4529",
       "1849-0409"
     ]
-  },
-  {
-    "id": "https://openalex.org/W7125690283",
-    "title": "Reservoir Characterization using Simultaneous Inversion, AVO Analysis, and Seismic Attributes: A Case Study of Conglomerates-Volcanic, Northwest Java Basin",
-    "reason": "not_journal_article_or_review",
-    "staff": [
-      "Sismanto",
-      "Sudarmaji"
-    ],
-    "journal": "Zenodo (CERN European Organization for Nuclear Research)",
-    "issns": []
   },
   {
     "id": "https://openalex.org/W7126440425",
@@ -1544,16 +1537,6 @@
     ]
   },
   {
-    "id": "https://openalex.org/W4225282978",
-    "title": "Locating Shallow Seismic Source Changes Using Delay Time and Amplitude Ratio Information from Cross-Correlation Functions",
-    "reason": "not_journal_article_or_review",
-    "staff": [
-      "Theodorus Permana"
-    ],
-    "journal": null,
-    "issns": []
-  },
-  {
     "id": "https://openalex.org/W7172218449",
     "title": "Source-Specific Homogenization of Earthquake Magnitudes in Indonesia: Reproducibility Package",
     "reason": "not_journal_article_or_review",
@@ -1898,19 +1881,6 @@
     ]
   },
   {
-    "id": "https://openalex.org/W4402058752",
-    "title": "Quantifying the Impact of Siderite Composition and Reservoir Resistivity (Rt) on Water Saturation Estimation in Low-Resistivity Sideritic Sandstone Reservoirs Using the Graphic Plot Method",
-    "reason": "unverified_or_ineligible_ranking",
-    "staff": [
-      "Wiwit Suryanto"
-    ],
-    "journal": "Scientific Contributions Oil and Gas",
-    "issns": [
-      "2089-3361",
-      "2541-0520"
-    ]
-  },
-  {
     "id": "https://openalex.org/W4403055896",
     "title": "Profil Perubahan Nilai Resistivitas Reservoar Pada Batu Pasir Karena Pengaruh Mineral Glaukonit",
     "reason": "unverified_or_ineligible_ranking",
@@ -1921,6 +1891,19 @@
     "issns": [
       "2089-3396",
       "2598-0300"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4402058752",
+    "title": "Quantifying the Impact of Siderite Composition and Reservoir Resistivity (Rt) on Water Saturation Estimation in Low-Resistivity Sideritic Sandstone Reservoirs Using the Graphic Plot Method",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
+    "journal": "Scientific Contributions Oil and Gas",
+    "issns": [
+      "2089-3361",
+      "2541-0520"
     ]
   },
   {
