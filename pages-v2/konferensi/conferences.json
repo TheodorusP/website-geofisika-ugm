@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-02",
+  "as_of": "2026-11-09",
   "start_year": 2022,
   "authors": [
     {
@@ -888,7 +888,7 @@
       "country": "Austria",
       "publication_kind": "Abstrak",
       "publication_date": "2025-01-20",
-      "collection": "",
+      "collection": "EGU General Assembly Conference Abstracts",
       "presentation_type": "Oral",
       "online": false,
       "authors": [
@@ -925,14 +925,14 @@
       "country": "Austria",
       "publication_kind": "Abstrak",
       "publication_date": "2025-01-20",
-      "collection": "",
+      "collection": "EGU General Assembly Conference Abstracts",
       "presentation_type": null,
       "online": null,
       "authors": [
         "Valentín R. Troll",
         "Thomas R. Walter",
         "Herlan Darmawan",
-        "Michael  John Heap",
+        "Michael J. Heap",
         "Claire E. Harnett",
         "Frances M. Deegan",
         "Nadhirah Seraphine",
@@ -2035,12 +2035,12 @@
       "country": "Austria",
       "publication_kind": "Abstrak",
       "publication_date": "2022-03-27",
-      "collection": "",
+      "collection": "EGU General Assembly Conference Abstracts",
       "presentation_type": null,
       "online": true,
       "authors": [
         "Gábor Kereszturi",
-        "Michael  John Heap",
+        "Michael J. Heap",
         "Lauren N. Schaefer",
         "Herlan Darmawan",
         "Frances M. Deegan",

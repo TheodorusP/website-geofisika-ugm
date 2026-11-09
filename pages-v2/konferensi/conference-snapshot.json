@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-02",
+  "as_of": "2026-11-09",
   "works": [
     {
       "id": "https://openalex.org/W4390072844",
@@ -58,6 +58,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref",
         "doaj"
@@ -446,17 +447,17 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 2.7133,
+      "fwci": 3.0571,
       "has_fulltext": true,
-      "cited_by_count": 1,
+      "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.90762489,
+        "value": 0.90985814,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
       "cited_by_percentile_year": {
-        "min": 90,
-        "max": 94
+        "min": 89,
+        "max": 95
       },
       "biblio": {
         "volume": "468",
@@ -807,24 +808,17 @@
       },
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/11",
           "score": 0.5142999887466431,
+          "id": "https://metadata.un.org/sdg/11",
           "display_name": "Sustainable cities and communities"
-        }
-      ],
-      "sustainable_development_goals_aurora": [
-        {
-          "id": "https://metadata.un.org/sdg/13",
-          "score": 0.49000000953674316,
-          "display_name": "Climate action"
         }
       ],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4390072844.pdf",
@@ -1325,11 +1319,15 @@
       },
       "counts_by_year": [
         {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
           "year": 2025,
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2026-10-08T09:06:37.294493",
+      "updated_date": "2026-11-04T10:54:05.112534",
       "created_date": "2023-12-22T00:00:00"
     },
     {
@@ -1377,6 +1375,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -1643,7 +1642,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.2875219,
+        "value": 0.18114012,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -1662,12 +1661,12 @@
         "display_name": "Ionosphere and magnetosphere dynamics",
         "score": 0.9994999766349792,
         "subfield": {
-          "id": "https://openalex.org/subfields/3103",
-          "display_name": "Astronomy and Astrophysics"
+          "id": "https://openalex.org/subfields/1912",
+          "display_name": "Space and Planetary Science"
         },
         "field": {
-          "id": "https://openalex.org/fields/31",
-          "display_name": "Physics and Astronomy"
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/3",
@@ -1680,12 +1679,12 @@
           "display_name": "Ionosphere and magnetosphere dynamics",
           "score": 0.9994999766349792,
           "subfield": {
-            "id": "https://openalex.org/subfields/3103",
-            "display_name": "Astronomy and Astrophysics"
+            "id": "https://openalex.org/subfields/1912",
+            "display_name": "Space and Planetary Science"
           },
           "field": {
-            "id": "https://openalex.org/fields/31",
-            "display_name": "Physics and Astronomy"
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
           },
           "domain": {
             "id": "https://openalex.org/domains/3",
@@ -2032,7 +2031,6 @@
         "raw_type": "proceedings-article"
       },
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [],
       "study_designs": [],
       "awards": [],
       "funders": [],
@@ -2587,6 +2585,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -2769,7 +2768,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.1742262,
+        "value": 0.11401172,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -2788,12 +2787,12 @@
         "display_name": "Ionosphere and magnetosphere dynamics",
         "score": 0.9994999766349792,
         "subfield": {
-          "id": "https://openalex.org/subfields/3103",
-          "display_name": "Astronomy and Astrophysics"
+          "id": "https://openalex.org/subfields/1912",
+          "display_name": "Space and Planetary Science"
         },
         "field": {
-          "id": "https://openalex.org/fields/31",
-          "display_name": "Physics and Astronomy"
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/3",
@@ -2806,12 +2805,12 @@
           "display_name": "Ionosphere and magnetosphere dynamics",
           "score": 0.9994999766349792,
           "subfield": {
-            "id": "https://openalex.org/subfields/3103",
-            "display_name": "Astronomy and Astrophysics"
+            "id": "https://openalex.org/subfields/1912",
+            "display_name": "Space and Planetary Science"
           },
           "field": {
-            "id": "https://openalex.org/fields/31",
-            "display_name": "Physics and Astronomy"
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
           },
           "domain": {
             "id": "https://openalex.org/domains/3",
@@ -2823,12 +2822,12 @@
           "display_name": "Lightning and Electromagnetic Phenomena",
           "score": 9.999999747378752e-05,
           "subfield": {
-            "id": "https://openalex.org/subfields/3103",
-            "display_name": "Astronomy and Astrophysics"
+            "id": "https://openalex.org/subfields/1902",
+            "display_name": "Atmospheric Science"
           },
           "field": {
-            "id": "https://openalex.org/fields/31",
-            "display_name": "Physics and Astronomy"
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
           },
           "domain": {
             "id": "https://openalex.org/domains/3",
@@ -3032,7 +3031,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [],
       "study_designs": [],
       "awards": [],
       "funders": [],
@@ -3672,6 +3670,7 @@
         "display_name": "Proceedings of the International Conference on Radioscience, Equatorial Atmospheric Science and Environment and Humanosphere Science"
       },
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -4111,17 +4110,17 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 2.5212,
+      "fwci": 7.0565,
       "has_fulltext": false,
-      "cited_by_count": 1,
+      "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.84314076,
+        "value": 0.95240481,
         "is_in_top_1_percent": false,
-        "is_in_top_10_percent": false
+        "is_in_top_10_percent": true
       },
       "cited_by_percentile_year": {
-        "min": 90,
-        "max": 94
+        "min": 93,
+        "max": 95
       },
       "biblio": {
         "volume": null,
@@ -4137,12 +4136,12 @@
         "display_name": "Ionosphere and magnetosphere dynamics",
         "score": 0.9994999766349792,
         "subfield": {
-          "id": "https://openalex.org/subfields/3103",
-          "display_name": "Astronomy and Astrophysics"
+          "id": "https://openalex.org/subfields/1912",
+          "display_name": "Space and Planetary Science"
         },
         "field": {
-          "id": "https://openalex.org/fields/31",
-          "display_name": "Physics and Astronomy"
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/3",
@@ -4155,12 +4154,12 @@
           "display_name": "Ionosphere and magnetosphere dynamics",
           "score": 0.9994999766349792,
           "subfield": {
-            "id": "https://openalex.org/subfields/3103",
-            "display_name": "Astronomy and Astrophysics"
+            "id": "https://openalex.org/subfields/1912",
+            "display_name": "Space and Planetary Science"
           },
           "field": {
-            "id": "https://openalex.org/fields/31",
-            "display_name": "Physics and Astronomy"
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
           },
           "domain": {
             "id": "https://openalex.org/domains/3",
@@ -4383,13 +4382,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [
-        {
-          "id": "https://metadata.un.org/sdg/13",
-          "score": 0.5400000214576721,
-          "display_name": "Climate action"
-        }
-      ],
       "study_designs": [],
       "awards": [],
       "funders": [],
@@ -4430,10 +4422,10 @@
       "counts_by_year": [
         {
           "year": 2025,
-          "cited_by_count": 1
+          "cited_by_count": 2
         }
       ],
-      "updated_date": "2026-10-10T09:11:00.788812",
+      "updated_date": "2026-11-07T11:25:07.637180",
       "created_date": "2024-06-05T00:00:00"
     },
     {
@@ -4493,6 +4485,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref",
         "doaj"
@@ -4848,7 +4841,7 @@
       "has_fulltext": true,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.18345249,
+        "value": 0.1520391,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -5222,13 +5215,6 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [
-        {
-          "id": "https://metadata.un.org/sdg/13",
-          "score": 0.6700000166893005,
-          "display_name": "Climate action"
-        }
-      ],
       "study_designs": [],
       "awards": [],
       "funders": [
@@ -5239,8 +5225,8 @@
         }
       ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4390073150.pdf",
@@ -5266,9 +5252,9 @@
         "https://openalex.org/W3147262955",
         "https://openalex.org/W3167126736",
         "https://openalex.org/W3190080744",
-        "https://openalex.org/W4226383702",
         "https://openalex.org/W4235123616",
         "https://openalex.org/W4309502656",
+        "https://openalex.org/W4313149200",
         "https://openalex.org/W4327588274"
       ],
       "related_works": [
@@ -5741,7 +5727,7 @@
         ]
       },
       "counts_by_year": [],
-      "updated_date": "2026-11-01T11:40:01.658920",
+      "updated_date": "2026-11-04T10:54:05.112534",
       "created_date": "2023-12-22T00:00:00"
     },
     {
@@ -5799,6 +5785,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -5901,7 +5888,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.09066667,
+        "value": 0.2599463,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -5920,8 +5907,8 @@
         "display_name": "Geophysics and Gravity Measurements",
         "score": 0.989300012588501,
         "subfield": {
-          "id": "https://openalex.org/subfields/1910",
-          "display_name": "Oceanography"
+          "id": "https://openalex.org/subfields/1908",
+          "display_name": "Geophysics"
         },
         "field": {
           "id": "https://openalex.org/fields/19",
@@ -5938,8 +5925,8 @@
           "display_name": "Geophysics and Gravity Measurements",
           "score": 0.989300012588501,
           "subfield": {
-            "id": "https://openalex.org/subfields/1910",
-            "display_name": "Oceanography"
+            "id": "https://openalex.org/subfields/1908",
+            "display_name": "Geophysics"
           },
           "field": {
             "id": "https://openalex.org/fields/19",
@@ -5972,12 +5959,12 @@
           "display_name": "Geophysical Methods and Applications",
           "score": 0.00019999999494757503,
           "subfield": {
-            "id": "https://openalex.org/subfields/2212",
-            "display_name": "Ocean Engineering"
+            "id": "https://openalex.org/subfields/1908",
+            "display_name": "Geophysics"
           },
           "field": {
-            "id": "https://openalex.org/fields/22",
-            "display_name": "Engineering"
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
           },
           "domain": {
             "id": "https://openalex.org/domains/3",
@@ -6195,19 +6182,12 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [
-        {
-          "id": "https://metadata.un.org/sdg/14",
-          "score": 0.5899999737739563,
-          "display_name": "Life below water"
-        }
-      ],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 5,
@@ -6532,6 +6512,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -6865,17 +6846,17 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 8.4953,
+      "fwci": 3.783,
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.96385991,
+        "value": 0.92172559,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
       "cited_by_percentile_year": {
-        "min": 93,
-        "max": 96
+        "min": 91,
+        "max": 95
       },
       "biblio": {
         "volume": null,
@@ -6926,8 +6907,8 @@
           "display_name": "Geotechnical Engineering and Analysis",
           "score": 0.0003000000142492354,
           "subfield": {
-            "id": "https://openalex.org/subfields/2213",
-            "display_name": "Safety, Risk, Reliability and Quality"
+            "id": "https://openalex.org/subfields/2205",
+            "display_name": "Civil and Structural Engineering"
           },
           "field": {
             "id": "https://openalex.org/fields/22",
@@ -6943,16 +6924,16 @@
           "display_name": "Tree Root and Stability Studies",
           "score": 9.999999747378752e-05,
           "subfield": {
-            "id": "https://openalex.org/subfields/2210",
-            "display_name": "Mechanical Engineering"
+            "id": "https://openalex.org/subfields/1107",
+            "display_name": "Forestry"
           },
           "field": {
-            "id": "https://openalex.org/fields/22",
-            "display_name": "Engineering"
+            "id": "https://openalex.org/fields/11",
+            "display_name": "Agricultural and Biological Sciences"
           },
           "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
+            "id": "https://openalex.org/domains/1",
+            "display_name": "Life Sciences"
           }
         }
       ],
@@ -7267,12 +7248,11 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/15",
+          "score": 0.4390000104904175,
           "display_name": "Life on land",
-          "score": 0.4390000104904175
+          "id": "https://metadata.un.org/sdg/15"
         }
       ],
-      "sustainable_development_goals_aurora": [],
       "study_designs": [],
       "awards": [],
       "funders": [
@@ -8011,6 +7991,7 @@
         "display_name": "Proceedings of the 10th International Seminar on Aerospace Science and Technology; ISAST 2024; 17 September, Bali, Indonesia"
       },
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -8520,7 +8501,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.02646429,
+        "value": 0.02237613,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -8539,12 +8520,12 @@
         "display_name": "Ionosphere and magnetosphere dynamics",
         "score": 0.9843999743461609,
         "subfield": {
-          "id": "https://openalex.org/subfields/3103",
-          "display_name": "Astronomy and Astrophysics"
+          "id": "https://openalex.org/subfields/1912",
+          "display_name": "Space and Planetary Science"
         },
         "field": {
-          "id": "https://openalex.org/fields/31",
-          "display_name": "Physics and Astronomy"
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/3",
@@ -8557,12 +8538,12 @@
           "display_name": "Ionosphere and magnetosphere dynamics",
           "score": 0.9843999743461609,
           "subfield": {
-            "id": "https://openalex.org/subfields/3103",
-            "display_name": "Astronomy and Astrophysics"
+            "id": "https://openalex.org/subfields/1912",
+            "display_name": "Space and Planetary Science"
           },
           "field": {
-            "id": "https://openalex.org/fields/31",
-            "display_name": "Physics and Astronomy"
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
           },
           "domain": {
             "id": "https://openalex.org/domains/3",
@@ -8591,16 +8572,16 @@
           "display_name": "Geomagnetism and Paleomagnetism Studies",
           "score": 9.999999747378752e-05,
           "subfield": {
-            "id": "https://openalex.org/subfields/1312",
-            "display_name": "Molecular Biology"
+            "id": "https://openalex.org/subfields/1908",
+            "display_name": "Geophysics"
           },
           "field": {
-            "id": "https://openalex.org/fields/13",
-            "display_name": "Biochemistry, Genetics and Molecular Biology"
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
           },
           "domain": {
-            "id": "https://openalex.org/domains/1",
-            "display_name": "Life Sciences"
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
           }
         }
       ],
@@ -8847,19 +8828,12 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [
-        {
-          "id": "https://metadata.un.org/sdg/13",
-          "score": 0.5899999737739563,
-          "display_name": "Climate action"
-        }
-      ],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 21,
@@ -8946,6 +8920,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -9464,15 +9439,18 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0.0,
+      "fwci": 1.8741,
       "has_fulltext": false,
-      "cited_by_count": 0,
+      "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.19836686,
+        "value": 0.78384751,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
-      "cited_by_percentile_year": null,
+      "cited_by_percentile_year": {
+        "min": 91,
+        "max": 95
+      },
       "biblio": {
         "volume": null,
         "issue": null,
@@ -9539,12 +9517,12 @@
           "display_name": "Geophysical Methods and Applications",
           "score": 0.0,
           "subfield": {
-            "id": "https://openalex.org/subfields/2212",
-            "display_name": "Ocean Engineering"
+            "id": "https://openalex.org/subfields/1908",
+            "display_name": "Geophysics"
           },
           "field": {
-            "id": "https://openalex.org/fields/22",
-            "display_name": "Engineering"
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
           },
           "domain": {
             "id": "https://openalex.org/domains/3",
@@ -9686,7 +9664,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [],
       "study_designs": [],
       "awards": [],
       "funders": [],
@@ -10114,9 +10091,1070 @@
           172
         ]
       },
-      "counts_by_year": [],
-      "updated_date": "2026-10-26T11:51:55.731654",
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-04T10:54:05.112534",
       "created_date": "2024-07-27T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4402462933",
+      "doi": "https://doi.org/10.3997/2214-4609.202420139",
+      "title": "Large Scale Deployment of Self-Potential Monitoring System in The Kawengan Oil Field",
+      "display_name": "Large Scale Deployment of Self-Potential Monitoring System in The Kawengan Oil Field",
+      "publication_year": 2024,
+      "publication_date": "2024-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W4402462933",
+        "doi": "https://doi.org/10.3997/2214-4609.202420139"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.3997/2214-4609.202420139",
+        "doi": "https://doi.org/10.3997/2214-4609.202420139",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.3997/2214-4609.202420139",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4363607213",
+          "display_name": "European Meeting of Environmental and Engineering Geophysics (NSG)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "NSG 2024 30th European Meeting of Environmental and Engineering Geophysics",
+        "raw_type": "proceedings-article"
+      },
+      "volume": null,
+      "type": "conference-paper",
+      "is_traditional": true,
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5063389018",
+            "display_name": "Shofiy Petrina Mufidah",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I165230279",
+              "display_name": "Universitas Gadjah Mada",
+              "ror": "https://ror.org/03ke6d638",
+              "country_code": "ID",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I165230279"
+              ]
+            }
+          ],
+          "countries": [
+            "ID"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "S. Mufidah",
+          "raw_affiliation_strings": [
+            "Geophysics Laboratory, Faculty of Mathematics and Natural Sciences, Universitas Gadjah Mada"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Geophysics Laboratory, Faculty of Mathematics and Natural Sciences, Universitas Gadjah Mada",
+              "institution_ids": [
+                "https://openalex.org/I165230279"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5001037279",
+            "display_name": "Y. Udin",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I165230279",
+              "display_name": "Universitas Gadjah Mada",
+              "ror": "https://ror.org/03ke6d638",
+              "country_code": "ID",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I165230279"
+              ]
+            }
+          ],
+          "countries": [
+            "ID"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Y. Udin",
+          "raw_affiliation_strings": [
+            "Geophysics Laboratory, Faculty of Mathematics and Natural Sciences, Universitas Gadjah Mada"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Geophysics Laboratory, Faculty of Mathematics and Natural Sciences, Universitas Gadjah Mada",
+              "institution_ids": [
+                "https://openalex.org/I165230279"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5107136182",
+            "display_name": "M.N.A. Fuadilah",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I165230279",
+              "display_name": "Universitas Gadjah Mada",
+              "ror": "https://ror.org/03ke6d638",
+              "country_code": "ID",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I165230279"
+              ]
+            }
+          ],
+          "countries": [
+            "ID"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "M.N.A. Fuadillah",
+          "raw_affiliation_strings": [
+            "Geophysics Laboratory, Faculty of Mathematics and Natural Sciences, Universitas Gadjah Mada"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Geophysics Laboratory, Faculty of Mathematics and Natural Sciences, Universitas Gadjah Mada",
+              "institution_ids": [
+                "https://openalex.org/I165230279"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5015363731",
+            "display_name": "Diva Alfiansyah",
+            "orcid": "https://orcid.org/0009-0006-1646-3087",
+            "observed_orcids": [
+              "https://orcid.org/0009-0006-1646-3087"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I165230279",
+              "display_name": "Universitas Gadjah Mada",
+              "ror": "https://ror.org/03ke6d638",
+              "country_code": "ID",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I165230279"
+              ]
+            }
+          ],
+          "countries": [
+            "ID"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "D. Alfiansyah",
+          "raw_affiliation_strings": [
+            "Geophysics Laboratory, Faculty of Mathematics and Natural Sciences, Universitas Gadjah Mada"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Geophysics Laboratory, Faculty of Mathematics and Natural Sciences, Universitas Gadjah Mada",
+              "institution_ids": [
+                "https://openalex.org/I165230279"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5035541994",
+            "display_name": "Eddy Hartantyo",
+            "orcid": "https://orcid.org/0000-0003-0257-8730",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-0257-8730"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I165230279",
+              "display_name": "Universitas Gadjah Mada",
+              "ror": "https://ror.org/03ke6d638",
+              "country_code": "ID",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I165230279"
+              ]
+            }
+          ],
+          "countries": [
+            "ID"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "E. Hartantyo",
+          "raw_affiliation_strings": [
+            "Geophysics Laboratory, Faculty of Mathematics and Natural Sciences, Universitas Gadjah Mada"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Geophysics Laboratory, Faculty of Mathematics and Natural Sciences, Universitas Gadjah Mada",
+              "institution_ids": [
+                "https://openalex.org/I165230279"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5008972943",
+            "display_name": "F. Muin",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I194343955",
+              "display_name": "Pertamina (Indonesia)",
+              "ror": "https://ror.org/002hgm057",
+              "country_code": "ID",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I194343955"
+              ]
+            }
+          ],
+          "countries": [
+            "ID"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "F. Muin",
+          "raw_affiliation_strings": [
+            "Pertamina Hulu Energi Upstream Innovation"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Pertamina Hulu Energi Upstream Innovation",
+              "institution_ids": [
+                "https://openalex.org/I194343955"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5109634151",
+            "display_name": "N.C. Wibowo",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I194343955",
+              "display_name": "Pertamina (Indonesia)",
+              "ror": "https://ror.org/002hgm057",
+              "country_code": "ID",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I194343955"
+              ]
+            }
+          ],
+          "countries": [
+            "ID"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "N. Wibowo",
+          "raw_affiliation_strings": [
+            "Pertamina Hulu Energi Upstream Innovation"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Pertamina Hulu Energi Upstream Innovation",
+              "institution_ids": [
+                "https://openalex.org/I194343955"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5105107863",
+            "display_name": "M.F. Yulisasongko",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I194343955",
+              "display_name": "Pertamina (Indonesia)",
+              "ror": "https://ror.org/002hgm057",
+              "country_code": "ID",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I194343955"
+              ]
+            }
+          ],
+          "countries": [
+            "ID"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "M.F. Yulisasongko",
+          "raw_affiliation_strings": [
+            "Pertamina Hulu Energi Upstream Innovation"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Pertamina Hulu Energi Upstream Innovation",
+              "institution_ids": [
+                "https://openalex.org/I194343955"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5001248763",
+            "display_name": "Boko Nurdiyanto",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I194343955",
+              "display_name": "Pertamina (Indonesia)",
+              "ror": "https://ror.org/002hgm057",
+              "country_code": "ID",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I194343955"
+              ]
+            }
+          ],
+          "countries": [
+            "ID"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "B. Nurdiyanto",
+          "raw_affiliation_strings": [
+            "Pertamina Hulu Energi Upstream Innovation"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Pertamina Hulu Energi Upstream Innovation",
+              "institution_ids": [
+                "https://openalex.org/I194343955"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5090528821",
+            "display_name": "Teguh Suroso",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I194343955",
+              "display_name": "Pertamina (Indonesia)",
+              "ror": "https://ror.org/002hgm057",
+              "country_code": "ID",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I194343955"
+              ]
+            }
+          ],
+          "countries": [
+            "ID"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "T. Suroso",
+          "raw_affiliation_strings": [
+            "Pertamina Hulu Energi Upstream Innovation"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Pertamina Hulu Energi Upstream Innovation",
+              "institution_ids": [
+                "https://openalex.org/I194343955"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5032253920",
+            "display_name": "Theodosius Marwan Irnaka",
+            "orcid": "https://orcid.org/0000-0002-0040-5142",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-0040-5142"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I165230279",
+              "display_name": "Universitas Gadjah Mada",
+              "ror": "https://ror.org/03ke6d638",
+              "country_code": "ID",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I165230279"
+              ]
+            }
+          ],
+          "countries": [
+            "ID"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "T.M. Irnaka",
+          "raw_affiliation_strings": [
+            "Geophysics Laboratory, Faculty of Mathematics and Natural Sciences, Universitas Gadjah Mada"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Geophysics Laboratory, Faculty of Mathematics and Natural Sciences, Universitas Gadjah Mada",
+              "institution_ids": [
+                "https://openalex.org/I165230279"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 2,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 1.8741,
+      "has_fulltext": false,
+      "cited_by_count": 1,
+      "citation_normalized_percentile": {
+        "value": 0.81391236,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 89,
+        "max": 93
+      },
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": "1",
+        "last_page": "5"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10572",
+        "display_name": "Geophysical and Geoelectrical Methods",
+        "score": 0.9965999722480774,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1908",
+          "display_name": "Geophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10572",
+          "display_name": "Geophysical and Geoelectrical Methods",
+          "score": 0.9965999722480774,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1908",
+            "display_name": "Geophysics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11778",
+          "display_name": "Electrical and Bioimpedance Tomography",
+          "score": 0.0006000000284984708,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2208",
+            "display_name": "Electrical and Electronic Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11609",
+          "display_name": "Geophysical Methods and Applications",
+          "score": 0.00019999999494757503,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1908",
+            "display_name": "Geophysics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/self-potential-method",
+          "display_name": "self-potential method",
+          "score": 0.9480000138282776
+        },
+        {
+          "id": "https://openalex.org/keywords/oil-field-monitoring",
+          "display_name": "oil field monitoring",
+          "score": 0.6340000033378601
+        },
+        {
+          "id": "https://openalex.org/keywords/real-time-monitoring-system",
+          "display_name": "real-time monitoring system",
+          "score": 0.8859999775886536
+        },
+        {
+          "id": "https://openalex.org/keywords/remote-sensing",
+          "display_name": "remote sensing",
+          "score": 0.5849999785423279
+        },
+        {
+          "id": "https://openalex.org/keywords/fault-detection",
+          "display_name": "fault detection",
+          "score": 0.9129999876022339
+        },
+        {
+          "id": "https://openalex.org/keywords/water-infiltration",
+          "display_name": "water infiltration",
+          "score": 0.9229999780654907
+        },
+        {
+          "id": "https://openalex.org/keywords/oil-reservoirs",
+          "display_name": "hydrocarbon reservoirs",
+          "score": 0.7900000214576721
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C105339364",
+          "wikidata": "https://www.wikidata.org/wiki/Q2297740",
+          "display_name": "Software deployment",
+          "level": 2,
+          "score": 0.7316926121711731
+        },
+        {
+          "id": "https://openalex.org/C2778755073",
+          "wikidata": "https://www.wikidata.org/wiki/Q10858537",
+          "display_name": "Scale (ratio)",
+          "level": 2,
+          "score": 0.6084132194519043
+        },
+        {
+          "id": "https://openalex.org/C39432304",
+          "wikidata": "https://www.wikidata.org/wiki/Q188847",
+          "display_name": "Environmental science",
+          "level": 0,
+          "score": 0.5039884448051453
+        },
+        {
+          "id": "https://openalex.org/C9652623",
+          "wikidata": "https://www.wikidata.org/wiki/Q190109",
+          "display_name": "Field (mathematics)",
+          "level": 2,
+          "score": 0.502253532409668
+        },
+        {
+          "id": "https://openalex.org/C2776364302",
+          "wikidata": "https://www.wikidata.org/wiki/Q1845437",
+          "display_name": "Oil field",
+          "level": 2,
+          "score": 0.47497886419296265
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.4626385271549225
+        },
+        {
+          "id": "https://openalex.org/C78762247",
+          "wikidata": "https://www.wikidata.org/wiki/Q1273174",
+          "display_name": "Petroleum engineering",
+          "level": 1,
+          "score": 0.2981378436088562
+        },
+        {
+          "id": "https://openalex.org/C127313418",
+          "wikidata": "https://www.wikidata.org/wiki/Q1069",
+          "display_name": "Geology",
+          "level": 0,
+          "score": 0.2181544303894043
+        },
+        {
+          "id": "https://openalex.org/C205649164",
+          "wikidata": "https://www.wikidata.org/wiki/Q1071",
+          "display_name": "Geography",
+          "level": 0,
+          "score": 0.11548992991447449
+        },
+        {
+          "id": "https://openalex.org/C58640448",
+          "wikidata": "https://www.wikidata.org/wiki/Q42515",
+          "display_name": "Cartography",
+          "level": 1,
+          "score": 0.07869812846183777
+        },
+        {
+          "id": "https://openalex.org/C115903868",
+          "wikidata": "https://www.wikidata.org/wiki/Q80993",
+          "display_name": "Software engineering",
+          "level": 1,
+          "score": 0.0778186023235321
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.06533578038215637
+        },
+        {
+          "id": "https://openalex.org/C202444582",
+          "wikidata": "https://www.wikidata.org/wiki/Q837863",
+          "display_name": "Pure mathematics",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.3997/2214-4609.202420139",
+          "doi": "https://doi.org/10.3997/2214-4609.202420139",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.3997/2214-4609.202420139",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4363607213",
+            "display_name": "European Meeting of Environmental and Engineering Geophysics (NSG)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "NSG 2024 30th European Meeting of Environmental and Engineering Geophysics",
+          "raw_type": "proceedings-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [
+        "https://openalex.org/W6889500235",
+        "https://openalex.org/W3111952712",
+        "https://openalex.org/W3034593533",
+        "https://openalex.org/W4408816668",
+        "https://openalex.org/W2087891486",
+        "https://openalex.org/W7135243331",
+        "https://openalex.org/W4406285702",
+        "https://openalex.org/W3007697580",
+        "https://openalex.org/W2497846265",
+        "https://openalex.org/W3024676288"
+      ],
+      "abstract_inverted_index": {
+        "Summary": [
+          0
+        ],
+        "The": [
+          1,
+          55,
+          66,
+          83
+        ],
+        "self-potential": [
+          2,
+          48
+        ],
+        "(SP)": [
+          3
+        ],
+        "method": [
+          4,
+          8
+        ],
+        "is": [
+          5,
+          68,
+          86
+        ],
+        "a": [
+          6,
+          40,
+          59,
+          74,
+          93
+        ],
+        "nondestructive": [
+          7
+        ],
+        "that": [
+          9
+        ],
+        "can": [
+          10,
+          79
+        ],
+        "be": [
+          11,
+          80
+        ],
+        "used": [
+          12
+        ],
+        "to": [
+          13,
+          70,
+          88
+        ],
+        "monitor": [
+          14
+        ],
+        "water": [
+          15,
+          44,
+          90,
+          119
+        ],
+        "injection": [
+          16,
+          45
+        ],
+        "in": [
+          17,
+          30,
+          92,
+          96
+        ],
+        "hydrocarbon": [
+          18,
+          94
+        ],
+        "fields.": [
+          19
+        ],
+        "This": [
+          20
+        ],
+        "experiment": [
+          21
+        ],
+        "originated": [
+          22
+        ],
+        "from": [
+          23
+        ],
+        "laboratory-scale": [
+          24
+        ],
+        "testing": [
+          25
+        ],
+        "and": [
+          26,
+          64,
+          76,
+          107,
+          113,
+          118
+        ],
+        "was": [
+          27
+        ],
+        "then": [
+          28
+        ],
+        "deployed": [
+          29
+        ],
+        "the": [
+          31,
+          47,
+          71,
+          77,
+          100,
+          102
+        ],
+        "Kawengan": [
+          32
+        ],
+        "Oil": [
+          33
+        ],
+        "Field.": [
+          34
+        ],
+        "In": [
+          35,
+          99
+        ],
+        "this": [
+          36
+        ],
+        "research,": [
+          37
+        ],
+        "we": [
+          38
+        ],
+        "provide": [
+          39
+        ],
+        "monitoring": [
+          41,
+          84
+        ],
+        "system": [
+          42,
+          56,
+          85
+        ],
+        "for": [
+          43
+        ],
+        "using": [
+          46
+        ],
+        "method,": [
+          49
+        ],
+        "with": [
+          50,
+          110
+        ],
+        "an": [
+          51,
+          62
+        ],
+        "automatic": [
+          52
+        ],
+        "real-time": [
+          53
+        ],
+        "system.": [
+          54
+        ],
+        "consists": [
+          57
+        ],
+        "of": [
+          58
+        ],
+        "porous": [
+          60
+        ],
+        "pot,": [
+          61
+        ],
+        "electrode,": [
+          63
+        ],
+        "sensor.": [
+          65
+        ],
+        "sensor": [
+          67,
+          72,
+          78
+        ],
+        "connected": [
+          69
+        ],
+        "via": [
+          73
+        ],
+        "cable,": [
+          75
+        ],
+        "monitored": [
+          81
+        ],
+        "remotely.": [
+          82
+        ],
+        "able": [
+          87
+        ],
+        "detect": [
+          89
+        ],
+        "injections": [
+          91
+        ],
+        "area": [
+          95
+        ],
+        "real": [
+          97
+        ],
+        "time.": [
+          98
+        ],
+        "experiment,": [
+          101
+        ],
+        "system’s": [
+          103
+        ],
+        "capabilities": [
+          104
+        ],
+        "are": [
+          105
+        ],
+        "validated": [
+          106
+        ],
+        "correlated": [
+          108
+        ],
+        "well": [
+          109
+        ],
+        "geological": [
+          111
+        ],
+        "features": [
+          112
+        ],
+        "processes,": [
+          114
+        ],
+        "such": [
+          115
+        ],
+        "as": [
+          116
+        ],
+        "fault": [
+          117
+        ],
+        "infiltration.": [
+          120
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-04T10:54:05.112534",
+      "created_date": "2024-09-12T00:00:00"
     },
     {
       "id": "https://openalex.org/W4402462761",
@@ -10161,6 +11199,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -10605,7 +11644,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.24258116,
+        "value": 0.28217725,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -10777,7 +11816,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [],
       "study_designs": [],
       "awards": [],
       "funders": [],
@@ -11245,1060 +12283,6 @@
       "created_date": "2024-09-12T00:00:00"
     },
     {
-      "id": "https://openalex.org/W4402462933",
-      "doi": "https://doi.org/10.3997/2214-4609.202420139",
-      "title": "Large Scale Deployment of Self-Potential Monitoring System in The Kawengan Oil Field",
-      "display_name": "Large Scale Deployment of Self-Potential Monitoring System in The Kawengan Oil Field",
-      "publication_year": 2024,
-      "publication_date": "2024-01-01",
-      "ids": {
-        "openalex": "https://openalex.org/W4402462933",
-        "doi": "https://doi.org/10.3997/2214-4609.202420139"
-      },
-      "language": "en",
-      "primary_location": {
-        "id": "doi:10.3997/2214-4609.202420139",
-        "doi": "https://doi.org/10.3997/2214-4609.202420139",
-        "is_oa": false,
-        "landing_page_url": "https://doi.org/10.3997/2214-4609.202420139",
-        "pdf_url": null,
-        "source": {
-          "id": "https://openalex.org/S4363607213",
-          "display_name": "European Meeting of Environmental and Engineering Geophysics (NSG)",
-          "issn_l": null,
-          "issn": null,
-          "is_oa": false,
-          "is_in_doaj": false,
-          "is_core": false,
-          "listed_in": [],
-          "host_organization": null,
-          "host_organization_name": null,
-          "host_organization_lineage": [],
-          "host_organization_lineage_names": [],
-          "type": "conference"
-        },
-        "license": null,
-        "license_id": null,
-        "version": "publishedVersion",
-        "is_accepted": true,
-        "is_published": true,
-        "raw_source_name": "NSG 2024 30th European Meeting of Environmental and Engineering Geophysics",
-        "raw_type": "proceedings-article"
-      },
-      "volume": null,
-      "type": "conference-paper",
-      "indexed_in": [
-        "crossref"
-      ],
-      "open_access": {
-        "is_oa": false,
-        "oa_status": "closed",
-        "oa_url": null,
-        "any_repository_has_fulltext": false
-      },
-      "authorships": [
-        {
-          "author_position": "first",
-          "author": {
-            "id": "https://openalex.org/A5063389018",
-            "display_name": "Shofiy Petrina Mufidah",
-            "orcid": null,
-            "observed_orcids": []
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I165230279",
-              "display_name": "Universitas Gadjah Mada",
-              "ror": "https://ror.org/03ke6d638",
-              "country_code": "ID",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I165230279"
-              ]
-            }
-          ],
-          "countries": [
-            "ID"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "S. Mufidah",
-          "raw_affiliation_strings": [
-            "Geophysics Laboratory, Faculty of Mathematics and Natural Sciences, Universitas Gadjah Mada"
-          ],
-          "raw_orcid": null,
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Geophysics Laboratory, Faculty of Mathematics and Natural Sciences, Universitas Gadjah Mada",
-              "institution_ids": [
-                "https://openalex.org/I165230279"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5001037279",
-            "display_name": "Y. Udin",
-            "orcid": null,
-            "observed_orcids": []
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I165230279",
-              "display_name": "Universitas Gadjah Mada",
-              "ror": "https://ror.org/03ke6d638",
-              "country_code": "ID",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I165230279"
-              ]
-            }
-          ],
-          "countries": [
-            "ID"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Y. Udin",
-          "raw_affiliation_strings": [
-            "Geophysics Laboratory, Faculty of Mathematics and Natural Sciences, Universitas Gadjah Mada"
-          ],
-          "raw_orcid": null,
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Geophysics Laboratory, Faculty of Mathematics and Natural Sciences, Universitas Gadjah Mada",
-              "institution_ids": [
-                "https://openalex.org/I165230279"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5107136182",
-            "display_name": "M.N.A. Fuadilah",
-            "orcid": null,
-            "observed_orcids": []
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I165230279",
-              "display_name": "Universitas Gadjah Mada",
-              "ror": "https://ror.org/03ke6d638",
-              "country_code": "ID",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I165230279"
-              ]
-            }
-          ],
-          "countries": [
-            "ID"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "M.N.A. Fuadillah",
-          "raw_affiliation_strings": [
-            "Geophysics Laboratory, Faculty of Mathematics and Natural Sciences, Universitas Gadjah Mada"
-          ],
-          "raw_orcid": null,
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Geophysics Laboratory, Faculty of Mathematics and Natural Sciences, Universitas Gadjah Mada",
-              "institution_ids": [
-                "https://openalex.org/I165230279"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5015363731",
-            "display_name": "Diva Alfiansyah",
-            "orcid": "https://orcid.org/0009-0006-1646-3087",
-            "observed_orcids": [
-              "https://orcid.org/0009-0006-1646-3087"
-            ]
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I165230279",
-              "display_name": "Universitas Gadjah Mada",
-              "ror": "https://ror.org/03ke6d638",
-              "country_code": "ID",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I165230279"
-              ]
-            }
-          ],
-          "countries": [
-            "ID"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "D. Alfiansyah",
-          "raw_affiliation_strings": [
-            "Geophysics Laboratory, Faculty of Mathematics and Natural Sciences, Universitas Gadjah Mada"
-          ],
-          "raw_orcid": null,
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Geophysics Laboratory, Faculty of Mathematics and Natural Sciences, Universitas Gadjah Mada",
-              "institution_ids": [
-                "https://openalex.org/I165230279"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5035541994",
-            "display_name": "Eddy Hartantyo",
-            "orcid": "https://orcid.org/0000-0003-0257-8730",
-            "observed_orcids": [
-              "https://orcid.org/0000-0003-0257-8730"
-            ]
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I165230279",
-              "display_name": "Universitas Gadjah Mada",
-              "ror": "https://ror.org/03ke6d638",
-              "country_code": "ID",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I165230279"
-              ]
-            }
-          ],
-          "countries": [
-            "ID"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "E. Hartantyo",
-          "raw_affiliation_strings": [
-            "Geophysics Laboratory, Faculty of Mathematics and Natural Sciences, Universitas Gadjah Mada"
-          ],
-          "raw_orcid": null,
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Geophysics Laboratory, Faculty of Mathematics and Natural Sciences, Universitas Gadjah Mada",
-              "institution_ids": [
-                "https://openalex.org/I165230279"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5008972943",
-            "display_name": "F. Muin",
-            "orcid": null,
-            "observed_orcids": []
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I194343955",
-              "display_name": "Pertamina (Indonesia)",
-              "ror": "https://ror.org/002hgm057",
-              "country_code": "ID",
-              "type": "company",
-              "lineage": [
-                "https://openalex.org/I194343955"
-              ]
-            }
-          ],
-          "countries": [
-            "ID"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "F. Muin",
-          "raw_affiliation_strings": [
-            "Pertamina Hulu Energi Upstream Innovation"
-          ],
-          "raw_orcid": null,
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Pertamina Hulu Energi Upstream Innovation",
-              "institution_ids": [
-                "https://openalex.org/I194343955"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5109634151",
-            "display_name": "N.C. Wibowo",
-            "orcid": null,
-            "observed_orcids": []
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I194343955",
-              "display_name": "Pertamina (Indonesia)",
-              "ror": "https://ror.org/002hgm057",
-              "country_code": "ID",
-              "type": "company",
-              "lineage": [
-                "https://openalex.org/I194343955"
-              ]
-            }
-          ],
-          "countries": [
-            "ID"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "N. Wibowo",
-          "raw_affiliation_strings": [
-            "Pertamina Hulu Energi Upstream Innovation"
-          ],
-          "raw_orcid": null,
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Pertamina Hulu Energi Upstream Innovation",
-              "institution_ids": [
-                "https://openalex.org/I194343955"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5105107863",
-            "display_name": "M.F. Yulisasongko",
-            "orcid": null,
-            "observed_orcids": []
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I194343955",
-              "display_name": "Pertamina (Indonesia)",
-              "ror": "https://ror.org/002hgm057",
-              "country_code": "ID",
-              "type": "company",
-              "lineage": [
-                "https://openalex.org/I194343955"
-              ]
-            }
-          ],
-          "countries": [
-            "ID"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "M.F. Yulisasongko",
-          "raw_affiliation_strings": [
-            "Pertamina Hulu Energi Upstream Innovation"
-          ],
-          "raw_orcid": null,
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Pertamina Hulu Energi Upstream Innovation",
-              "institution_ids": [
-                "https://openalex.org/I194343955"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5001248763",
-            "display_name": "Boko Nurdiyanto",
-            "orcid": null,
-            "observed_orcids": []
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I194343955",
-              "display_name": "Pertamina (Indonesia)",
-              "ror": "https://ror.org/002hgm057",
-              "country_code": "ID",
-              "type": "company",
-              "lineage": [
-                "https://openalex.org/I194343955"
-              ]
-            }
-          ],
-          "countries": [
-            "ID"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "B. Nurdiyanto",
-          "raw_affiliation_strings": [
-            "Pertamina Hulu Energi Upstream Innovation"
-          ],
-          "raw_orcid": null,
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Pertamina Hulu Energi Upstream Innovation",
-              "institution_ids": [
-                "https://openalex.org/I194343955"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5090528821",
-            "display_name": "Teguh Suroso",
-            "orcid": null,
-            "observed_orcids": []
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I194343955",
-              "display_name": "Pertamina (Indonesia)",
-              "ror": "https://ror.org/002hgm057",
-              "country_code": "ID",
-              "type": "company",
-              "lineage": [
-                "https://openalex.org/I194343955"
-              ]
-            }
-          ],
-          "countries": [
-            "ID"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "T. Suroso",
-          "raw_affiliation_strings": [
-            "Pertamina Hulu Energi Upstream Innovation"
-          ],
-          "raw_orcid": null,
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Pertamina Hulu Energi Upstream Innovation",
-              "institution_ids": [
-                "https://openalex.org/I194343955"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "last",
-          "author": {
-            "id": "https://openalex.org/A5032253920",
-            "display_name": "Theodosius Marwan Irnaka",
-            "orcid": "https://orcid.org/0000-0002-0040-5142",
-            "observed_orcids": [
-              "https://orcid.org/0000-0002-0040-5142"
-            ]
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I165230279",
-              "display_name": "Universitas Gadjah Mada",
-              "ror": "https://ror.org/03ke6d638",
-              "country_code": "ID",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I165230279"
-              ]
-            }
-          ],
-          "countries": [
-            "ID"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "T.M. Irnaka",
-          "raw_affiliation_strings": [
-            "Geophysics Laboratory, Faculty of Mathematics and Natural Sciences, Universitas Gadjah Mada"
-          ],
-          "raw_orcid": null,
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Geophysics Laboratory, Faculty of Mathematics and Natural Sciences, Universitas Gadjah Mada",
-              "institution_ids": [
-                "https://openalex.org/I165230279"
-              ]
-            }
-          ]
-        }
-      ],
-      "institutions": [],
-      "countries_distinct_count": 1,
-      "institutions_distinct_count": 2,
-      "corresponding_author_ids": [],
-      "corresponding_institution_ids": [],
-      "apc_list": null,
-      "apc_paid": null,
-      "fwci": 0.0,
-      "has_fulltext": false,
-      "cited_by_count": 0,
-      "citation_normalized_percentile": {
-        "value": 0.24457279,
-        "is_in_top_1_percent": false,
-        "is_in_top_10_percent": false
-      },
-      "cited_by_percentile_year": null,
-      "biblio": {
-        "volume": null,
-        "issue": null,
-        "first_page": "1",
-        "last_page": "5"
-      },
-      "is_retracted": false,
-      "is_paratext": false,
-      "is_xpac": false,
-      "primary_topic": {
-        "id": "https://openalex.org/T10572",
-        "display_name": "Geophysical and Geoelectrical Methods",
-        "score": 0.9965999722480774,
-        "subfield": {
-          "id": "https://openalex.org/subfields/1908",
-          "display_name": "Geophysics"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/19",
-          "display_name": "Earth and Planetary Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/3",
-          "display_name": "Physical Sciences"
-        }
-      },
-      "topics": [
-        {
-          "id": "https://openalex.org/T10572",
-          "display_name": "Geophysical and Geoelectrical Methods",
-          "score": 0.9965999722480774,
-          "subfield": {
-            "id": "https://openalex.org/subfields/1908",
-            "display_name": "Geophysics"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/19",
-            "display_name": "Earth and Planetary Sciences"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        },
-        {
-          "id": "https://openalex.org/T11778",
-          "display_name": "Electrical and Bioimpedance Tomography",
-          "score": 0.0006000000284984708,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2208",
-            "display_name": "Electrical and Electronic Engineering"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/22",
-            "display_name": "Engineering"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        },
-        {
-          "id": "https://openalex.org/T11609",
-          "display_name": "Geophysical Methods and Applications",
-          "score": 0.00019999999494757503,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2212",
-            "display_name": "Ocean Engineering"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/22",
-            "display_name": "Engineering"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        }
-      ],
-      "keywords": [
-        {
-          "id": "https://openalex.org/keywords/self-potential-method",
-          "display_name": "self-potential method",
-          "score": 0.9480000138282776
-        },
-        {
-          "id": "https://openalex.org/keywords/oil-field-monitoring",
-          "display_name": "oil field monitoring",
-          "score": 0.6340000033378601
-        },
-        {
-          "id": "https://openalex.org/keywords/real-time-monitoring-system",
-          "display_name": "real-time monitoring system",
-          "score": 0.8859999775886536
-        },
-        {
-          "id": "https://openalex.org/keywords/remote-sensing",
-          "display_name": "remote sensing",
-          "score": 0.5849999785423279
-        },
-        {
-          "id": "https://openalex.org/keywords/fault-detection",
-          "display_name": "fault detection",
-          "score": 0.9129999876022339
-        },
-        {
-          "id": "https://openalex.org/keywords/water-infiltration",
-          "display_name": "water infiltration",
-          "score": 0.9229999780654907
-        },
-        {
-          "id": "https://openalex.org/keywords/oil-reservoirs",
-          "display_name": "hydrocarbon reservoirs",
-          "score": 0.7900000214576721
-        }
-      ],
-      "concepts": [
-        {
-          "id": "https://openalex.org/C105339364",
-          "wikidata": "https://www.wikidata.org/wiki/Q2297740",
-          "display_name": "Software deployment",
-          "level": 2,
-          "score": 0.7316926121711731
-        },
-        {
-          "id": "https://openalex.org/C2778755073",
-          "wikidata": "https://www.wikidata.org/wiki/Q10858537",
-          "display_name": "Scale (ratio)",
-          "level": 2,
-          "score": 0.6084132194519043
-        },
-        {
-          "id": "https://openalex.org/C39432304",
-          "wikidata": "https://www.wikidata.org/wiki/Q188847",
-          "display_name": "Environmental science",
-          "level": 0,
-          "score": 0.5039884448051453
-        },
-        {
-          "id": "https://openalex.org/C9652623",
-          "wikidata": "https://www.wikidata.org/wiki/Q190109",
-          "display_name": "Field (mathematics)",
-          "level": 2,
-          "score": 0.502253532409668
-        },
-        {
-          "id": "https://openalex.org/C2776364302",
-          "wikidata": "https://www.wikidata.org/wiki/Q1845437",
-          "display_name": "Oil field",
-          "level": 2,
-          "score": 0.47497886419296265
-        },
-        {
-          "id": "https://openalex.org/C41008148",
-          "wikidata": "https://www.wikidata.org/wiki/Q21198",
-          "display_name": "Computer science",
-          "level": 0,
-          "score": 0.4626385271549225
-        },
-        {
-          "id": "https://openalex.org/C78762247",
-          "wikidata": "https://www.wikidata.org/wiki/Q1273174",
-          "display_name": "Petroleum engineering",
-          "level": 1,
-          "score": 0.2981378436088562
-        },
-        {
-          "id": "https://openalex.org/C127313418",
-          "wikidata": "https://www.wikidata.org/wiki/Q1069",
-          "display_name": "Geology",
-          "level": 0,
-          "score": 0.2181544303894043
-        },
-        {
-          "id": "https://openalex.org/C205649164",
-          "wikidata": "https://www.wikidata.org/wiki/Q1071",
-          "display_name": "Geography",
-          "level": 0,
-          "score": 0.11548992991447449
-        },
-        {
-          "id": "https://openalex.org/C58640448",
-          "wikidata": "https://www.wikidata.org/wiki/Q42515",
-          "display_name": "Cartography",
-          "level": 1,
-          "score": 0.07869812846183777
-        },
-        {
-          "id": "https://openalex.org/C115903868",
-          "wikidata": "https://www.wikidata.org/wiki/Q80993",
-          "display_name": "Software engineering",
-          "level": 1,
-          "score": 0.0778186023235321
-        },
-        {
-          "id": "https://openalex.org/C33923547",
-          "wikidata": "https://www.wikidata.org/wiki/Q395",
-          "display_name": "Mathematics",
-          "level": 0,
-          "score": 0.06533578038215637
-        },
-        {
-          "id": "https://openalex.org/C202444582",
-          "wikidata": "https://www.wikidata.org/wiki/Q837863",
-          "display_name": "Pure mathematics",
-          "level": 1,
-          "score": 0.0
-        }
-      ],
-      "mesh": [],
-      "locations_count": 1,
-      "locations": [
-        {
-          "id": "doi:10.3997/2214-4609.202420139",
-          "doi": "https://doi.org/10.3997/2214-4609.202420139",
-          "is_oa": false,
-          "landing_page_url": "https://doi.org/10.3997/2214-4609.202420139",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4363607213",
-            "display_name": "European Meeting of Environmental and Engineering Geophysics (NSG)",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "listed_in": [],
-            "host_organization": null,
-            "host_organization_name": null,
-            "host_organization_lineage": [],
-            "host_organization_lineage_names": [],
-            "type": "conference"
-          },
-          "license": null,
-          "license_id": null,
-          "version": "publishedVersion",
-          "is_accepted": true,
-          "is_published": true,
-          "raw_source_name": "NSG 2024 30th European Meeting of Environmental and Engineering Geophysics",
-          "raw_type": "proceedings-article"
-        }
-      ],
-      "best_oa_location": null,
-      "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [
-        {
-          "id": "https://metadata.un.org/sdg/13",
-          "display_name": "Climate action",
-          "score": 0.41999998688697815
-        }
-      ],
-      "study_designs": [],
-      "awards": [],
-      "funders": [],
-      "has_content": {
-        "grobid_xml": false,
-        "pdf": false
-      },
-      "content_urls": null,
-      "referenced_works_count": 0,
-      "referenced_works": [],
-      "related_works": [
-        "https://openalex.org/W6889500235",
-        "https://openalex.org/W3111952712",
-        "https://openalex.org/W3034593533",
-        "https://openalex.org/W4408816668",
-        "https://openalex.org/W2087891486",
-        "https://openalex.org/W7135243331",
-        "https://openalex.org/W4406285702",
-        "https://openalex.org/W3007697580",
-        "https://openalex.org/W2497846265",
-        "https://openalex.org/W3024676288"
-      ],
-      "abstract_inverted_index": {
-        "Summary": [
-          0
-        ],
-        "The": [
-          1,
-          55,
-          66,
-          83
-        ],
-        "self-potential": [
-          2,
-          48
-        ],
-        "(SP)": [
-          3
-        ],
-        "method": [
-          4,
-          8
-        ],
-        "is": [
-          5,
-          68,
-          86
-        ],
-        "a": [
-          6,
-          40,
-          59,
-          74,
-          93
-        ],
-        "nondestructive": [
-          7
-        ],
-        "that": [
-          9
-        ],
-        "can": [
-          10,
-          79
-        ],
-        "be": [
-          11,
-          80
-        ],
-        "used": [
-          12
-        ],
-        "to": [
-          13,
-          70,
-          88
-        ],
-        "monitor": [
-          14
-        ],
-        "water": [
-          15,
-          44,
-          90,
-          119
-        ],
-        "injection": [
-          16,
-          45
-        ],
-        "in": [
-          17,
-          30,
-          92,
-          96
-        ],
-        "hydrocarbon": [
-          18,
-          94
-        ],
-        "fields.": [
-          19
-        ],
-        "This": [
-          20
-        ],
-        "experiment": [
-          21
-        ],
-        "originated": [
-          22
-        ],
-        "from": [
-          23
-        ],
-        "laboratory-scale": [
-          24
-        ],
-        "testing": [
-          25
-        ],
-        "and": [
-          26,
-          64,
-          76,
-          107,
-          113,
-          118
-        ],
-        "was": [
-          27
-        ],
-        "then": [
-          28
-        ],
-        "deployed": [
-          29
-        ],
-        "the": [
-          31,
-          47,
-          71,
-          77,
-          100,
-          102
-        ],
-        "Kawengan": [
-          32
-        ],
-        "Oil": [
-          33
-        ],
-        "Field.": [
-          34
-        ],
-        "In": [
-          35,
-          99
-        ],
-        "this": [
-          36
-        ],
-        "research,": [
-          37
-        ],
-        "we": [
-          38
-        ],
-        "provide": [
-          39
-        ],
-        "monitoring": [
-          41,
-          84
-        ],
-        "system": [
-          42,
-          56,
-          85
-        ],
-        "for": [
-          43
-        ],
-        "using": [
-          46
-        ],
-        "method,": [
-          49
-        ],
-        "with": [
-          50,
-          110
-        ],
-        "an": [
-          51,
-          62
-        ],
-        "automatic": [
-          52
-        ],
-        "real-time": [
-          53
-        ],
-        "system.": [
-          54
-        ],
-        "consists": [
-          57
-        ],
-        "of": [
-          58
-        ],
-        "porous": [
-          60
-        ],
-        "pot,": [
-          61
-        ],
-        "electrode,": [
-          63
-        ],
-        "sensor.": [
-          65
-        ],
-        "sensor": [
-          67,
-          72,
-          78
-        ],
-        "connected": [
-          69
-        ],
-        "via": [
-          73
-        ],
-        "cable,": [
-          75
-        ],
-        "monitored": [
-          81
-        ],
-        "remotely.": [
-          82
-        ],
-        "able": [
-          87
-        ],
-        "detect": [
-          89
-        ],
-        "injections": [
-          91
-        ],
-        "area": [
-          95
-        ],
-        "real": [
-          97
-        ],
-        "time.": [
-          98
-        ],
-        "experiment,": [
-          101
-        ],
-        "system’s": [
-          103
-        ],
-        "capabilities": [
-          104
-        ],
-        "are": [
-          105
-        ],
-        "validated": [
-          106
-        ],
-        "correlated": [
-          108
-        ],
-        "well": [
-          109
-        ],
-        "geological": [
-          111
-        ],
-        "features": [
-          112
-        ],
-        "processes,": [
-          114
-        ],
-        "such": [
-          115
-        ],
-        "as": [
-          116
-        ],
-        "fault": [
-          117
-        ],
-        "infiltration.": [
-          120
-        ]
-      },
-      "counts_by_year": [],
-      "updated_date": "2026-10-12T09:40:04.860316",
-      "created_date": "2024-09-12T00:00:00"
-    },
-    {
       "id": "https://openalex.org/W4406188963",
       "doi": "https://doi.org/10.3997/2214-4609.202472067",
       "title": "Labscale Experiment Fluid Injection Using Self Potential, Electrical Resistivity Tomography, and Mise-à-la-Masse",
@@ -12341,6 +12325,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -12863,7 +12848,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.58195579,
+        "value": 0.51051287,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -12934,12 +12919,12 @@
           "display_name": "Geophysical Methods and Applications",
           "score": 0.0,
           "subfield": {
-            "id": "https://openalex.org/subfields/2212",
-            "display_name": "Ocean Engineering"
+            "id": "https://openalex.org/subfields/1908",
+            "display_name": "Geophysics"
           },
           "field": {
-            "id": "https://openalex.org/fields/22",
-            "display_name": "Engineering"
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
           },
           "domain": {
             "id": "https://openalex.org/domains/3",
@@ -13102,7 +13087,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [],
       "study_designs": [],
       "awards": [],
       "funders": [],
@@ -13552,7 +13536,21 @@
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.5194/egusphere-egu24-7943",
         "pdf_url": null,
-        "source": null,
+        "source": {
+          "id": "https://openalex.org/S4306508951",
+          "display_name": "EGU General Assembly Conference Abstracts",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "conference"
+        },
         "license": "cc-by",
         "license_id": "https://openalex.org/licenses/cc-by",
         "version": "acceptedVersion",
@@ -13563,14 +13561,15 @@
       },
       "volume": null,
       "type": "conference-abstract",
+      "is_traditional": false,
       "indexed_in": [
         "crossref"
       ],
       "open_access": {
         "is_oa": true,
-        "oa_status": "gold",
+        "oa_status": "hybrid",
         "oa_url": "https://doi.org/10.5194/egusphere-egu24-7943",
-        "any_repository_has_fulltext": null
+        "any_repository_has_fulltext": false
       },
       "authorships": [
         {
@@ -14120,8 +14119,8 @@
         "display_name": "Geological and Geochemical Analysis",
         "score": 0.9994999766349792,
         "subfield": {
-          "id": "https://openalex.org/subfields/1908",
-          "display_name": "Geophysics"
+          "id": "https://openalex.org/subfields/1906",
+          "display_name": "Geochemistry and Petrology"
         },
         "field": {
           "id": "https://openalex.org/fields/19",
@@ -14138,8 +14137,8 @@
           "display_name": "Geological and Geochemical Analysis",
           "score": 0.9994999766349792,
           "subfield": {
-            "id": "https://openalex.org/subfields/1908",
-            "display_name": "Geophysics"
+            "id": "https://openalex.org/subfields/1906",
+            "display_name": "Geochemistry and Petrology"
           },
           "field": {
             "id": "https://openalex.org/fields/19",
@@ -14301,7 +14300,21 @@
           "is_oa": true,
           "landing_page_url": "https://doi.org/10.5194/egusphere-egu24-7943",
           "pdf_url": null,
-          "source": null,
+          "source": {
+            "id": "https://openalex.org/S4306508951",
+            "display_name": "EGU General Assembly Conference Abstracts",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "conference"
+          },
           "license": "cc-by",
           "license_id": "https://openalex.org/licenses/cc-by",
           "version": "acceptedVersion",
@@ -14348,7 +14361,21 @@
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.5194/egusphere-egu24-7943",
         "pdf_url": null,
-        "source": null,
+        "source": {
+          "id": "https://openalex.org/S4306508951",
+          "display_name": "EGU General Assembly Conference Abstracts",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "conference"
+        },
         "license": "cc-by",
         "license_id": "https://openalex.org/licenses/cc-by",
         "version": "acceptedVersion",
@@ -14364,13 +14391,12 @@
           "score": 0.685699999332428
         }
       ],
-      "sustainable_development_goals_aurora": [],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -15210,7 +15236,7 @@
         ]
       },
       "counts_by_year": [],
-      "updated_date": "2026-10-27T15:51:10.671819",
+      "updated_date": "2026-11-07T11:25:07.637180",
       "created_date": "2024-03-09T00:00:00"
     },
     {
@@ -15231,7 +15257,21 @@
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.5194/egusphere-egu24-5415",
         "pdf_url": null,
-        "source": null,
+        "source": {
+          "id": "https://openalex.org/S4306508951",
+          "display_name": "EGU General Assembly Conference Abstracts",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "conference"
+        },
         "license": "cc-by",
         "license_id": "https://openalex.org/licenses/cc-by",
         "version": "acceptedVersion",
@@ -15242,14 +15282,15 @@
       },
       "volume": null,
       "type": "conference-abstract",
+      "is_traditional": false,
       "indexed_in": [
         "crossref"
       ],
       "open_access": {
         "is_oa": true,
-        "oa_status": "gold",
+        "oa_status": "hybrid",
         "oa_url": "https://doi.org/10.5194/egusphere-egu24-5415",
-        "any_repository_has_fulltext": null
+        "any_repository_has_fulltext": false
       },
       "authorships": [
         {
@@ -15397,7 +15438,7 @@
           "author_position": "middle",
           "author": {
             "id": "https://openalex.org/A5008331980",
-            "display_name": "Michael  John Heap",
+            "display_name": "Michael J. Heap",
             "orcid": "https://orcid.org/0000-0002-4748-735X",
             "observed_orcids": [
               "https://orcid.org/0000-0002-4748-735X"
@@ -15754,8 +15795,8 @@
           "display_name": "Geological and Geochemical Analysis",
           "score": 0.016699999570846558,
           "subfield": {
-            "id": "https://openalex.org/subfields/1908",
-            "display_name": "Geophysics"
+            "id": "https://openalex.org/subfields/1906",
+            "display_name": "Geochemistry and Petrology"
           },
           "field": {
             "id": "https://openalex.org/fields/19",
@@ -15878,7 +15919,21 @@
           "is_oa": true,
           "landing_page_url": "https://doi.org/10.5194/egusphere-egu24-5415",
           "pdf_url": null,
-          "source": null,
+          "source": {
+            "id": "https://openalex.org/S4306508951",
+            "display_name": "EGU General Assembly Conference Abstracts",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "conference"
+          },
           "license": "cc-by",
           "license_id": "https://openalex.org/licenses/cc-by",
           "version": "acceptedVersion",
@@ -15925,7 +15980,21 @@
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.5194/egusphere-egu24-5415",
         "pdf_url": null,
-        "source": null,
+        "source": {
+          "id": "https://openalex.org/S4306508951",
+          "display_name": "EGU General Assembly Conference Abstracts",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "conference"
+        },
         "license": "cc-by",
         "license_id": "https://openalex.org/licenses/cc-by",
         "version": "acceptedVersion",
@@ -15935,19 +16004,12 @@
         "raw_type": "posted-content"
       },
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [
-        {
-          "id": "https://metadata.un.org/sdg/11",
-          "display_name": "Sustainable cities and communities",
-          "score": 0.4399999976158142
-        }
-      ],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -16475,7 +16537,7 @@
         ]
       },
       "counts_by_year": [],
-      "updated_date": "2026-10-13T10:08:12.033832",
+      "updated_date": "2026-11-07T11:25:07.637180",
       "created_date": "2024-03-09T00:00:00"
     },
     {
@@ -16533,6 +16595,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -16716,7 +16779,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.18685364,
+        "value": 0.21170767,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -17104,7 +17167,6 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [],
       "study_designs": [],
       "awards": [],
       "funders": [],
@@ -17762,6 +17824,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -18103,17 +18166,17 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 4.0289,
+      "fwci": 9.8106,
       "has_fulltext": true,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.92486934,
+        "value": 0.97065379,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
       "cited_by_percentile_year": {
-        "min": 94,
-        "max": 96
+        "min": 93,
+        "max": 95
       },
       "biblio": {
         "volume": "1071",
@@ -18129,8 +18192,8 @@
         "display_name": "Geological and Geochemical Analysis",
         "score": 0.513700008392334,
         "subfield": {
-          "id": "https://openalex.org/subfields/1908",
-          "display_name": "Geophysics"
+          "id": "https://openalex.org/subfields/1906",
+          "display_name": "Geochemistry and Petrology"
         },
         "field": {
           "id": "https://openalex.org/fields/19",
@@ -18147,8 +18210,8 @@
           "display_name": "Geological and Geochemical Analysis",
           "score": 0.513700008392334,
           "subfield": {
-            "id": "https://openalex.org/subfields/1908",
-            "display_name": "Geophysics"
+            "id": "https://openalex.org/subfields/1906",
+            "display_name": "Geochemistry and Petrology"
           },
           "field": {
             "id": "https://openalex.org/fields/19",
@@ -18450,19 +18513,12 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [
-        {
-          "id": "https://metadata.un.org/sdg/14",
-          "display_name": "Life below water",
-          "score": 0.8299999833106995
-        }
-      ],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4293577051.pdf",
@@ -18873,7 +18929,21 @@
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.5194/egusphere-egu22-2087",
         "pdf_url": null,
-        "source": null,
+        "source": {
+          "id": "https://openalex.org/S4306508951",
+          "display_name": "EGU General Assembly Conference Abstracts",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "conference"
+        },
         "license": "cc-by",
         "license_id": "https://openalex.org/licenses/cc-by",
         "version": "acceptedVersion",
@@ -18884,14 +18954,15 @@
       },
       "volume": null,
       "type": "conference-abstract",
+      "is_traditional": false,
       "indexed_in": [
         "crossref"
       ],
       "open_access": {
         "is_oa": true,
-        "oa_status": "gold",
+        "oa_status": "hybrid",
         "oa_url": "https://doi.org/10.5194/egusphere-egu22-2087",
-        "any_repository_has_fulltext": null
+        "any_repository_has_fulltext": false
       },
       "authorships": [
         {
@@ -18938,7 +19009,7 @@
           "author_position": "middle",
           "author": {
             "id": "https://openalex.org/A5008331980",
-            "display_name": "Michael  John Heap",
+            "display_name": "Michael J. Heap",
             "orcid": "https://orcid.org/0000-0002-4748-735X",
             "observed_orcids": [
               "https://orcid.org/0000-0002-4748-735X"
@@ -19570,12 +19641,12 @@
           "display_name": "Geochemistry and Geologic Mapping",
           "score": 0.28690001368522644,
           "subfield": {
-            "id": "https://openalex.org/subfields/1702",
-            "display_name": "Artificial Intelligence"
+            "id": "https://openalex.org/subfields/1906",
+            "display_name": "Geochemistry and Petrology"
           },
           "field": {
-            "id": "https://openalex.org/fields/17",
-            "display_name": "Computer Science"
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
           },
           "domain": {
             "id": "https://openalex.org/domains/3",
@@ -19587,8 +19658,8 @@
           "display_name": "Geological and Geochemical Analysis",
           "score": 0.017100000753998756,
           "subfield": {
-            "id": "https://openalex.org/subfields/1908",
-            "display_name": "Geophysics"
+            "id": "https://openalex.org/subfields/1906",
+            "display_name": "Geochemistry and Petrology"
           },
           "field": {
             "id": "https://openalex.org/fields/19",
@@ -19809,7 +19880,21 @@
           "is_oa": true,
           "landing_page_url": "https://doi.org/10.5194/egusphere-egu22-2087",
           "pdf_url": null,
-          "source": null,
+          "source": {
+            "id": "https://openalex.org/S4306508951",
+            "display_name": "EGU General Assembly Conference Abstracts",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "conference"
+          },
           "license": "cc-by",
           "license_id": "https://openalex.org/licenses/cc-by",
           "version": "acceptedVersion",
@@ -19825,7 +19910,21 @@
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.5194/egusphere-egu22-2087",
         "pdf_url": null,
-        "source": null,
+        "source": {
+          "id": "https://openalex.org/S4306508951",
+          "display_name": "EGU General Assembly Conference Abstracts",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "conference"
+        },
         "license": "cc-by",
         "license_id": "https://openalex.org/licenses/cc-by",
         "version": "acceptedVersion",
@@ -19835,13 +19934,12 @@
         "raw_type": "posted-content"
       },
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -20578,7 +20676,7 @@
         ]
       },
       "counts_by_year": [],
-      "updated_date": "2026-10-27T15:51:10.671819",
+      "updated_date": "2026-11-07T11:25:07.637180",
       "created_date": "2022-04-03T00:00:00"
     },
     {
@@ -20638,6 +20736,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref",
         "doaj"
@@ -20799,15 +20898,18 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0.0,
+      "fwci": 3.254,
       "has_fulltext": true,
-      "cited_by_count": 0,
+      "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.33595801,
+        "value": 0.92124421,
         "is_in_top_1_percent": false,
-        "is_in_top_10_percent": false
+        "is_in_top_10_percent": true
       },
-      "cited_by_percentile_year": null,
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 96
+      },
       "biblio": {
         "volume": "468",
         "issue": null,
@@ -20874,8 +20976,8 @@
           "display_name": "Geological and Geochemical Analysis",
           "score": 0.08869999647140503,
           "subfield": {
-            "id": "https://openalex.org/subfields/1908",
-            "display_name": "Geophysics"
+            "id": "https://openalex.org/subfields/1906",
+            "display_name": "Geochemistry and Petrology"
           },
           "field": {
             "id": "https://openalex.org/fields/19",
@@ -21196,13 +21298,12 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4390073212.pdf",
@@ -21664,8 +21765,17 @@
           190
         ]
       },
-      "counts_by_year": [],
-      "updated_date": "2026-09-08T07:41:39.490200",
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-04T10:54:05.112534",
       "created_date": "2023-12-22T00:00:00"
     },
     {
@@ -21731,6 +21841,7 @@
       },
       "volume": null,
       "type": "conference-abstract",
+      "is_traditional": false,
       "indexed_in": [
         "crossref"
       ],
@@ -22274,16 +22385,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "score": 1.0,
           "id": "https://metadata.un.org/sdg/3",
-          "display_name": "Good health and well-being",
-          "score": 1.0
-        }
-      ],
-      "sustainable_development_goals_aurora": [
-        {
-          "id": "https://metadata.un.org/sdg/3",
-          "display_name": "Good health and well-being",
-          "score": 0.5899999737739563
+          "display_name": "Good health and well-being"
         }
       ],
       "study_designs": [],
@@ -22965,6 +23069,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -23105,7 +23210,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.143383,
+        "value": 0.14006105,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -23122,7 +23227,7 @@
       "primary_topic": {
         "id": "https://openalex.org/T10572",
         "display_name": "Geophysical and Geoelectrical Methods",
-        "score": 0.5557000041007996,
+        "score": 0.4609000086784363,
         "subfield": {
           "id": "https://openalex.org/subfields/1908",
           "display_name": "Geophysics"
@@ -23140,7 +23245,7 @@
         {
           "id": "https://openalex.org/T10572",
           "display_name": "Geophysical and Geoelectrical Methods",
-          "score": 0.5557000041007996,
+          "score": 0.4609000086784363,
           "subfield": {
             "id": "https://openalex.org/subfields/1908",
             "display_name": "Geophysics"
@@ -23155,16 +23260,16 @@
           }
         },
         {
-          "id": "https://openalex.org/T13177",
-          "display_name": "Geological and Geophysical Studies",
-          "score": 0.1193000003695488,
+          "id": "https://openalex.org/T11225",
+          "display_name": "Geothermal Energy Systems and Applications",
+          "score": 0.18809999525547028,
           "subfield": {
-            "id": "https://openalex.org/subfields/1907",
-            "display_name": "Geology"
+            "id": "https://openalex.org/subfields/2105",
+            "display_name": "Renewable Energy, Sustainability and the Environment"
           },
           "field": {
-            "id": "https://openalex.org/fields/19",
-            "display_name": "Earth and Planetary Sciences"
+            "id": "https://openalex.org/fields/21",
+            "display_name": "Energy"
           },
           "domain": {
             "id": "https://openalex.org/domains/3",
@@ -23172,12 +23277,12 @@
           }
         },
         {
-          "id": "https://openalex.org/T13067",
-          "display_name": "Geological Modeling and Analysis",
-          "score": 0.09730000048875809,
+          "id": "https://openalex.org/T13177",
+          "display_name": "Geological and Geophysical Studies",
+          "score": 0.11089999973773956,
           "subfield": {
-            "id": "https://openalex.org/subfields/1906",
-            "display_name": "Geochemistry and Petrology"
+            "id": "https://openalex.org/subfields/1907",
+            "display_name": "Geology"
           },
           "field": {
             "id": "https://openalex.org/fields/19",
@@ -23191,24 +23296,29 @@
       ],
       "keywords": [
         {
-          "id": "https://openalex.org/keywords/seismicity",
-          "display_name": "seismicity",
-          "score": 0.8199999928474426
-        },
-        {
-          "id": "https://openalex.org/keywords/geothermal-prospect",
-          "display_name": "geothermal prospect",
-          "score": 0.8230000138282776
+          "id": "https://openalex.org/keywords/geological-structure-mapping",
+          "display_name": "geological structure mapping",
+          "score": 0.8209999799728394
         },
         {
           "id": "https://openalex.org/keywords/gravity-anomalies",
           "display_name": "gravity anomalies",
-          "score": 0.5759999752044678
+          "score": 0.6110000014305115
         },
         {
-          "id": "https://openalex.org/keywords/seismicity-distribution",
-          "display_name": "seismicity distribution",
-          "score": 0.37700000405311584
+          "id": "https://openalex.org/keywords/seismicity",
+          "display_name": "seismicity",
+          "score": 0.8479999899864197
+        },
+        {
+          "id": "https://openalex.org/keywords/geothermal-manifestations",
+          "display_name": "geothermal manifestations",
+          "score": 0.75
+        },
+        {
+          "id": "https://openalex.org/keywords/bengkulu",
+          "display_name": "Bengkulu",
+          "score": 0.8119999766349792
         }
       ],
       "concepts": [
@@ -23337,19 +23447,12 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [
-        {
-          "id": "https://metadata.un.org/sdg/13",
-          "display_name": "Climate action",
-          "score": 0.47999998927116394
-        }
-      ],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 2,
@@ -23759,7 +23862,7 @@
         ]
       },
       "counts_by_year": [],
-      "updated_date": "2026-10-26T11:51:55.731654",
+      "updated_date": "2026-11-08T12:12:28.789561",
       "created_date": "2023-08-17T00:00:00"
     },
     {
@@ -23817,6 +23920,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -23969,16 +24073,16 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 1.2827,
+      "fwci": 1.0179,
       "has_fulltext": true,
-      "cited_by_count": 3,
+      "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.76621128,
+        "value": 0.71490751,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
       "cited_by_percentile_year": {
-        "min": 89,
+        "min": 88,
         "max": 96
       },
       "biblio": {
@@ -24321,7 +24425,6 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [],
       "study_designs": [],
       "awards": [],
       "funders": [
@@ -24332,8 +24435,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4293577095.pdf",
@@ -24835,7 +24938,7 @@
       "counts_by_year": [
         {
           "year": 2026,
-          "cited_by_count": 1
+          "cited_by_count": 2
         },
         {
           "year": 2025,
@@ -24846,7 +24949,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2026-10-16T09:59:22.235173",
+      "updated_date": "2026-11-04T10:54:05.112534",
       "created_date": "2022-08-30T00:00:00"
     },
     {
@@ -24904,6 +25007,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -25179,16 +25283,16 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 16.313,
+      "fwci": 20.7151,
       "has_fulltext": false,
-      "cited_by_count": 2,
+      "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.98455056,
-        "is_in_top_1_percent": false,
+        "value": 0.99190775,
+        "is_in_top_1_percent": true,
         "is_in_top_10_percent": true
       },
       "cited_by_percentile_year": {
-        "min": 90,
+        "min": 89,
         "max": 96
       },
       "biblio": {
@@ -25205,8 +25309,8 @@
         "display_name": "Geophysics and Gravity Measurements",
         "score": 0.9901999831199646,
         "subfield": {
-          "id": "https://openalex.org/subfields/1910",
-          "display_name": "Oceanography"
+          "id": "https://openalex.org/subfields/1908",
+          "display_name": "Geophysics"
         },
         "field": {
           "id": "https://openalex.org/fields/19",
@@ -25223,8 +25327,8 @@
           "display_name": "Geophysics and Gravity Measurements",
           "score": 0.9901999831199646,
           "subfield": {
-            "id": "https://openalex.org/subfields/1910",
-            "display_name": "Oceanography"
+            "id": "https://openalex.org/subfields/1908",
+            "display_name": "Geophysics"
           },
           "field": {
             "id": "https://openalex.org/fields/19",
@@ -25468,13 +25572,12 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 8,
@@ -25927,14 +26030,14 @@
       "counts_by_year": [
         {
           "year": 2026,
-          "cited_by_count": 1
+          "cited_by_count": 2
         },
         {
           "year": 2025,
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2026-10-16T09:59:22.235173",
+      "updated_date": "2026-11-04T10:54:05.112534",
       "created_date": "2025-04-24T00:00:00"
     },
     {
@@ -25984,6 +26087,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -26196,15 +26300,18 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0.0,
+      "fwci": 1.2734,
       "has_fulltext": false,
-      "cited_by_count": 0,
+      "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.01895571,
+        "value": 0.71587813,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
-      "cited_by_percentile_year": null,
+      "cited_by_percentile_year": {
+        "min": 89,
+        "max": 93
+      },
       "biblio": {
         "volume": null,
         "issue": null,
@@ -26513,21 +26620,14 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Sustainable cities and communities",
+          "id": "https://metadata.un.org/sdg/11",
           "score": 0.7646999955177307,
-          "id": "https://metadata.un.org/sdg/11"
+          "display_name": "Sustainable cities and communities"
         },
         {
-          "display_name": "Clean water and sanitation",
+          "id": "https://metadata.un.org/sdg/6",
           "score": 0.6618000268936157,
-          "id": "https://metadata.un.org/sdg/6"
-        }
-      ],
-      "sustainable_development_goals_aurora": [
-        {
-          "display_name": "Climate action",
-          "score": 0.8500000238418579,
-          "id": "https://metadata.un.org/sdg/13"
+          "display_name": "Clean water and sanitation"
         }
       ],
       "study_designs": [],
@@ -27013,8 +27113,13 @@
           222
         ]
       },
-      "counts_by_year": [],
-      "updated_date": "2026-10-29T09:56:32.521200",
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-07T11:25:07.637180",
       "created_date": "2024-01-30T00:00:00"
     },
     {
@@ -27072,6 +27177,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -27218,7 +27324,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.58600999,
+        "value": 0.55049151,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -27565,13 +27671,12 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 10,
@@ -28018,6 +28123,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -28237,7 +28343,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.6853429,
+        "value": 0.58708348,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -28596,13 +28702,12 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 23,
@@ -29048,6 +29153,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -29188,17 +29294,17 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 10.6536,
+      "fwci": 8.6774,
       "has_fulltext": false,
       "cited_by_count": 8,
       "citation_normalized_percentile": {
-        "value": 0.99030779,
-        "is_in_top_1_percent": true,
+        "value": 0.98146923,
+        "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
       "cited_by_percentile_year": {
-        "min": 97,
-        "max": 98
+        "min": 96,
+        "max": 97
       },
       "biblio": {
         "volume": "2498",
@@ -29214,12 +29320,12 @@
         "display_name": "Hydrocarbon exploration and reservoir analysis",
         "score": 0.9467999935150146,
         "subfield": {
-          "id": "https://openalex.org/subfields/2211",
-          "display_name": "Mechanics of Materials"
+          "id": "https://openalex.org/subfields/1907",
+          "display_name": "Geology"
         },
         "field": {
-          "id": "https://openalex.org/fields/22",
-          "display_name": "Engineering"
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/3",
@@ -29232,12 +29338,12 @@
           "display_name": "Hydrocarbon exploration and reservoir analysis",
           "score": 0.9467999935150146,
           "subfield": {
-            "id": "https://openalex.org/subfields/2211",
-            "display_name": "Mechanics of Materials"
+            "id": "https://openalex.org/subfields/1907",
+            "display_name": "Geology"
           },
           "field": {
-            "id": "https://openalex.org/fields/22",
-            "display_name": "Engineering"
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
           },
           "domain": {
             "id": "https://openalex.org/domains/3",
@@ -29266,12 +29372,12 @@
           "display_name": "Drilling and Well Engineering",
           "score": 0.009499999694526196,
           "subfield": {
-            "id": "https://openalex.org/subfields/2212",
-            "display_name": "Ocean Engineering"
+            "id": "https://openalex.org/subfields/2103",
+            "display_name": "Fuel Technology"
           },
           "field": {
-            "id": "https://openalex.org/fields/22",
-            "display_name": "Engineering"
+            "id": "https://openalex.org/fields/21",
+            "display_name": "Energy"
           },
           "domain": {
             "id": "https://openalex.org/domains/3",
@@ -29529,7 +29635,6 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [],
       "study_designs": [],
       "awards": [],
       "funders": [],
@@ -29937,7 +30042,7 @@
           "cited_by_count": 4
         }
       ],
-      "updated_date": "2026-10-16T09:59:22.235173",
+      "updated_date": "2026-11-02T09:45:03.842371",
       "created_date": "2023-06-06T00:00:00"
     },
     {
@@ -29995,6 +30100,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -30139,7 +30245,7 @@
       "has_fulltext": true,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.34513671,
+        "value": 0.32050842,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -30210,8 +30316,8 @@
           "display_name": "Earthquake and Disaster Impact Studies",
           "score": 9.999999747378752e-05,
           "subfield": {
-            "id": "https://openalex.org/subfields/3313",
-            "display_name": "Transportation"
+            "id": "https://openalex.org/subfields/3305",
+            "display_name": "Geography, Planning and Development"
           },
           "field": {
             "id": "https://openalex.org/fields/33",
@@ -30514,24 +30620,17 @@
       },
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/11",
           "score": 0.47999998927116394,
+          "id": "https://metadata.un.org/sdg/11",
           "display_name": "Sustainable cities and communities"
-        }
-      ],
-      "sustainable_development_goals_aurora": [
-        {
-          "id": "https://metadata.un.org/sdg/13",
-          "score": 0.44930005073547363,
-          "display_name": "Climate action"
         }
       ],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W7162662787.pdf",
@@ -30925,6 +31024,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -31215,15 +31315,18 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0.0,
+      "fwci": 6.905,
       "has_fulltext": false,
-      "cited_by_count": 0,
+      "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.47408508,
+        "value": 0.94274732,
         "is_in_top_1_percent": false,
-        "is_in_top_10_percent": false
+        "is_in_top_10_percent": true
       },
-      "cited_by_percentile_year": null,
+      "cited_by_percentile_year": {
+        "min": 91,
+        "max": 95
+      },
       "biblio": {
         "volume": "1547",
         "issue": "1",
@@ -31290,8 +31393,8 @@
           "display_name": "Earthquake and Disaster Impact Studies",
           "score": 9.999999747378752e-05,
           "subfield": {
-            "id": "https://openalex.org/subfields/3313",
-            "display_name": "Transportation"
+            "id": "https://openalex.org/subfields/3305",
+            "display_name": "Geography, Planning and Development"
           },
           "field": {
             "id": "https://openalex.org/fields/33",
@@ -31551,13 +31654,12 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 25,
@@ -32113,8 +32215,13 @@
           190
         ]
       },
-      "counts_by_year": [],
-      "updated_date": "2026-10-28T10:33:24.094632",
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-11-04T10:54:05.112534",
       "created_date": "2025-11-03T00:00:00"
     },
     {
@@ -32172,6 +32279,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -32357,7 +32465,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.24721338,
+        "value": 0.26179245,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -32376,12 +32484,12 @@
         "display_name": "Hydrocarbon exploration and reservoir analysis",
         "score": 0.9613999724388123,
         "subfield": {
-          "id": "https://openalex.org/subfields/2211",
-          "display_name": "Mechanics of Materials"
+          "id": "https://openalex.org/subfields/1907",
+          "display_name": "Geology"
         },
         "field": {
-          "id": "https://openalex.org/fields/22",
-          "display_name": "Engineering"
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/3",
@@ -32394,12 +32502,12 @@
           "display_name": "Hydrocarbon exploration and reservoir analysis",
           "score": 0.9613999724388123,
           "subfield": {
-            "id": "https://openalex.org/subfields/2211",
-            "display_name": "Mechanics of Materials"
+            "id": "https://openalex.org/subfields/1907",
+            "display_name": "Geology"
           },
           "field": {
-            "id": "https://openalex.org/fields/22",
-            "display_name": "Engineering"
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
           },
           "domain": {
             "id": "https://openalex.org/domains/3",
@@ -32612,13 +32720,12 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 2,
@@ -33121,6 +33228,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -33379,7 +33487,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.06622123,
+        "value": 0.07251367,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -33398,16 +33506,16 @@
         "display_name": "Geomagnetism and Paleomagnetism Studies",
         "score": 0.8910999894142151,
         "subfield": {
-          "id": "https://openalex.org/subfields/1312",
-          "display_name": "Molecular Biology"
+          "id": "https://openalex.org/subfields/1908",
+          "display_name": "Geophysics"
         },
         "field": {
-          "id": "https://openalex.org/fields/13",
-          "display_name": "Biochemistry, Genetics and Molecular Biology"
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
         },
         "domain": {
-          "id": "https://openalex.org/domains/1",
-          "display_name": "Life Sciences"
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
         }
       },
       "topics": [
@@ -33416,16 +33524,16 @@
           "display_name": "Geomagnetism and Paleomagnetism Studies",
           "score": 0.8910999894142151,
           "subfield": {
-            "id": "https://openalex.org/subfields/1312",
-            "display_name": "Molecular Biology"
+            "id": "https://openalex.org/subfields/1908",
+            "display_name": "Geophysics"
           },
           "field": {
-            "id": "https://openalex.org/fields/13",
-            "display_name": "Biochemistry, Genetics and Molecular Biology"
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
           },
           "domain": {
-            "id": "https://openalex.org/domains/1",
-            "display_name": "Life Sciences"
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
           }
         },
         {
@@ -33450,8 +33558,8 @@
           "display_name": "Geological and Geochemical Analysis",
           "score": 0.019500000402331352,
           "subfield": {
-            "id": "https://openalex.org/subfields/1908",
-            "display_name": "Geophysics"
+            "id": "https://openalex.org/subfields/1906",
+            "display_name": "Geochemistry and Petrology"
           },
           "field": {
             "id": "https://openalex.org/fields/19",
@@ -33676,13 +33784,12 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 22,
@@ -34208,6 +34315,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -34427,7 +34535,7 @@
       "has_fulltext": true,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.04049786,
+        "value": 0.05063804,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -34498,12 +34606,12 @@
           "display_name": "Geophysics and Sensor Technology",
           "score": 0.0,
           "subfield": {
-            "id": "https://openalex.org/subfields/2212",
-            "display_name": "Ocean Engineering"
+            "id": "https://openalex.org/subfields/1908",
+            "display_name": "Geophysics"
           },
           "field": {
-            "id": "https://openalex.org/fields/22",
-            "display_name": "Engineering"
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
           },
           "domain": {
             "id": "https://openalex.org/domains/3",
@@ -34726,7 +34834,6 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [],
       "study_designs": [],
       "awards": [],
       "funders": [
@@ -34737,8 +34844,8 @@
         }
       ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4407876597.pdf",
@@ -35183,6 +35290,7 @@
         "display_name": "Geographic Approaches to Climate Change and Mitigation: Urban and Rural Perspectives (Volume 1)"
       },
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -35386,7 +35494,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.24360831,
+        "value": 0.19666577,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -35704,13 +35812,12 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 44,
@@ -35820,6 +35927,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -36158,17 +36266,17 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 1.5322,
+      "fwci": 2.042,
       "has_fulltext": false,
-      "cited_by_count": 2,
+      "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.81496294,
+        "value": 0.87068079,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
       "cited_by_percentile_year": {
-        "min": 90,
-        "max": 96
+        "min": 91,
+        "max": 95
       },
       "biblio": {
         "volume": null,
@@ -36418,24 +36526,17 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/9",
           "score": 1.0,
+          "id": "https://metadata.un.org/sdg/9",
           "display_name": "Industry, innovation and infrastructure"
-        }
-      ],
-      "sustainable_development_goals_aurora": [
-        {
-          "id": "https://metadata.un.org/sdg/13",
-          "score": 0.8899999856948853,
-          "display_name": "Climate action"
         }
       ],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 15,
@@ -36988,10 +37089,10 @@
         },
         {
           "year": 2025,
-          "cited_by_count": 1
+          "cited_by_count": 2
         }
       ],
-      "updated_date": "2026-10-05T09:50:58.205359",
+      "updated_date": "2026-11-04T10:54:05.112534",
       "created_date": "2024-12-04T00:00:00"
     },
     {
@@ -37037,6 +37138,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -37220,7 +37322,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.30224429,
+        "value": 0.25136315,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -37429,13 +37531,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [
-        {
-          "id": "https://metadata.un.org/sdg/13",
-          "score": 0.8600000143051147,
-          "display_name": "Climate action"
-        }
-      ],
       "study_designs": [],
       "awards": [],
       "funders": [
@@ -37446,8 +37541,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 28,
@@ -37889,6 +37984,7 @@
         "display_name": "Proceedings of the International Conference on Radioscience, Equatorial Atmospheric Science and Environment and Humanosphere Science"
       },
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -38126,17 +38222,17 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 4.9192,
+      "fwci": 3.1916,
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.93655589,
+        "value": 0.91553596,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
       "cited_by_percentile_year": {
-        "min": 94,
-        "max": 96
+        "min": 93,
+        "max": 95
       },
       "biblio": {
         "volume": null,
@@ -38394,29 +38490,22 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/13",
           "score": 0.821399986743927,
+          "id": "https://metadata.un.org/sdg/13",
           "display_name": "Climate action"
         },
         {
-          "id": "https://metadata.un.org/sdg/11",
           "score": 0.7250000238418579,
+          "id": "https://metadata.un.org/sdg/11",
           "display_name": "Sustainable cities and communities"
-        }
-      ],
-      "sustainable_development_goals_aurora": [
-        {
-          "id": "https://metadata.un.org/sdg/13",
-          "score": 0.8700000047683716,
-          "display_name": "Climate action"
         }
       ],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 23,
@@ -38522,6 +38611,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -38801,17 +38891,17 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 1.7135,
+      "fwci": 1.2734,
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.78969143,
+        "value": 0.73965816,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
       "cited_by_percentile_year": {
-        "min": 90,
-        "max": 94
+        "min": 89,
+        "max": 93
       },
       "biblio": {
         "volume": "2891",
@@ -39148,15 +39238,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/13",
           "score": 0.9786999821662903,
-          "display_name": "Climate action"
-        }
-      ],
-      "sustainable_development_goals_aurora": [
-        {
           "id": "https://metadata.un.org/sdg/13",
-          "score": 0.800000011920929,
           "display_name": "Climate action"
         }
       ],
@@ -39164,8 +39247,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 15,
@@ -39668,6 +39751,7 @@
         "display_name": "Proceedings of the International Conference on Radioscience, Equatorial Atmospheric Science and Environment and Humanosphere Science"
       },
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -40006,17 +40090,17 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 2.4596,
+      "fwci": 1.5958,
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.84516616,
+        "value": 0.80325645,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
       "cited_by_percentile_year": {
-        "min": 89,
-        "max": 94
+        "min": 88,
+        "max": 93
       },
       "biblio": {
         "volume": null,
@@ -40296,15 +40380,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/13",
           "score": 0.46149998903274536,
-          "display_name": "Climate action"
-        }
-      ],
-      "sustainable_development_goals_aurora": [
-        {
           "id": "https://metadata.un.org/sdg/13",
-          "score": 0.8700000047683716,
           "display_name": "Climate action"
         }
       ],
@@ -40312,8 +40389,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 18,
@@ -40402,6 +40479,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -40651,17 +40729,17 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 1.9619,
+      "fwci": 2.2595,
       "has_fulltext": false,
-      "cited_by_count": 4,
+      "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.8644316,
+        "value": 0.88935318,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
       "cited_by_percentile_year": {
-        "min": 90,
-        "max": 97
+        "min": 93,
+        "max": 96
       },
       "biblio": {
         "volume": null,
@@ -40925,24 +41003,17 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/9",
           "score": 1.0,
+          "id": "https://metadata.un.org/sdg/9",
           "display_name": "Industry, innovation and infrastructure"
-        }
-      ],
-      "sustainable_development_goals_aurora": [
-        {
-          "id": "https://metadata.un.org/sdg/13",
-          "score": 0.7599999904632568,
-          "display_name": "Climate action"
         }
       ],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 18,
@@ -41449,14 +41520,14 @@
       "counts_by_year": [
         {
           "year": 2025,
-          "cited_by_count": 1
+          "cited_by_count": 2
         },
         {
           "year": 2024,
           "cited_by_count": 3
         }
       ],
-      "updated_date": "2026-10-16T09:59:22.235173",
+      "updated_date": "2026-11-04T10:54:05.112534",
       "created_date": "2023-12-05T00:00:00"
     },
     {
@@ -41519,6 +41590,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -41697,17 +41769,17 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 3.6924,
+      "fwci": 4.5856,
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.91573652,
+        "value": 0.92781469,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
       "cited_by_percentile_year": {
-        "min": 89,
-        "max": 96
+        "min": 88,
+        "max": 95
       },
       "biblio": {
         "volume": "2498",
@@ -41723,16 +41795,16 @@
         "display_name": "Geomagnetism and Paleomagnetism Studies",
         "score": 0.9990000128746033,
         "subfield": {
-          "id": "https://openalex.org/subfields/1312",
-          "display_name": "Molecular Biology"
+          "id": "https://openalex.org/subfields/1908",
+          "display_name": "Geophysics"
         },
         "field": {
-          "id": "https://openalex.org/fields/13",
-          "display_name": "Biochemistry, Genetics and Molecular Biology"
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
         },
         "domain": {
-          "id": "https://openalex.org/domains/1",
-          "display_name": "Life Sciences"
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
         }
       },
       "topics": [
@@ -41741,16 +41813,16 @@
           "display_name": "Geomagnetism and Paleomagnetism Studies",
           "score": 0.9990000128746033,
           "subfield": {
-            "id": "https://openalex.org/subfields/1312",
-            "display_name": "Molecular Biology"
+            "id": "https://openalex.org/subfields/1908",
+            "display_name": "Geophysics"
           },
           "field": {
-            "id": "https://openalex.org/fields/13",
-            "display_name": "Biochemistry, Genetics and Molecular Biology"
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
           },
           "domain": {
-            "id": "https://openalex.org/domains/1",
-            "display_name": "Life Sciences"
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
           }
         },
         {
@@ -41758,8 +41830,8 @@
           "display_name": "Geological and Geochemical Analysis",
           "score": 0.0007999999797903001,
           "subfield": {
-            "id": "https://openalex.org/subfields/1908",
-            "display_name": "Geophysics"
+            "id": "https://openalex.org/subfields/1906",
+            "display_name": "Geochemistry and Petrology"
           },
           "field": {
             "id": "https://openalex.org/fields/19",
@@ -42013,13 +42085,12 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4379472667.pdf"
@@ -42354,6 +42425,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref",
         "doaj"
@@ -42550,17 +42622,17 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 5.6046,
+      "fwci": 6.1142,
       "has_fulltext": true,
-      "cited_by_count": 3,
+      "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.95742232,
+        "value": 0.96695996,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
       "cited_by_percentile_year": {
-        "min": 90,
-        "max": 97
+        "min": 93,
+        "max": 96
       },
       "biblio": {
         "volume": "468",
@@ -42576,8 +42648,8 @@
         "display_name": "Geophysics and Gravity Measurements",
         "score": 0.4846000075340271,
         "subfield": {
-          "id": "https://openalex.org/subfields/1910",
-          "display_name": "Oceanography"
+          "id": "https://openalex.org/subfields/1908",
+          "display_name": "Geophysics"
         },
         "field": {
           "id": "https://openalex.org/fields/19",
@@ -42594,8 +42666,8 @@
           "display_name": "Geophysics and Gravity Measurements",
           "score": 0.4846000075340271,
           "subfield": {
-            "id": "https://openalex.org/subfields/1910",
-            "display_name": "Oceanography"
+            "id": "https://openalex.org/subfields/1908",
+            "display_name": "Geophysics"
           },
           "field": {
             "id": "https://openalex.org/fields/19",
@@ -42945,19 +43017,12 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [
-        {
-          "id": "https://metadata.un.org/sdg/14",
-          "score": 0.6600000262260437,
-          "display_name": "Life below water"
-        }
-      ],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4390072906.pdf",
@@ -43465,10 +43530,10 @@
         },
         {
           "year": 2025,
-          "cited_by_count": 1
+          "cited_by_count": 2
         }
       ],
-      "updated_date": "2026-10-06T10:28:23.643775",
+      "updated_date": "2026-11-04T10:54:05.112534",
       "created_date": "2023-12-22T00:00:00"
     },
     {
@@ -43528,6 +43593,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref",
         "doaj"
@@ -43667,17 +43733,17 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 2.7133,
+      "fwci": 4.6903,
       "has_fulltext": true,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.90797546,
+        "value": 0.94530113,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
       "cited_by_percentile_year": {
-        "min": 93,
-        "max": 96
+        "min": 91,
+        "max": 95
       },
       "biblio": {
         "volume": "468",
@@ -43693,8 +43759,8 @@
         "display_name": "Geological and Geochemical Analysis",
         "score": 0.8291000127792358,
         "subfield": {
-          "id": "https://openalex.org/subfields/1908",
-          "display_name": "Geophysics"
+          "id": "https://openalex.org/subfields/1906",
+          "display_name": "Geochemistry and Petrology"
         },
         "field": {
           "id": "https://openalex.org/fields/19",
@@ -43711,8 +43777,8 @@
           "display_name": "Geological and Geochemical Analysis",
           "score": 0.8291000127792358,
           "subfield": {
-            "id": "https://openalex.org/subfields/1908",
-            "display_name": "Geophysics"
+            "id": "https://openalex.org/subfields/1906",
+            "display_name": "Geochemistry and Petrology"
           },
           "field": {
             "id": "https://openalex.org/fields/19",
@@ -43728,12 +43794,12 @@
           "display_name": "Geochemistry and Geologic Mapping",
           "score": 0.0723000019788742,
           "subfield": {
-            "id": "https://openalex.org/subfields/1702",
-            "display_name": "Artificial Intelligence"
+            "id": "https://openalex.org/subfields/1906",
+            "display_name": "Geochemistry and Petrology"
           },
           "field": {
-            "id": "https://openalex.org/fields/17",
-            "display_name": "Computer Science"
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
           },
           "domain": {
             "id": "https://openalex.org/domains/3",
@@ -43745,16 +43811,16 @@
           "display_name": "Geochemistry and Geochronology of Asian Mineral Deposits",
           "score": 0.06960000097751617,
           "subfield": {
-            "id": "https://openalex.org/subfields/2002",
-            "display_name": "Economics and Econometrics"
+            "id": "https://openalex.org/subfields/1906",
+            "display_name": "Geochemistry and Petrology"
           },
           "field": {
-            "id": "https://openalex.org/fields/20",
-            "display_name": "Economics, Econometrics and Finance"
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
           },
           "domain": {
-            "id": "https://openalex.org/domains/2",
-            "display_name": "Social Sciences"
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
           }
         }
       ],
@@ -44057,13 +44123,12 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4390090434.pdf",
@@ -44561,6 +44626,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref",
         "doaj"
@@ -44829,17 +44895,17 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 1.5741,
+      "fwci": 1.0434,
       "has_fulltext": true,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.86226655,
+        "value": 0.80374065,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
       "cited_by_percentile_year": {
-        "min": 93,
-        "max": 96
+        "min": 91,
+        "max": 95
       },
       "biblio": {
         "volume": "468",
@@ -44907,8 +44973,8 @@
           "display_name": "Geotechnical Engineering and Analysis",
           "score": 0.012400000356137753,
           "subfield": {
-            "id": "https://openalex.org/subfields/2213",
-            "display_name": "Safety, Risk, Reliability and Quality"
+            "id": "https://openalex.org/subfields/2205",
+            "display_name": "Civil and Structural Engineering"
           },
           "field": {
             "id": "https://openalex.org/fields/22",
@@ -45162,19 +45228,12 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [
-        {
-          "id": "https://metadata.un.org/sdg/13",
-          "score": 0.49000000953674316,
-          "display_name": "Climate action"
-        }
-      ],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4390090516.pdf",
@@ -45732,6 +45791,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -45948,17 +46008,17 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 1.2308,
+      "fwci": 1.5298,
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.78886967,
+        "value": 0.75740707,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
       "cited_by_percentile_year": {
-        "min": 89,
-        "max": 94
+        "min": 88,
+        "max": 93
       },
       "biblio": {
         "volume": "2705",
@@ -45974,16 +46034,16 @@
         "display_name": "Geomagnetism and Paleomagnetism Studies",
         "score": 1.0,
         "subfield": {
-          "id": "https://openalex.org/subfields/1312",
-          "display_name": "Molecular Biology"
+          "id": "https://openalex.org/subfields/1908",
+          "display_name": "Geophysics"
         },
         "field": {
-          "id": "https://openalex.org/fields/13",
-          "display_name": "Biochemistry, Genetics and Molecular Biology"
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
         },
         "domain": {
-          "id": "https://openalex.org/domains/1",
-          "display_name": "Life Sciences"
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
         }
       },
       "topics": [
@@ -45992,16 +46052,16 @@
           "display_name": "Geomagnetism and Paleomagnetism Studies",
           "score": 1.0,
           "subfield": {
-            "id": "https://openalex.org/subfields/1312",
-            "display_name": "Molecular Biology"
+            "id": "https://openalex.org/subfields/1908",
+            "display_name": "Geophysics"
           },
           "field": {
-            "id": "https://openalex.org/fields/13",
-            "display_name": "Biochemistry, Genetics and Molecular Biology"
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
           },
           "domain": {
-            "id": "https://openalex.org/domains/1",
-            "display_name": "Life Sciences"
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
           }
         },
         {
@@ -46041,24 +46101,44 @@
       ],
       "keywords": [
         {
-          "id": "https://openalex.org/keywords/magnetic-properties",
-          "display_name": "magnetic properties",
-          "score": 0.9850000143051147
-        },
-        {
           "id": "https://openalex.org/keywords/river-sediments",
           "display_name": "river sediments",
-          "score": 0.9850000143051147
+          "score": 0.9079999923706055
+        },
+        {
+          "id": "https://openalex.org/keywords/magnetic-susceptibility",
+          "display_name": "magnetic susceptibility",
+          "score": 0.8640000224113464
+        },
+        {
+          "id": "https://openalex.org/keywords/magnetite",
+          "display_name": "magnetite",
+          "score": 0.8889999985694885
+        },
+        {
+          "id": "https://openalex.org/keywords/iron-oxide-minerals",
+          "display_name": "iron oxide minerals",
+          "score": 0.7590000033378601
+        },
+        {
+          "id": "https://openalex.org/keywords/anorthite",
+          "display_name": "anorthite",
+          "score": 0.8230000138282776
+        },
+        {
+          "id": "https://openalex.org/keywords/magnetic-hysteresis",
+          "display_name": "magnetic hysteresis",
+          "score": 0.7919999957084656
         },
         {
           "id": "https://openalex.org/keywords/bengawan-solo-river",
           "display_name": "Bengawan Solo River",
-          "score": 0.8889999985694885
+          "score": 0.7570000290870667
         },
         {
-          "id": "https://openalex.org/keywords/paleomagnetism",
-          "display_name": "paleomagnetism",
-          "score": 0.8769999742507935
+          "id": "https://openalex.org/keywords/sediment-magnetic-properties",
+          "display_name": "sediment magnetic properties",
+          "score": 0.38199999928474426
         }
       ],
       "concepts": [
@@ -46117,19 +46197,12 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [
-        {
-          "id": "https://metadata.un.org/sdg/14",
-          "score": 0.4099999964237213,
-          "display_name": "Life below water"
-        }
-      ],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 14,
@@ -46481,7 +46554,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2026-10-26T11:51:55.731654",
+      "updated_date": "2026-11-08T12:12:28.789561",
       "created_date": "2023-06-17T00:00:00"
     },
     {
@@ -46541,6 +46614,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref",
         "doaj"
@@ -46771,17 +46845,17 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 2.7133,
+      "fwci": 1.5285,
       "has_fulltext": true,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.90780018,
+        "value": 0.836775,
         "is_in_top_1_percent": false,
-        "is_in_top_10_percent": true
+        "is_in_top_10_percent": false
       },
       "cited_by_percentile_year": {
-        "min": 90,
-        "max": 94
+        "min": 89,
+        "max": 93
       },
       "biblio": {
         "volume": "468",
@@ -46849,12 +46923,12 @@
           "display_name": "Geophysics and Sensor Technology",
           "score": 0.003100000089034438,
           "subfield": {
-            "id": "https://openalex.org/subfields/2212",
-            "display_name": "Ocean Engineering"
+            "id": "https://openalex.org/subfields/1908",
+            "display_name": "Geophysics"
           },
           "field": {
-            "id": "https://openalex.org/fields/22",
-            "display_name": "Engineering"
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
           },
           "domain": {
             "id": "https://openalex.org/domains/3",
@@ -47156,18 +47230,17 @@
       },
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/9",
           "score": 0.5378999710083008,
+          "id": "https://metadata.un.org/sdg/9",
           "display_name": "Industry, innovation and infrastructure"
         }
       ],
-      "sustainable_development_goals_aurora": [],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4390072972.pdf",
@@ -47746,6 +47819,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -47848,7 +47922,7 @@
       "has_fulltext": true,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.24934669,
+        "value": 0.24090798,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -48186,19 +48260,12 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [
-        {
-          "id": "https://metadata.un.org/sdg/10",
-          "score": 0.75,
-          "display_name": "Reduced inequalities"
-        }
-      ],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4293577124.pdf",
@@ -48453,6 +48520,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -48555,7 +48623,7 @@
       "has_fulltext": true,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.24956446,
+        "value": 0.24115206,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -48834,19 +48902,12 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [
-        {
-          "id": "https://metadata.un.org/sdg/6",
-          "score": 0.7400000095367432,
-          "display_name": "Clean water and sanitation"
-        }
-      ],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4293577139.pdf",
@@ -49295,6 +49356,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -49664,16 +49726,16 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 23.8626,
+      "fwci": 23.5764,
       "has_fulltext": true,
-      "cited_by_count": 17,
+      "cited_by_count": 21,
       "citation_normalized_percentile": {
-        "value": 0.99523431,
+        "value": 0.99800929,
         "is_in_top_1_percent": true,
         "is_in_top_10_percent": true
       },
       "cited_by_percentile_year": {
-        "min": 93,
+        "min": 95,
         "max": 98
       },
       "biblio": {
@@ -49955,15 +50017,8 @@
       },
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/13",
           "score": 0.75,
-          "display_name": "Climate action"
-        }
-      ],
-      "sustainable_development_goals_aurora": [
-        {
           "id": "https://metadata.un.org/sdg/13",
-          "score": 0.8299999833106995,
           "display_name": "Climate action"
         }
       ],
@@ -49971,8 +50026,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4286516543.pdf",
@@ -50389,7 +50444,7 @@
       "counts_by_year": [
         {
           "year": 2026,
-          "cited_by_count": 1
+          "cited_by_count": 4
         },
         {
           "year": 2025,
@@ -50397,7 +50452,7 @@
         },
         {
           "year": 2024,
-          "cited_by_count": 6
+          "cited_by_count": 7
         },
         {
           "year": 2023,
@@ -50408,7 +50463,7 @@
           "cited_by_count": 3
         }
       ],
-      "updated_date": "2026-10-27T15:51:10.671819",
+      "updated_date": "2026-11-04T10:54:05.112534",
       "created_date": "2022-07-22T00:00:00"
     },
     {
@@ -50466,6 +50521,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -50683,17 +50739,17 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 6.2574,
+      "fwci": 6.8606,
       "has_fulltext": true,
-      "cited_by_count": 4,
+      "cited_by_count": 6,
       "citation_normalized_percentile": {
-        "value": 0.95040214,
+        "value": 0.96134347,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
       "cited_by_percentile_year": {
-        "min": 89,
-        "max": 94
+        "min": 88,
+        "max": 97
       },
       "biblio": {
         "volume": "986",
@@ -50761,8 +50817,8 @@
           "display_name": "Geophysics and Gravity Measurements",
           "score": 0.10670000314712524,
           "subfield": {
-            "id": "https://openalex.org/subfields/1910",
-            "display_name": "Oceanography"
+            "id": "https://openalex.org/subfields/1908",
+            "display_name": "Geophysics"
           },
           "field": {
             "id": "https://openalex.org/fields/19",
@@ -51038,13 +51094,12 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4213112609.pdf",
@@ -51433,7 +51488,7 @@
       "counts_by_year": [
         {
           "year": 2025,
-          "cited_by_count": 1
+          "cited_by_count": 3
         },
         {
           "year": 2024,
@@ -51448,7 +51503,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2026-10-16T09:59:22.235173",
+      "updated_date": "2026-11-04T10:54:05.112534",
       "created_date": "2022-02-24T00:00:00"
     },
     {
@@ -51506,6 +51561,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -51768,7 +51824,7 @@
       "has_fulltext": true,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.04289544,
+        "value": 0.04024081,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -51839,16 +51895,16 @@
           "display_name": "Energy and Environmental Systems",
           "score": 0.0010000000474974513,
           "subfield": {
-            "id": "https://openalex.org/subfields/3313",
-            "display_name": "Transportation"
+            "id": "https://openalex.org/subfields/1705",
+            "display_name": "Computer Networks and Communications"
           },
           "field": {
-            "id": "https://openalex.org/fields/33",
-            "display_name": "Social Sciences"
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
           },
           "domain": {
-            "id": "https://openalex.org/domains/2",
-            "display_name": "Social Sciences"
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
           }
         }
       ],
@@ -52155,19 +52211,12 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [
-        {
-          "id": "https://metadata.un.org/sdg/11",
-          "score": 0.4099999964237213,
-          "display_name": "Sustainable cities and communities"
-        }
-      ],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4214561236.pdf",
@@ -52590,6 +52639,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -52909,7 +52959,7 @@
       "has_fulltext": true,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.4937767,
+        "value": 0.3619607,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -53179,7 +53229,6 @@
         "raw_type": "proceedings-article"
       },
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [],
       "study_designs": [],
       "awards": [],
       "funders": [
@@ -53190,8 +53239,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4416626230.pdf",
@@ -53547,6 +53596,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -53969,7 +54019,7 @@
       "has_fulltext": true,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.35729934,
+        "value": 0.34328945,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -54250,7 +54300,6 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [],
       "study_designs": [],
       "awards": [],
       "funders": [
@@ -54261,8 +54310,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4403658132.pdf",
@@ -54891,6 +54940,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -55438,7 +55488,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.09085021,
+        "value": 0.07967255,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -55660,24 +55710,17 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.651199996471405,
+          "id": "https://metadata.un.org/sdg/9",
           "display_name": "Industry, innovation and infrastructure",
-          "id": "https://metadata.un.org/sdg/9"
-        }
-      ],
-      "sustainable_development_goals_aurora": [
-        {
-          "score": 0.6399999856948853,
-          "display_name": "Climate action",
-          "id": "https://metadata.un.org/sdg/13"
+          "score": 0.651199996471405
         }
       ],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -55981,6 +56024,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -56528,7 +56572,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.24788493,
+        "value": 0.20220161,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -56750,24 +56794,17 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.651199996471405,
+          "id": "https://metadata.un.org/sdg/9",
           "display_name": "Industry, innovation and infrastructure",
-          "id": "https://metadata.un.org/sdg/9"
-        }
-      ],
-      "sustainable_development_goals_aurora": [
-        {
-          "score": 0.6399999856948853,
-          "display_name": "Climate action",
-          "id": "https://metadata.un.org/sdg/13"
+          "score": 0.651199996471405
         }
       ],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -57071,6 +57108,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -57191,7 +57229,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.54836253,
+        "value": 0.5798237,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -57245,8 +57283,8 @@
           "display_name": "Mining Techniques and Economics",
           "score": 0.16099999845027924,
           "subfield": {
-            "id": "https://openalex.org/subfields/2207",
-            "display_name": "Control and Systems Engineering"
+            "id": "https://openalex.org/subfields/2209",
+            "display_name": "Industrial and Manufacturing Engineering"
           },
           "field": {
             "id": "https://openalex.org/fields/22",
@@ -57435,29 +57473,22 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.6618000268936157,
+          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "score": 0.6618000268936157
         },
         {
-          "score": 0.5378999710083008,
+          "id": "https://metadata.un.org/sdg/9",
           "display_name": "Industry, innovation and infrastructure",
-          "id": "https://metadata.un.org/sdg/9"
-        }
-      ],
-      "sustainable_development_goals_aurora": [
-        {
-          "score": 0.44999998807907104,
-          "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "score": 0.5378999710083008
         }
       ],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -58099,6 +58130,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -58550,8 +58582,7 @@
             "display_name": "Hijrah Saputra",
             "orcid": "https://orcid.org/0000-0002-5082-4046",
             "observed_orcids": [
-              "https://orcid.org/0000-0002-5082-4046",
-              "https://orcid.org/0000-0003-1843-1741"
+              "https://orcid.org/0000-0002-5082-4046"
             ]
           },
           "institutions": [
@@ -58594,17 +58625,17 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 5.4265,
+      "fwci": 3.0571,
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.94285714,
+        "value": 0.88992638,
         "is_in_top_1_percent": false,
-        "is_in_top_10_percent": true
+        "is_in_top_10_percent": false
       },
       "cited_by_percentile_year": {
-        "min": 96,
-        "max": 97
+        "min": 95,
+        "max": 96
       },
       "biblio": {
         "volume": "1245",
@@ -58872,13 +58903,12 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 5,
@@ -59405,7 +59435,7 @@
           "cited_by_count": 2
         }
       ],
-      "updated_date": "2026-09-29T14:09:16.559479",
+      "updated_date": "2026-11-05T12:25:35.769452",
       "created_date": "2023-10-05T00:00:00"
     },
     {
@@ -59463,6 +59493,7 @@
       },
       "volume": null,
       "type": "conference-paper",
+      "is_traditional": true,
       "indexed_in": [
         "crossref"
       ],
@@ -59997,17 +60028,17 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 2.7133,
+      "fwci": 4.5856,
       "has_fulltext": false,
-      "cited_by_count": 1,
+      "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.8694128,
+        "value": 0.93176513,
         "is_in_top_1_percent": false,
-        "is_in_top_10_percent": false
+        "is_in_top_10_percent": true
       },
       "cited_by_percentile_year": {
-        "min": 90,
-        "max": 94
+        "min": 95,
+        "max": 97
       },
       "biblio": {
         "volume": "1227",
@@ -60291,19 +60322,12 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [
-        {
-          "score": 0.7400000095367432,
-          "display_name": "Climate action",
-          "id": "https://metadata.un.org/sdg/13"
-        }
-      ],
       "study_designs": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 18,
@@ -60789,10 +60813,10 @@
       "counts_by_year": [
         {
           "year": 2025,
-          "cited_by_count": 1
+          "cited_by_count": 3
         }
       ],
-      "updated_date": "2026-10-27T15:51:10.671819",
+      "updated_date": "2026-11-04T10:54:05.112534",
       "created_date": "2023-09-23T00:00:00"
     }
   ],
