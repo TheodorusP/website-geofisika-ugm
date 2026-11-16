@@ -159,8 +159,8 @@
     ]
   },
   {
-    "id": "https://openalex.org/W4413224722",
-    "title": "Identification of Hydrocarbon Reservoir Distribution Using Seismic Attributes: RMS Amplitude and Sweetness in the Bani Field, South Sumatra Basin",
+    "id": "https://openalex.org/W4413224564",
+    "title": "Evaluation of Structural Features and Hydrocarbon Reservoir Potential of the Baturaja Formation Using Seismic Envelope and Sweetness Attributes",
     "reason": "unverified_or_ineligible_ranking",
     "staff": [
       "Budi Eka Nurcahya"
@@ -172,8 +172,8 @@
     ]
   },
   {
-    "id": "https://openalex.org/W4413224564",
-    "title": "Evaluation of Structural Features and Hydrocarbon Reservoir Potential of the Baturaja Formation Using Seismic Envelope and Sweetness Attributes",
+    "id": "https://openalex.org/W4413224722",
+    "title": "Identification of Hydrocarbon Reservoir Distribution Using Seismic Attributes: RMS Amplitude and Sweetness in the Bani Field, South Sumatra Basin",
     "reason": "unverified_or_ineligible_ranking",
     "staff": [
       "Budi Eka Nurcahya"
@@ -286,8 +286,8 @@
     ],
     "journal": "Makara Journal of Science",
     "issns": [
-      "2339-1995",
-      "2356-0851"
+      "2356-0851",
+      "2339-1995"
     ]
   },
   {
@@ -346,6 +346,20 @@
     ]
   },
   {
+    "id": "https://openalex.org/W4407567189",
+    "title": "Characterizing Radiation Belt Electron Flux Behavior During Geomagnetic Storms Driven by CMEs and CIRs",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Eddy Hartantyo",
+      "Sismanto"
+    ],
+    "journal": "Springer proceedings in physics",
+    "issns": [
+      "0930-8989",
+      "1867-4941"
+    ]
+  },
+  {
     "id": "https://openalex.org/W4407151102",
     "title": "Electrical resistivity tomography and seismic refraction for layer identification in super-thick soil in landslide area of Ngasinan, Purworejo, Indonesia",
     "reason": "unverified_or_ineligible_ranking",
@@ -384,20 +398,6 @@
     "issns": [
       "0353-4529",
       "1849-0409"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4407567189",
-    "title": "Characterizing Radiation Belt Electron Flux Behavior During Geomagnetic Storms Driven by CMEs and CIRs",
-    "reason": "not_journal_article_or_review",
-    "staff": [
-      "Eddy Hartantyo",
-      "Sismanto"
-    ],
-    "journal": "Springer proceedings in physics",
-    "issns": [
-      "0930-8989",
-      "1867-4941"
     ]
   },
   {
@@ -1585,6 +1585,19 @@
     ]
   },
   {
+    "id": "https://openalex.org/W7225772517",
+    "title": "Rock Magnetic Evidence from Pleistocene Volcanic Outcrops: study case in Sangiran, Central Java, Indonesia",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
+    "journal": "Journal of Physics Conference Series",
+    "issns": [
+      "1742-6588",
+      "1742-6596"
+    ]
+  },
+  {
     "id": "https://openalex.org/W7214627614",
     "title": "Markov-modulated Cox processes and supervised declustering for seismic hazard in Sumatra",
     "reason": "unverified_or_ineligible_ranking",
@@ -1690,6 +1703,19 @@
     "issns": [
       "1367-9120",
       "1878-5786"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4414803014",
+    "title": "Leveraging High-Quality Seismic Datasets to Earthquake Prediction Occurrence: A Review",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
+    "journal": "Advances in Science, Technology & Innovation/Advances in science, technology & innovation",
+    "issns": [
+      "2522-8714",
+      "2522-8722"
     ]
   },
   {
@@ -1835,19 +1861,6 @@
     ]
   },
   {
-    "id": "https://openalex.org/W4414803014",
-    "title": "Leveraging High-Quality Seismic Datasets to Earthquake Prediction Occurrence: A Review",
-    "reason": "not_journal_article_or_review",
-    "staff": [
-      "Wiwit Suryanto"
-    ],
-    "journal": "Advances in Science, Technology & Innovation/Advances in science, technology & innovation",
-    "issns": [
-      "2522-8714",
-      "2522-8722"
-    ]
-  },
-  {
     "id": "https://openalex.org/W4404954325",
     "title": "Proof of Concept for Disaster Data Collection via Satellite-Based LoRa: Insights from in-Orbit Tests",
     "reason": "not_journal_article_or_review",
@@ -1907,6 +1920,32 @@
     ]
   },
   {
+    "id": "https://openalex.org/W4399342490",
+    "title": "Seasonal Changes of Diurnal Rainfall Over New Capital City of Indonesia from High-Resolution Satellite Data",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
+    "journal": "Springer proceedings in physics",
+    "issns": [
+      "0930-8989",
+      "1867-4941"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4399345264",
+    "title": "Evaluating Validation Methods for Satellite Precipitation Products Using Point Gauge Observations over Complex Topography",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
+    "journal": "Springer proceedings in physics",
+    "issns": [
+      "0930-8989",
+      "1867-4941"
+    ]
+  },
+  {
     "id": "https://openalex.org/W4392603096",
     "title": "Validating IMERG data for diurnal rainfall analysis across the Indonesian maritime continent using gauge observations",
     "reason": "unverified_or_ineligible_ranking",
@@ -1957,19 +1996,6 @@
     ]
   },
   {
-    "id": "https://openalex.org/W4399342490",
-    "title": "Seasonal Changes of Diurnal Rainfall Over New Capital City of Indonesia from High-Resolution Satellite Data",
-    "reason": "not_journal_article_or_review",
-    "staff": [
-      "Wiwit Suryanto"
-    ],
-    "journal": "Springer proceedings in physics",
-    "issns": [
-      "0930-8989",
-      "1867-4941"
-    ]
-  },
-  {
     "id": "https://openalex.org/W4399078980",
     "title": "Modulation of flood events in Indonesia by seasons, MJO, and La Nina",
     "reason": "not_journal_article_or_review",
@@ -1984,19 +2010,6 @@
     ]
   },
   {
-    "id": "https://openalex.org/W4399345264",
-    "title": "Evaluating Validation Methods for Satellite Precipitation Products Using Point Gauge Observations over Complex Topography",
-    "reason": "not_journal_article_or_review",
-    "staff": [
-      "Wiwit Suryanto"
-    ],
-    "journal": "Springer proceedings in physics",
-    "issns": [
-      "0930-8989",
-      "1867-4941"
-    ]
-  },
-  {
     "id": "https://openalex.org/W4390470639",
     "title": "Magnetic Characterization of Fine Sediment in the Solo Basin Indonesia",
     "reason": "unverified_or_ineligible_ranking",
@@ -2008,6 +2021,58 @@
       "1978-3043",
       "2337-5760",
       "2338-5510"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4390072906",
+    "title": "Structural map of Sulawesi derives from gravity data and its implications for geothermal systems",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
+    "journal": "E3S Web of Conferences",
+    "issns": [
+      "2267-1242",
+      "2555-0403"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4390090516",
+    "title": "Site Analysis Using Microtremor Array for Disaster Mitigation of Landslide in the Cianjur Aquatic Resort",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
+    "journal": "E3S Web of Conferences",
+    "issns": [
+      "2267-1242",
+      "2555-0403"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4390072972",
+    "title": "Study Characteristics of a Multipurpose Reactor Building G.A. Siwabessy using Floor Spectral Ratio",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
+    "journal": "E3S Web of Conferences",
+    "issns": [
+      "2267-1242",
+      "2555-0403"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4390090434",
+    "title": "Low sulfidation epithermal gold mineralization at Tambang Sawah, Lebong, Bengkulu Province, Indonesia",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
+    "journal": "E3S Web of Conferences",
+    "issns": [
+      "2267-1242",
+      "2555-0403"
     ]
   },
   {
@@ -2073,45 +2138,6 @@
     ]
   },
   {
-    "id": "https://openalex.org/W4390072906",
-    "title": "Structural map of Sulawesi derives from gravity data and its implications for geothermal systems",
-    "reason": "not_journal_article_or_review",
-    "staff": [
-      "Wiwit Suryanto"
-    ],
-    "journal": "E3S Web of Conferences",
-    "issns": [
-      "2267-1242",
-      "2555-0403"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4390090434",
-    "title": "Low sulfidation epithermal gold mineralization at Tambang Sawah, Lebong, Bengkulu Province, Indonesia",
-    "reason": "not_journal_article_or_review",
-    "staff": [
-      "Wiwit Suryanto"
-    ],
-    "journal": "E3S Web of Conferences",
-    "issns": [
-      "2267-1242",
-      "2555-0403"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4390090516",
-    "title": "Site Analysis Using Microtremor Array for Disaster Mitigation of Landslide in the Cianjur Aquatic Resort",
-    "reason": "not_journal_article_or_review",
-    "staff": [
-      "Wiwit Suryanto"
-    ],
-    "journal": "E3S Web of Conferences",
-    "issns": [
-      "2267-1242",
-      "2555-0403"
-    ]
-  },
-  {
     "id": "https://openalex.org/W4380904177",
     "title": "Magnetic properties of the Upper Bengawan Solo river sediments",
     "reason": "not_journal_article_or_review",
@@ -2123,19 +2149,6 @@
       "0094-243X",
       "1551-7616",
       "1935-0465"
-    ]
-  },
-  {
-    "id": "https://openalex.org/W4390072972",
-    "title": "Study Characteristics of a Multipurpose Reactor Building G.A. Siwabessy using Floor Spectral Ratio",
-    "reason": "not_journal_article_or_review",
-    "staff": [
-      "Wiwit Suryanto"
-    ],
-    "journal": "E3S Web of Conferences",
-    "issns": [
-      "2267-1242",
-      "2555-0403"
     ]
   },
   {
