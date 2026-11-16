@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-16",
   "start_year": 2022,
   "authors": [
     {
@@ -280,6 +280,39 @@
     }
   ],
   "conferences": [
+    {
+      "id": "https://openalex.org/W7225772517",
+      "doi": "https://doi.org/10.1088/1742-6596/3348/1/012013",
+      "title": "Rock Magnetic Evidence from Pleistocene Volcanic Outcrops: study case in Sangiran, Central Java, Indonesia",
+      "conference_name": "",
+      "conference_start": null,
+      "conference_end": null,
+      "city": null,
+      "country": null,
+      "publication_kind": "Prosiding",
+      "publication_date": "2026-11-01",
+      "collection": "Journal of Physics: Conference Series",
+      "presentation_type": null,
+      "online": null,
+      "authors": [
+        "Shandiyano Putra",
+        "Aqilla Alya Pramita",
+        "Muhammad Irfan Nawawi",
+        "Budi Legowo",
+        "Agus Tri Hascaryo",
+        "Wiwit Suryanto",
+        "Budi Purnama"
+      ],
+      "staff": [
+        "Wiwit Suryanto"
+      ],
+      "staff_author_names": [
+        "Wiwit Suryanto"
+      ],
+      "url": "https://doi.org/10.1088/1742-6596/3348/1/012013",
+      "event_location_raw": "",
+      "evidence_url": "https://doi.org/10.1088/1742-6596/3348/1/012013"
+    },
     {
       "id": "https://openalex.org/W7171704961",
       "doi": "https://doi.org/10.1088/1755-1315/1651/1/012008",

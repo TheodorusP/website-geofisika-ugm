@@ -72,8 +72,20 @@
     "included": true
   },
   {
+    "id": "https://openalex.org/W7225772517",
+    "title": "Rock Magnetic Evidence from Pleistocene Volcanic Outcrops: study case in Sangiran, Central Java, Indonesia",
+    "reason": "event_metadata_incomplete",
+    "included": true
+  },
+  {
     "id": "https://openalex.org/W7162662787",
     "title": "Seismicity of North Sulawesi Based on Relocated Earthquake Hypocenters with Double Difference Method and Local 1D Velocity Model",
+    "reason": "event_metadata_incomplete",
+    "included": true
+  },
+  {
+    "id": "https://openalex.org/W4414803014",
+    "title": "Leveraging High-Quality Seismic Datasets to Earthquake Prediction Occurrence: A Review",
     "reason": "event_metadata_incomplete",
     "included": true
   },
@@ -102,12 +114,6 @@
     "included": true
   },
   {
-    "id": "https://openalex.org/W4414803014",
-    "title": "Leveraging High-Quality Seismic Datasets to Earthquake Prediction Occurrence: A Review",
-    "reason": "event_metadata_incomplete",
-    "included": true
-  },
-  {
     "id": "https://openalex.org/W4399342490",
     "title": "Seasonal Changes of Diurnal Rainfall Over New Capital City of Indonesia from High-Resolution Satellite Data",
     "reason": "event_metadata_incomplete",
@@ -120,20 +126,8 @@
     "included": true
   },
   {
-    "id": "https://openalex.org/W4379472667",
-    "title": "Study comparison physical properties and minerals analysis of rock magnetic in Lawu Volcanic Complex",
-    "reason": "event_metadata_incomplete",
-    "included": true
-  },
-  {
     "id": "https://openalex.org/W4390072906",
     "title": "Structural map of Sulawesi derives from gravity data and its implications for geothermal systems",
-    "reason": "event_metadata_incomplete",
-    "included": true
-  },
-  {
-    "id": "https://openalex.org/W4390090434",
-    "title": "Low sulfidation epithermal gold mineralization at Tambang Sawah, Lebong, Bengkulu Province, Indonesia",
     "reason": "event_metadata_incomplete",
     "included": true
   },
@@ -146,6 +140,18 @@
   {
     "id": "https://openalex.org/W4390072972",
     "title": "Study Characteristics of a Multipurpose Reactor Building G.A. Siwabessy using Floor Spectral Ratio",
+    "reason": "event_metadata_incomplete",
+    "included": true
+  },
+  {
+    "id": "https://openalex.org/W4390090434",
+    "title": "Low sulfidation epithermal gold mineralization at Tambang Sawah, Lebong, Bengkulu Province, Indonesia",
+    "reason": "event_metadata_incomplete",
+    "included": true
+  },
+  {
+    "id": "https://openalex.org/W4379472667",
+    "title": "Study comparison physical properties and minerals analysis of rock magnetic in Lawu Volcanic Complex",
     "reason": "event_metadata_incomplete",
     "included": true
   },
