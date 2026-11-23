@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-16",
+  "as_of": "2026-11-23",
   "start_year": 2022,
   "mode": "live_fetch",
   "authors": [
@@ -967,7 +967,7 @@
       "biblio": {
         "volume": "10",
         "issue": "1",
-        "first_page": null,
+        "first_page": "39",
         "last_page": null
       },
       "url": "https://doi.org/10.1007/s40948-023-00718-w",

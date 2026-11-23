@@ -250,6 +250,19 @@
     ]
   },
   {
+    "id": "https://openalex.org/W7236709628",
+    "title": "Overview of Landslide Ecosystem with Super-Thick Material in Ngasinan Village",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Eddy Hartantyo"
+    ],
+    "journal": "Lecture notes in civil engineering",
+    "issns": [
+      "2366-2565",
+      "2366-2557"
+    ]
+  },
+  {
     "id": "https://openalex.org/W7133348542",
     "title": "MATERIAL LONGSOR DAN CREEP MEMPENGARUHIAREA PERTANIAN DI SEKITAR DESA NGASINAN, PURWOREJO",
     "reason": "unverified_or_ineligible_ranking",
@@ -552,6 +565,26 @@
     ]
   },
   {
+    "id": "https://openalex.org/W4392582714",
+    "title": "Tracking CO2 mobility during magma-limestone interaction: insights from spectroscopic analysis of experiments",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Herlan Darmawan"
+    ],
+    "journal": "EGU General Assembly Conference Abstracts",
+    "issns": []
+  },
+  {
+    "id": "https://openalex.org/W4392584968",
+    "title": "Concealed hydrothermal alteration zones provide mechanical weaknesses within lava domes",
+    "reason": "not_journal_article_or_review",
+    "staff": [
+      "Herlan Darmawan"
+    ],
+    "journal": "EGU General Assembly Conference Abstracts",
+    "issns": []
+  },
+  {
     "id": "https://openalex.org/W4411222721",
     "title": "Pemetaan Endapan Awan Panas Gunung Api Semeru Periode Juni 2021 – Desember 2021 menggunakan Citra Radar Sentinel 1 dan Optik Sentinel 2",
     "reason": "unverified_or_ineligible_ranking",
@@ -575,26 +608,6 @@
     "issns": [
       "2211-7148"
     ]
-  },
-  {
-    "id": "https://openalex.org/W4392582714",
-    "title": "Tracking CO2 mobility during magma-limestone interaction: insights from spectroscopic analysis of experiments",
-    "reason": "not_journal_article_or_review",
-    "staff": [
-      "Herlan Darmawan"
-    ],
-    "journal": "EGU General Assembly Conference Abstracts",
-    "issns": []
-  },
-  {
-    "id": "https://openalex.org/W4392584968",
-    "title": "Concealed hydrothermal alteration zones provide mechanical weaknesses within lava domes",
-    "reason": "not_journal_article_or_review",
-    "staff": [
-      "Herlan Darmawan"
-    ],
-    "journal": "EGU General Assembly Conference Abstracts",
-    "issns": []
   },
   {
     "id": "https://openalex.org/W4387956961",
@@ -771,6 +784,19 @@
     "issns": [
       "2828-4984",
       "2828-4992"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W7235866332",
+    "title": "Structural controls on permeability and fluid circulation in the Dieng volcanic geothermal system, Indonesia: Insights from geological-3D structural modelling, stress analysis, and fault reactivation assessment",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Mochamad Nukman"
+    ],
+    "journal": "Geothermics",
+    "issns": [
+      "0375-6505",
+      "1879-3576"
     ]
   },
   {
@@ -1044,6 +1070,19 @@
     "issns": [
       "0375-6505",
       "1879-3576"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4200091360",
+    "title": "Mapping the Potential Liquefaction Area in Yogyakarta City Based on Ground Shear Strain Data: Ilham Ilham, Urip Nurwijayanto Prabowo, Sismanto Sismanto",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Sismanto"
+    ],
+    "journal": "Jurnal Fisika dan Aplikasinya",
+    "issns": [
+      "1858-036X",
+      "2460-4682"
     ]
   },
   {
@@ -1693,6 +1732,19 @@
     ]
   },
   {
+    "id": "https://openalex.org/W4413088376",
+    "title": "Sistem Monitoring Kapasitas dan Kualitas Air dengan Metode SWAT (Smart Water Meter) menggunakan Protokol Lora berbasis IoT",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
+    "journal": "Komputika Jurnal Sistem Komputer",
+    "issns": [
+      "2252-9039",
+      "2655-3198"
+    ]
+  },
+  {
     "id": "https://openalex.org/W4415487742",
     "title": "Evidence of a new backthrust fault system from the 2022 southeast Java, Indonesia earthquake sequence: Insights from seismological analysis",
     "reason": "unverified_or_ineligible_ranking",
@@ -1745,19 +1797,6 @@
     ]
   },
   {
-    "id": "https://openalex.org/W4413088376",
-    "title": "Sistem Monitoring Kapasitas dan Kualitas Air dengan Metode SWAT (Smart Water Meter) menggunakan Protokol Lora berbasis IoT",
-    "reason": "unverified_or_ineligible_ranking",
-    "staff": [
-      "Wiwit Suryanto"
-    ],
-    "journal": "Komputika Jurnal Sistem Komputer",
-    "issns": [
-      "2252-9039",
-      "2655-3198"
-    ]
-  },
-  {
     "id": "https://openalex.org/W4411833799",
     "title": "Application of numerical simulation method integrated SfM-UAV to tsunami hazard map in Jailolo",
     "reason": "unverified_or_ineligible_ranking",
@@ -1793,6 +1832,19 @@
     "issns": [
       "1755-1315",
       "1755-1307"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W2604147265",
+    "title": "Dekomposisi Wavelet Data Seismik Broadband dari Stasiun Wanagama Yogyakarta pada saat Letusan Gunung Merapi 2010: Dairoh, Wiwit Suryanto",
+    "reason": "unverified_or_ineligible_ranking",
+    "staff": [
+      "Wiwit Suryanto"
+    ],
+    "journal": "Jurnal Fisika dan Aplikasinya",
+    "issns": [
+      "1858-036X",
+      "2460-4682"
     ]
   },
   {
@@ -2050,8 +2102,8 @@
     ]
   },
   {
-    "id": "https://openalex.org/W4390072972",
-    "title": "Study Characteristics of a Multipurpose Reactor Building G.A. Siwabessy using Floor Spectral Ratio",
+    "id": "https://openalex.org/W4390090434",
+    "title": "Low sulfidation epithermal gold mineralization at Tambang Sawah, Lebong, Bengkulu Province, Indonesia",
     "reason": "not_journal_article_or_review",
     "staff": [
       "Wiwit Suryanto"
@@ -2063,8 +2115,8 @@
     ]
   },
   {
-    "id": "https://openalex.org/W4390090434",
-    "title": "Low sulfidation epithermal gold mineralization at Tambang Sawah, Lebong, Bengkulu Province, Indonesia",
+    "id": "https://openalex.org/W4390072972",
+    "title": "Study Characteristics of a Multipurpose Reactor Building G.A. Siwabessy using Floor Spectral Ratio",
     "reason": "not_journal_article_or_review",
     "staff": [
       "Wiwit Suryanto"
