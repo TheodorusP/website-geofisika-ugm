@@ -18,6 +18,12 @@
     "included": true
   },
   {
+    "id": "https://openalex.org/W7236709628",
+    "title": "Overview of Landslide Ecosystem with Super-Thick Material in Ngasinan Village",
+    "reason": "event_metadata_incomplete",
+    "included": true
+  },
+  {
     "id": "https://openalex.org/W4407567189",
     "title": "Characterizing Radiation Belt Electron Flux Behavior During Geomagnetic Storms Driven by CMEs and CIRs",
     "reason": "event_metadata_incomplete",
@@ -138,14 +144,14 @@
     "included": true
   },
   {
-    "id": "https://openalex.org/W4390072972",
-    "title": "Study Characteristics of a Multipurpose Reactor Building G.A. Siwabessy using Floor Spectral Ratio",
+    "id": "https://openalex.org/W4390090434",
+    "title": "Low sulfidation epithermal gold mineralization at Tambang Sawah, Lebong, Bengkulu Province, Indonesia",
     "reason": "event_metadata_incomplete",
     "included": true
   },
   {
-    "id": "https://openalex.org/W4390090434",
-    "title": "Low sulfidation epithermal gold mineralization at Tambang Sawah, Lebong, Bengkulu Province, Indonesia",
+    "id": "https://openalex.org/W4390072972",
+    "title": "Study Characteristics of a Multipurpose Reactor Building G.A. Siwabessy using Floor Spectral Ratio",
     "reason": "event_metadata_incomplete",
     "included": true
   },

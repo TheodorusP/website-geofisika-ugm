@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-16",
+  "as_of": "2026-11-23",
   "start_year": 2022,
   "authors": [
     {
@@ -403,6 +403,35 @@
       "url": "https://doi.org/10.1088/1755-1315/1620/1/012019",
       "event_location_raw": "",
       "evidence_url": "https://doi.org/10.1088/1755-1315/1620/1/012019"
+    },
+    {
+      "id": "https://openalex.org/W7236709628",
+      "doi": "https://doi.org/10.1007/978-981-95-7864-1_42",
+      "title": "Overview of Landslide Ecosystem with Super-Thick Material in Ngasinan Village",
+      "conference_name": "",
+      "conference_start": null,
+      "conference_end": null,
+      "city": null,
+      "country": null,
+      "publication_kind": "Prosiding",
+      "publication_date": "2026",
+      "collection": "Lecture Notes in Civil Engineering — Proceedings of The 7th International Conference on Advances in Civil and Ecological Engineering Research",
+      "presentation_type": null,
+      "online": null,
+      "authors": [
+        "Anastasia Neni Candra Purnamasari",
+        "Junun Sartohadi",
+        "Eddy Hartantyo"
+      ],
+      "staff": [
+        "Eddy Hartantyo"
+      ],
+      "staff_author_names": [
+        "Eddy Hartantyo"
+      ],
+      "url": "https://doi.org/10.1007/978-981-95-7864-1_42",
+      "event_location_raw": "",
+      "evidence_url": "https://doi.org/10.1007/978-981-95-7864-1_42"
     },
     {
       "id": "https://openalex.org/W4415793909",
